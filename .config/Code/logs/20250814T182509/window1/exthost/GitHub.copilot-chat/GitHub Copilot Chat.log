@@ -15,3 +15,8 @@
 2025-08-14 18:59:15.259 [info] Refetch model metadata: Succeeded in 3137ms 38106041-953e-4fb5-9280-721695f56a62 (9633:C1897:12E8E65:15F7B2C:689DE4EA) using node-fetch with status 200.
 2025-08-14 18:59:20.566 [info] Refetch model metadata: Succeeded in 5296ms f08d36d2-ec27-48be-aa3f-b413494698e8 (E1FB:20FD56:134F0E7:1659EB5:689DE4EE) using node-http with status 200.
 2025-08-14 18:59:24.050 [info] Refetch model metadata: Succeeded in 3477ms 6de3e521-d184-4a4c-a622-99f6e6ee6a85 (8B3E:182720:129DC05:15AC229:689DE4F2) using electron-fetch with status 200.
+2025-08-14 19:13:20.411 [info] Logged in as aniketbirdawade
+2025-08-14 19:13:22.418 [info] Got Copilot token for aniketbirdawade
+2025-08-14 19:13:22.548 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-08-14 19:13:22.678 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-08-14 19:13:23.157 [info] Fetched model metadata in 540ms a01344e9-9a37-45c1-ad5d-99e5836dfa43
