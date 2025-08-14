@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="code.desktop" score="85" last-seen="1755179056"/>
+    <application id="code.desktop" score="111" last-seen="1755179678"/>
     <application id="org.gnome.Nautilus.desktop" score="14" last-seen="1755177622"/>
-    <application id="firefox_firefox.desktop" score="203" last-seen="1755179042"/>
+    <application id="firefox_firefox.desktop" score="225" last-seen="1755179707"/>
     <application id="org.gnome.TextEditor.desktop" score="1" last-seen="1755176644"/>
-    <application id="org.gnome.Terminal.desktop" score="63" last-seen="1755177953"/>
+    <application id="org.gnome.Terminal.desktop" score="94" last-seen="1755179675"/>
     <application id="org.gnome.Settings.desktop" score="3" last-seen="1755177478"/>
   </context>
 </application-state>
