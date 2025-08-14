@@ -1,0 +1,741 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1"><title>
+	
+    Dashboard
+
+</title><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="../assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../assets/bower_components/font-awesome/css/font-awesome.min.css" />
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="../assets/bower_components/Ionicons/css/ionicons.min.css" /><link rel="stylesheet" href="../assets/icheck-bootstrap/icheck-bootstrap.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../assets/css/AdminLTE.min.css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="../assets/css/skins/skin-purple.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/Custom/Custom.css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" /><link rel="shortcut icon" type="image/x-icon" href="../Image/favicon.ico" />
+    <style type="text/css">
+        .auto-style2 {
+            color: #FF0000;
+        }
+    </style>
+</head>
+
+<body class="hold-transition skin-purple sidebar-mini">
+    <div class="wrapper">
+        <form method="post" action="./Dashboard.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="Form1" role="form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/CCEP/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZHKBOrAMU2TwdnfP3RFOHul6b4Rsfsdewl37DtkSN7THYCEanQpC32wGJ5RP4hn02w2&amp;t=638286277360000000" type="text/javascript"></script>
+
+
+<script src="/CCEP/ScriptResource.axd?d=D9drwtSJ4hBA6O8UhT6CQuB3IOeBkNMePRXfK69Wu-LQi1DeUiBKFTPclK-BUeQgzHfVDhoMtNFGmaOLVwgexxhUubleqLGUec34e0rOYqw9NK_1nqFB_XvphFAYM-Vsd9_fp-7R7Ne9UmEp_cvbs-sCv_RbLrgqOuZP1kTDkPg1&amp;t=13798092" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/CCEP/ScriptResource.axd?d=JnUc-DEDOM5KzzVKtsL1tSPpu0YPK-LdNvjw86XGjwYy8FikjbXx74eMy1hVKYi-7cELOZMfBj6CRSop4N07RZrnXFeoQQe5SiBI41q1uTVN54kgvT_qG6qoMDIK3JWpncDcan6oZj5g6fbG8Ze7Tc1ZvxvdPCD6ca3TdQHiYjv5g9hCIabjVFt8CTrOt4TH0&amp;t=13798092" type="text/javascript"></script>
+<script src="/CCEP/ScriptResource.axd?d=pVdHczR8HTv0TYtXLibFoL_kqXFvr1If8pTWr6Ws9kgq0Kp912Qgw2CtGJTfcs8DitCh7RCkuncWoEXqjGoLcZlfq2ikEhcoM0BOf8vlVx8Bj8K9dluf2hEjK0Sb0ATLwCccl3CdsslD6RblL8nYQA2&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/CCEP/ScriptResource.axd?d=VXG5HWKmJ5VfT6XbkUxKRk26RF_vLscqvadY_QNn6qWvWlMBt5nf40BdO3nq0HLBmqO9QxzLU5AG3wAFvLSKPuiV3RVcUY7phMhP28f0ShK11sfEc70Yw9LNhhWM_N-20&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/CCEP/ScriptResource.axd?d=_KnZu_0gsdxO6ZuMCkFMJTUp4R1X8VbBfFf7uKhXGTVyhXOQ2gQ5eXvY_iSaMeKUGLjqGH5hQUTZ9x278RdWiR7wOiBgPNYi8UjUIBUuJiCrh2x6HPeVcUIRnzLbUvcy0&amp;t=7d5986a" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+null;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="528C745C" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="1zLOmbbrio9FxOE4WMoTmBF/bsxqeRDf5WsOI2g1CknSWSGHt/rwsYAXXjETQCCPok3IoqPDvAXPG6GkjesK7KsamJnWYqrvte/Q906tdB+nPWrP/AuB4tv1/Ca6hog1Pxsrw7msV2wfTqd9ZSIjgCQ1NvvTVWKThPGb+lK5ItOKILmLhVTCcB5O8UzJCVv1vO/Uk5tgLazqtsDfwlJN3LI2nPXXWiKjXfUxrbetZ/I=" />
+</div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'Form1', ['tctl00$MainContent$upnlApplication','MainContent_upnlApplication'], [], ['ctl00$MainContent$gvDashboard','MainContent_gvDashboard'], 90, 'ctl00');
+//]]>
+</script>
+
+            <header class="main-header">
+                <a href="https://unipune.ac.in/" class="logo" target="_blank">
+                    <span class="logo-lg">
+                        <img src="../Image/logo.jpg" /></span>
+                </a>
+                <nav class="navbar navbar-static-top">
+                    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button"></a>
+
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+
+                            
+                            <li class="nav-item dropdown">
+                                <a id="lnk_Lang_Selction" href="javascript:__doPostBack(&#39;ctl00$lnk_Lang_Selction&#39;,&#39;&#39;)">Marathi</a>
+                            </li>
+                            
+
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    
+                                    Welcome :   
+                                    <span id="LoginName1">birdawdeaniket79@gmail.com</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <!-- User image -->
+                                    <li class="user-header">
+                                        <img id="imgUser1" class="img-circle" src="../Image/user.png" />
+                                        <p>
+                                            <small></small>
+                                        </p>
+                                    </li>
+                                    <!-- Menu Footer-->
+                                    <li class="user-footer">
+                                        <div>
+                                            <p style="text-align: center">
+                                                <a id="LoginStatus1" href="javascript:__doPostBack(&#39;ctl00$LoginStatus1$ctl00&#39;,&#39;&#39;)">Logout</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+
+            </header>
+
+
+            <aside class="main-sidebar">
+                <section class="sidebar">
+                    <ul class="sidebar-menu tree" data-widget="tree">
+                        
+    
+
+<li><a href="../CCEP_Student/Dashboard.aspx"><i class="fa fa-dashboard text-aqua"></i><span><strong>Dashboard</strong></span> </a></li>
+
+<li class="treeview">
+    <a href="#"><i class="fa fa-user-circle-o text-yellow"></i><span><strong>Profile</strong></span> <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+    <ul class="treeview-menu">
+        <li><a href="../CCEP_Student/Profile_Basic_Info.aspx"><i class="fa fa-user-circle-o text-aqua"></i><span><strong>Personal Information</strong></span></a></li>
+        <li><a href="../CCEP_Student/Profile_AcadInfo.aspx"><i class="fa fa-book text-aqua"></i><span><strong>Academic Information</strong></span></a></li>
+        <li><a href="../CCEP_Student/Profile_DocumentInfo.aspx"><i class="glyphicon glyphicon-upload text-aqua"></i><span><strong>Upload Document</strong></span></a></li>
+    </ul>
+</li>
+
+<li><a href="../CCEP_Student/Verify_Eligible_Courses.aspx"><i class="fa fa-edit text-aqua"></i><span><strong>Find the Programs you are<br />
+    &nbsp;&nbsp;&nbsp;eligible for</strong></span> </a></li>
+
+
+<li><a href="../CCEP_Student/Course_Selection.aspx"><i class="fa fa-address-card text-aqua"></i><span><strong>Apply For Program</strong></span></a></li>
+
+<li id="LeftSideMenu_CCEP_StudentMenu_lnk_Admission_Info"><a href="../CCEP_Student/Admission_Details.aspx"><i class="fa fa-list-ul text-green"></i><span><strong>Admission Details</strong></span> </a></li>
+
+<li id="LeftSideMenu_CCEP_StudentMenu_lnk_Hostel_Info"><a href="../CCEP_Hostel/Hostel_Details.aspx"><i class="fa fa-list-alt text-aqua"></i><span><strong>Hostel Details</strong></span> </a></li>
+
+<li id="LeftSideMenu_CCEP_StudentMenu_lnk_Hostel_Out_Station_Permit"><a href="../CCEP_Hostel/Out_Station_Permit.aspx"><i class="fa fa-list-alt text-aqua"></i><span><strong>Out Station Permit</strong></span> </a></li>
+
+<li id="LeftSideMenu_CCEP_StudentMenu_lik_Hostel_Vacant_Intimation"><a href="../CCEP_Hostel/Hostel_Vacant_Intimation.aspx"><i class="fa fa-edit text-red"></i><span><strong>Hostel Vacant Intimation</strong></span> </a></li>
+
+
+
+<li id="LeftSideMenu_CCEP_StudentMenu_lnk_Tickiting_System"><a href="../CCEP_Student/SignUp_Ticketing_System.aspx"><i class="fa fa-sign-in text-yellow"></i><span><strong>Register for WiFi </br>/ Microsoft Teams / Moodle </strong></span></a></li>
+
+
+
+
+
+<li><a href="../CBCS/CBCS_Passing_Standards.aspx" id="LeftSideMenu_CCEP_StudentMenu_link_Passing_std"><i class="glyphicon glyphicon-print text-green"></i><span><strong>Passing Standards</strong></span></a></li>
+
+
+
+
+
+<li><a href="../CBCS_Student/FeeStructure_Details.aspx" id="LeftSideMenu_CCEP_StudentMenu_li_FeeStructureDtls"><i class="fa fa-inr"></i><span><strong>Fee Structure</strong></span></a></li>
+
+<li><a href="../CBCS_Student/SubjectRegistration_Details.aspx" id="LeftSideMenu_CCEP_StudentMenu_li_SubjectRegistrationDtls"><i class="fa fa-calendar-check-o text-red"></i><span><strong>Subject Registration</strong></span></a></li>
+
+<li><a href="../CBCS_Student/CBCS_ExtraCredits_Stud.aspx" id="LeftSideMenu_CCEP_StudentMenu_li_ExtraCreditSubjects"><i class="fa fa-plus text-orange"></i><span><strong>Mandatory Extra Credit</strong></span></a></li>
+
+<li id="LeftSideMenu_CCEP_StudentMenu_li_ExamForm_Details"><a href="../CBCS/CBCS_ExamForm_Details.aspx"><i class="fa fa-book text-yellow"></i><span><strong>Exam Form</strong></span> </a></li>
+
+
+
+
+
+<li><a href="Course_Information.aspx"><i class="fa fa-list-alt text-aqua"></i><span><strong>Program Information</strong></span> </a></li>  
+
+<li id="LeftSideMenu_CCEP_StudentMenu_li_Scholarship_Details"><a href="../CCEP_Student/ScholarshipDetails.aspx"><i class="fa fa-list-alt text-aqua"></i><span><strong>Scholarship Details Upload</strong></span> </a></li> 
+
+<li id="LeftSideMenu_CCEP_StudentMenu_li_Upload_bank_Details"><a href="../CCEP_Student/Upload_Bank_Details.aspx"><i class="fa fa-bank text-brown"></i><span><strong>Upload Bank Details</strong></span> </a></li>
+
+
+
+
+                    </ul>
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+            <div class="content-wrapper">
+                <section class="content">
+                    <div class="row">
+
+                        
+
+    <!-- Meta Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1544465076229477');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1544465076229477&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11216271438"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11216271438');
+</script>
+
+    <!-- Event snippet for SPPU 2024 conversion page -->
+    <script>
+        gtag('event', 'conversion', { 'send_to': 'AW-11216271438/laVrCJ2Qj7AZEM7wquQp' });
+</script>
+
+    <script src="../Scripts/validations.js" type="text/javascript">
+    </script>
+
+    <style type="text/css">
+        h1, h2 {
+            text-align: left;
+            font-size: 15px;
+        }
+
+        h1 {
+            color: rgba(100, 50, 255, .8);
+        }
+
+        .rainbow {
+            /* Chrome, Safari, Opera */
+            -webkit-animation: rainbow 2s infinite; /* Internet Explorer */
+            ;
+            -ms-animation: rainbow 2s infinite; /* Standar Syntax */
+            ;
+            animation: rainbow 2s infinite;
+        }
+        /* Chrome, Safari, Opera */
+        @-webkit-keyframes rainbow {
+            20% {
+                color: red;
+            }
+
+            40% {
+                color: yellow;
+            }
+
+            60% {
+                color: green;
+            }
+
+            80% {
+                color: blue;
+            }
+
+            100% {
+                color: orange;
+            }
+        }
+        /* Internet Explorer */
+        @-ms-keyframes rainbow {
+            20% {
+                color: red;
+            }
+
+            40% {
+                color: yellow;
+            }
+
+            60% {
+                color: green;
+            }
+
+            80% {
+                color: blue;
+            }
+
+            100% {
+                color: orange;
+            }
+        }
+        /* Standar Syntax */
+        @keyframes rainbow {
+            20% {
+                color: red;
+            }
+
+            40% {
+                color: yellow;
+            }
+
+            60% {
+                color: green;
+            }
+
+            80% {
+                color: blue;
+            }
+
+            100% {
+                color: orange;
+            }
+        }
+    </style>
+
+    <div id="MainContent_upnlApplication">
+	
+            
+            <div class="col-md-12">
+                <td style="text-align: center;"></td>
+                <table style="width: 100%">
+                    
+                </table>
+            </div>
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    
+                    <h4>
+                        <span class="control-label" style="color:#3C8DBC;font-weight:bold;">Savitribai Phule Pune University (SPPU) Admission Process 2025-2026</span></h4>
+                    <label id="MainContent_lblunivdeptcourse">
+                        <h5>(This admission process is ONLY for the Programs conducted at University Departments)</h5>
+                    </label>
+                    <div class="box-header with-border">
+                        <label id="MainContent_lblNotification" class="control-label">
+                            <h4><b><font color="#3c8dbc">1. Notification :</font></b></h4>
+                        </label>
+                        <br />
+                        <label id="MainContent_lblUGPGNOtification" class="control-label"><b>A) Post-Graduate/Graduate/Integrated/Interdisciplinary Programs(Online Entrance Exam - OEE)</b></label>
+                        <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/Notification_Admission_2025-26.pdf" target="_blank">View Notification/List of Programs/Program Eligibility</a>
+                        
+                        <br />
+                        <label id="MainContent_lblApplicationProcess" class="control-label">
+                            <h4><b><font color="#3c8dbc">2. Application Process :</font></b></h4>
+                        </label>
+                        <br />
+                        <label id="MainContent_lblAP1" class="control-label"><b>A) Fill up your profile with 1) Personal Information 2) Academic Information 3) Upload Required Documents</b></label>
+                        <br />
+                        <label id="MainContent_lblAP2" class="control-label"><b>B) Check the Programs you are eligible for: Based on your qualifications find out the Programs for which you are eligible to apply</b></label>
+                        <br />
+                        <label id="MainContent_lblAP3" class="control-label"><b>C) Apply for the Programs you are eligible for. (Note: You can apply for multiple Programs)</b></label>
+                        <br />
+
+                        <label id="MainContent_lblUM" class="control-label">
+                            <h4><b><font color="#3c8dbc">3. Read User Manual & Proceed for the Application :</font></b></h4>
+                        </label>
+                        <br />
+                        <label id="MainContent_lblUMNote" class="control-label"><b>Please read the User Manual before you apply. It gives clear instructions with screenshots which will make application process simple and easy for you -</b></label>
+                        <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/Full_CCEP_User_Manual_2025-2026.pdf" target="_blank">View User Manual</a>
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <label id="MainContent_lblDashboard" class="control-label">
+                            <h3 class="box-title">Dashboard</h3>
+                        </label>
+                    </div>
+                    <div id="MainContent_div_ApplyForInternship" class="box-header with-border" style="text-align: center">
+                        <a id="MainContent_hl_Internship" href="javascript:__doPostBack(&#39;ctl00$MainContent$hl_Internship&#39;,&#39;&#39;)" style="color:Red;background-color:Yellow;font-size:X-Large;text-decoration:underline;"><b><span>Apply for Internship</span></b></a><img src="../Image/blinking.jpg" />
+                    </div>
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    <div id="MainContent_div_IMP_Inst" class="box-header with-border">
+                        <b>
+                            <span id="MainContent_Label2" style="font-size:Medium;">Important Instructions for Admission Process: 2025-2026</span></b>
+                        <a style="font-size: 12pt"></a>-<a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents2021/User Manual for Admission Process Student Side.pdf"
+                            target="_blank">View User Manual</a>
+                        <br />
+                        <b>1. Online Admission Application Process : </b>
+                        <br />
+                        1.1.	If a Students application is selected for the particular program then "Apply" button is displayed in the "Apply for Admission" column.<br />
+                        1.2.	After clicking Apply Button fill the necessary details and then click on "Proceed To Next" button to Upload Documents.<br />
+                        1.3.	Upload the required document and then click on "Send for Department Approval" button.<br />
+                        1.4.    Students should upload only the scanned copy of their Marksheet and other required documents.Links or version of documents from apps like DigiLocker etc.will not be accepted.
+                <br />
+                        <br />
+                        <b>2. Department Approval Process : </b>
+                        <br />
+                        
+                        2.1.	Department administration should verify the documents of the students before confirming the admission.This year all the document verification should be done in online mode only.Students may not be asked to come personally for the verification of the documents.
+                        <br />
+                        2.2.	After successfully verifying All Eligibility Criteria and required Documents by department, Department will Approve Admission Application.<br />
+                        2.3.	If there is any discrepancy in Online Submission and Physical verification or Students fail to complete eligibility criteria at the time of verification, his admission application will be rejected.
+                <br />
+                        <br />
+                        <b>3. Payment of Fees & Confirmation :</b><br />
+                        3.1. Student whose Application is Approved by department will have &quot;Pay/Print(Admission Challan)&quot; link will be available in the &quot;<span class="auto-style2"><strong>Admission Details</strong></span>&quot; under Menu.<br />
+                        3.2.	Student will have to pay the fees online using Debit Card/Credit Card/Net banking<br />
+                        3.3.	After paying fees online, you can download the Payment Receipt.
+                <br />
+                        <br />
+                    </div>
+                    <div class="box-body table-responsive">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="box-body table-responsive no-padding">
+                                    <div>
+		<table class="table table-hover" cellspacing="0" rules="all" border="1" id="MainContent_gvDashboard" style="width:100%;border-collapse:collapse;">
+			<tr style="color:White;background-color:#3C8DBC;font-weight:bold;">
+				<th align="center" scope="col">Remove</th><th scope="col">Application ID</th><th scope="col">Name of Department<br />Program Name</th><th scope="col">Status (Entrance)</th><th align="center" scope="col">Print Receipt (Entrance)</th><th align="center" scope="col">Update Application Info</th><th align="center" scope="col">Hall Ticket (Entrance)</th><th align="center" scope="col">Apply For Admission</th>
+			</tr><tr>
+				<td align="center">
+                                                    
+                                                    <span id="MainContent_gvDashboard_lblRemoveAccess_0">NA</span>
+                                                    
+                                                </td><td>240501900</td><td align="center">
+                                                    <a id="MainContent_gvDashboard_lb_Name_Of_Department_0" title="http://www.unipune.ac.in/dept/science/computer_science/default.htm" target="_blank" href="http://www.unipune.ac.in/dept/science/computer_science/default.htm" href="javascript:__doPostBack(&#39;ctl00$MainContent$gvDashboard$ctl02$lb_Name_Of_Department&#39;,&#39;&#39;)" style="text-decoration:underline;">Department of Computer Science</a><br />
+                                                    <span id="MainContent_gvDashboard_lbl_Course_Name_0" style="color:Brown;font-size:Medium;font-weight:bold;">M.Sc. Computer Science</span>
+                                                </td><td>Admission Confirmed</td><td align="center">
+                                                    <a id="MainContent_gvDashboard_lnkPrintApplicationwithchallan_0" href="javascript:__doPostBack(&#39;ctl00$MainContent$gvDashboard$ctl02$lnkPrintApplicationwithchallan&#39;,&#39;&#39;)" style="color:Blue;font-weight:bold;text-decoration:underline;">Print Receipt</a><br />
+                                                    <span id="MainContent_gvDashboard_lblPrintChlnReceipt_0" style="color:Green;font-size:Smaller;">Payment Received (Online)</span><br />
+                                                    <br />
+                                                </td><td align="center">
+                                                    <br />
+                                                    
+                                                </td><td align="center">
+                                                    <br />
+                                                    
+                                                    <br />
+                                                    <br />
+                                                    <br />
+                                                    
+                                                    <br />
+                                                    
+                                                </td><td align="center">
+                                                    <a id="MainContent_gvDashboard_lnk_Apply_Admission_0" href="javascript:__doPostBack(&#39;ctl00$MainContent$gvDashboard$ctl02$lnk_Apply_Admission&#39;,&#39;&#39;)" style="color:Blue;font-weight:bold;text-decoration:underline;">Apply</a><br />
+                                                    
+                                                </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    
+
+                    
+
+                    
+                </div>
+            </div>
+            
+
+            
+            
+
+            
+
+            
+            <p style="text-align: center">
+                <span id="MainContent_lbl_Msg"></span>
+            </p>
+            <p>
+                &nbsp;
+                
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+                <p>
+                </p>
+
+            </p>
+        
+</div>
+
+
+
+                    </div>
+
+
+                </section>
+
+            </div>
+        </form>
+        <footer class="main-footer">
+            <span id="Label2"></span>
+       
+            <p style="font-size: small">
+                <b>For Technical queries mail us from your registered e-Mail address at - </b>
+                <span class="auto-style2"><strong>CSPSupport@pun.unipune.ac.in</strong></span>
+                OR call us at <span class="auto-style2"><strong>020-71533899
+                </strong></span>
+            </p>
+
+            
+            
+        </footer>
+
+    </div>
+    <!-- jQuery 3 -->
+    <script src="../assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="../assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../assets/bower_components/fastclick/lib/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="../assets/js/adminlte.min.js"></script>
+    <script lang="Javascript" type="text/javascript">
+        function onlyNos(e, t) {
+            try {
+                if (window.event) {
+                    var charCode = window.event.keyCode;
+                }
+                else if (e) {
+                    var charCode = e.which;
+                }
+                else { return true; }
+                if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                    return false;
+                }
+                return true;
+            }
+            catch (err) {
+                alert(err.Description);
+            }
+        }
+    </script>
+    <script lang="Javascript" type="text/javascript">
+
+        function onlyAlphabets(e, t) {
+            try {
+                if (window.event) {
+                    var charCode = window.event.keyCode;
+                }
+                else if (e) {
+                    var charCode = e.which;
+                }
+                else { return true; }
+                if ((charCode > 64 && charCode < 91) || (charCode > 96 && charCode < 123) || charCode == 32 || charCode == 8)
+                    return true;
+                else
+                    return false;
+            }
+            catch (err) {
+                alert(err.Description);
+            }
+        }
+
+    </script>
+</body>
+</html>
+
+
+
+S,yáÓ      hùﬁ7hùﬁ8HÉ∆Ωhùﬁ8   i    O^partitionKey=%28https%2Cunipune.ac.in%29,:https://campus.unipune.ac.in/CCEP/CCEP_Student/Dashboard.aspx necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 14 Aug 2025 13:02:40 GMT
+Content-Length: 45582
+ original-response-headers Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+Set-Cookie: .ASPXAUTH=1C952D55D1BA3475C6574B4256FC7493C8B0416DD6964A380E77E39EFA50F412CEF53BA6280EDCFA0A95454CD5A44FA162C652079436A1B5E9FF621DAEAD8DF56D5825902678AA9FF7F5DB0A76CA54C8; expires=Thu, 14-Aug-2025 15:02:40 GMT; path=/; HttpOnly; SameSite=Lax
+X-Powered-By: ASP.NET
+Date: Thu, 14 Aug 2025 13:02:40 GMT
+Content-Length: 45582
+ ctid 1 uncompressed-len 0 net-response-time-onstart 750 net-response-time-onstop 806   ≤

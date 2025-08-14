@@ -1,0 +1,7 @@
+{
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay",
+    "editor.inlineSuggest.edits.renderSideBySide": "never",
+    "workbench.editor.enablePreview": false
+}

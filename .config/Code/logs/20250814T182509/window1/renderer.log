@@ -1,0 +1,28 @@
+2025-08-14 18:25:12.198 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-14 18:25:12.223 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-14 18:25:12.223 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-14 18:25:12.989 [info] Started local extension host with pid 3279.
+2025-08-14 18:25:13.229 [info] Started initializing default profile extensions in extensions installation folder. file:///home/aniket/.vscode/extensions
+2025-08-14 18:25:14.244 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/aniket/.vscode/extensions
+2025-08-14 18:25:14.259 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-08-14 18:25:16.173 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-08-14 18:25:18.203 [info] [perf] Render performance baseline is 212ms
+2025-08-14 18:57:10.850 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-14 18:57:12.526 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-08-14 18:57:53.891 [info] Settings Sync: Updated current session 8def16de310a0e24
+2025-08-14 18:57:53.977 [info] Settings Sync: Account status changed from unavailable to available
+2025-08-14 18:57:55.707 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-14 18:57:56.928 [warning] Settings pattern "mcp" doesn't match any settings
+2025-08-14 18:57:57.789 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at oRs.o (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:417:8339)
+    at oRs.rerender (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:417:6800)
+    at KJe.rerender (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:417:15667)
+    at Ey.hd (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1284:55779)
+    at Ey.fd (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1284:55594)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1284:54928
+    at Set.forEach (<anonymous>)
+    at Ey.dd (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1284:54912)
+    at Ey.cd (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1284:52384)
+    at Aoe.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1284:37122)
+2025-08-14 18:58:54.080 [error] [Extension Host] (node:3279) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)

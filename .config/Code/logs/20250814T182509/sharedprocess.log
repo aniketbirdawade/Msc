@@ -1,0 +1,28 @@
+2025-08-14 18:58:03.108 [info] Getting Manifest... github.copilot
+2025-08-14 18:58:03.112 [info] Getting Manifest... ritwickdey.liveserver
+2025-08-14 18:58:03.117 [info] Getting Manifest... bianxianyang.htmlplay
+2025-08-14 18:58:07.677 [info] Getting Manifest... github.copilot-chat
+2025-08-14 18:58:08.672 [info] Installing extension: bianxianyang.htmlplay {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"preRelease":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aniket/.vscode/extensions/extensions.json","path":"/home/aniket/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync","skipPublisherTrust":true},"productVersion":{"version":"1.102.3","date":"2025-07-29T03:00:23.339Z"}}
+2025-08-14 18:58:08.676 [info] Installing extension: github.copilot {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"preRelease":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aniket/.vscode/extensions/extensions.json","path":"/home/aniket/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":true,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync","skipPublisherTrust":true},"productVersion":{"version":"1.102.3","date":"2025-07-29T03:00:23.339Z"}}
+2025-08-14 18:58:08.678 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"preRelease":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aniket/.vscode/extensions/extensions.json","path":"/home/aniket/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync","skipPublisherTrust":true},"productVersion":{"version":"1.102.3","date":"2025-07-29T03:00:23.339Z"}}
+2025-08-14 18:58:08.679 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"donotIncludePackAndDependencies":true,"installGivenVersion":false,"pinned":false,"installPreReleaseVersion":false,"preRelease":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aniket/.vscode/extensions/extensions.json","path":"/home/aniket/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":true,"context":{"skipWalkthrough":true,"extensionInstallSource":"settingsSync","skipPublisherTrust":true},"productVersion":{"version":"1.102.3","date":"2025-07-29T03:00:23.339Z"}}
+2025-08-14 18:58:08.681 [info] Installing the extension without checking dependencies and pack bianxianyang.htmlplay
+2025-08-14 18:58:08.683 [info] Installing the extension without checking dependencies and pack github.copilot
+2025-08-14 18:58:08.685 [info] Installing the extension without checking dependencies and pack ritwickdey.liveserver
+2025-08-14 18:58:08.687 [info] Installing the extension without checking dependencies and pack github.copilot-chat
+2025-08-14 18:58:30.643 [info] Extension signature verification result for ritwickdey.liveserver: Success. Internal Code: 0. Executed: true. Duration: 6369ms.
+2025-08-14 18:58:30.725 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 6422ms.
+2025-08-14 18:58:30.746 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 3388ms.
+2025-08-14 18:58:32.416 [info] Extracted extension to file:///home/aniket/.vscode/extensions/github.copilot-chat-0.29.1: github.copilot-chat
+2025-08-14 18:58:32.452 [info] Renamed to /home/aniket/.vscode/extensions/github.copilot-chat-0.29.1
+2025-08-14 18:58:35.069 [info] Extracted extension to file:///home/aniket/.vscode/extensions/github.copilot-1.350.0: github.copilot
+2025-08-14 18:58:35.126 [info] Renamed to /home/aniket/.vscode/extensions/github.copilot-1.350.0
+2025-08-14 18:58:36.166 [info] Extension signature verification result for bianxianyang.htmlplay: Success. Internal Code: 0. Executed: true. Duration: 4535ms.
+2025-08-14 18:58:45.469 [info] Extracted extension to file:///home/aniket/.vscode/extensions/bianxianyang.htmlplay-0.0.10: bianxianyang.htmlplay
+2025-08-14 18:58:45.771 [info] Renamed to /home/aniket/.vscode/extensions/bianxianyang.htmlplay-0.0.10
+2025-08-14 18:58:50.534 [info] Extracted extension to file:///home/aniket/.vscode/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2025-08-14 18:58:51.283 [info] Renamed to /home/aniket/.vscode/extensions/ritwickdey.liveserver-5.7.9
+2025-08-14 18:58:51.364 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/aniket/.vscode/extensions/extensions.json
+2025-08-14 18:58:51.365 [info] Extension installed successfully: github.copilot vscode-userdata:/home/aniket/.vscode/extensions/extensions.json
+2025-08-14 18:58:51.366 [info] Extension installed successfully: bianxianyang.htmlplay vscode-userdata:/home/aniket/.vscode/extensions/extensions.json
+2025-08-14 18:58:51.367 [info] Extension installed successfully: ritwickdey.liveserver vscode-userdata:/home/aniket/.vscode/extensions/extensions.json

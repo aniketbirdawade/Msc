@@ -1,0 +1,1045 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1"><title>
+	
+    Login | CAMPUS COMMON ENTRANCE PLATFORM (CCEP) | Savitribai Phule Pune University
+
+</title><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/bower_components/font-awesome/css/font-awesome.min.css" />
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="assets/bower_components/Ionicons/css/ionicons.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="assets/css/AdminLTE.min.css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="assets/css/skins/skin-purple.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/Custom/Custom.css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" /><link rel="shortcut icon" type="image/x-icon" href="../CCEP/Image/Favicon .ico" />
+    
+    <style type="text/css">
+        .auto-style1 {
+            color: #FF0000;
+        }
+    </style>
+</head>
+<body class="hold-transition skin-purple sidebar-mini">
+
+    <div class="wrapper">
+        <header class="main-header">
+            <a href="#" class="logo">
+                <span class="logo-lg">
+                    <img src="../CCEP/Image/logo.jpg" /></span>
+            </a>
+            <nav class="navbar navbar-static-top">
+                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button"></a>
+                <div class="col-md-9">
+                    <h4 style="color: white; font-weight: 700">
+                        
+    CAMPUS COMMON ENTRANCE PLATFORM (CCEP)
+
+                    </h4>
+                </div>
+                <div class="col-md-3"></div>
+
+                
+                <ul style="margin-top: 10px">
+                    <a id="HyperLink1" href="https://campus.unipune.ac.in/CCEP/Documents2021/FAQ.pdf" target="_blank" style="font-weight:bold;color: white; font-size: 16px">FAQ</a>
+                </ul>
+                
+            </nav>
+        </header>
+        <form method="post" action="./Login.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="Form1" role="form">
+<div class="aspNetHidden">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="f+dsBX+W05bHuQC7XSfpHlyrYmx2wJRP+k8ywaW/M3uotB3QkU5+MTxIjREGbW/LVk+vWrwkuDuyaFWGB5XnbMW8gywm5x6/bb8ZCun14uXbggyj9l/UrWNCdyqYQ5cVEDb2rKokpoAu+jtKKbU/UHcxXcfdJdUIEtGeAVHmyeLg/u5EJ9y9ds+VjqVZFIAa4FjFcCnyWExLvVElAfWZJ4sZszE/emBZyry6CcpyApi5mkSqMuV4QyGlxIG5Em3LMFstS5LMUWzolWE2WCBslTPtkGlX4SSnsOufb3C95eqqyo+c4BQn+QhpWY02JQKtSRidc6FPS1iVjdhGzXmzka48oWT0mqe29Kw4QqjjAX52KASKmbTzdJGDn0eAJntmOHvwrKLuW3miCAihAyaxhw==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/CCEP/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZHKBOrAMU2TwdnfP3RFOHul6b4Rsfsdewl37DtkSN7THYCEanQpC32wGJ5RP4hn02w2&amp;t=638286277360000000" type="text/javascript"></script>
+
+
+<script src="/CCEP/ScriptResource.axd?d=nv7asgRUU0tRmHNR2D6t1PH5nJufx8T_j4HxJNpFRdKfcCdFPS3zKCn21nBIDEXY4aE4_tlxxOcZsvkRCXU25UxSTA9B_3vbf8u5jxDrG1IXN2Y3OHMN-sg0raWz1tFQU5UI1bWotdbOpyHf4qawtg2&amp;t=ffffffffefdc468a" type="text/javascript"></script>
+<script src="/CCEP/ScriptResource.axd?d=D9drwtSJ4hBA6O8UhT6CQuB3IOeBkNMePRXfK69Wu-LQi1DeUiBKFTPclK-BUeQgzHfVDhoMtNFGmaOLVwgexxhUubleqLGUec34e0rOYqw9NK_1nqFB_XvphFAYM-Vsd9_fp-7R7Ne9UmEp_cvbs-sCv_RbLrgqOuZP1kTDkPg1&amp;t=13798092" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/CCEP/ScriptResource.axd?d=JnUc-DEDOM5KzzVKtsL1tSPpu0YPK-LdNvjw86XGjwYy8FikjbXx74eMy1hVKYi-7cELOZMfBj6CRSop4N07RZrnXFeoQQe5SiBI41q1uTVN54kgvT_qG6qoMDIK3JWpncDcan6oZj5g6fbG8Ze7Tc1ZvxvdPCD6ca3TdQHiYjv5g9hCIabjVFt8CTrOt4TH0&amp;t=13798092" type="text/javascript"></script>
+<script src="/CCEP/WebResource.axd?d=JoBkLzP19aTuxbWOhHobYtJrSOL-_t_enEg1Z0nSAlQkbicN95v0-1FQ8ydkm-FSR39j1jaxvDMckiW1m-OnPg2&amp;t=638286277360000000" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1F20BDB6" />
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="FTjjJsWWpEG2ngxiwxKcvHDlfjtDjwSPRWAFYZAZu8sVZRqcT9iSLcn8giR0OUhg17Qik4dLxxkyfMz9CD8Q-0cslLI-7r4Wj9MJ9kVtZ2U1" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="OfHBYmhLGp2FBSYdXgDH32Gi1Ce04ntR1qGOWakAoygYnLNxmp1sLm7B5btQetKYQZ1WH6c+AkQ+MTE2sHAq+h7dW/mI0JZ4iATgdxkiSq4uy63uV9F306FL8enPwnwCRxBngyi8Kn6mH2aLWu9yvYNntmTWNJX9RzZQ724m2i/1WDwJW6asHyB7kQbRoIwA0NK/Z7wdEqjgD+KgIYoXrQmUizkOR51yWvOQhxr8gmDWtkLYspOO3QDgjC8j/ot0ntqfHJEc23PfgUfZXP36cQ==" />
+</div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'Form1', ['tctl00$MainContent$upnl_Login','MainContent_upnl_Login'], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+            <aside class="main-sidebar">
+                <section class="sidebar">
+                    <ul class="sidebar-menu tree" data-widget="tree">
+                        
+    
+<ul class="sidebar-menu" data-widget="tree">
+    
+    <li class="treeview"></li>
+
+    <li> <a href="https://campus.unipune.ac.in/CCEP/CampusAdmission/index.html"> <i class="fa fa-newspaper-o text-yellow"></i><span><strong>Main Page</strong></span> </a> </li>
+
+    <li> <a href="../CCEP/Login.aspx"> <i class="fa fa-lock text-aqua"></i><span><strong>Login</strong></span> </a> </li>
+    
+    <li> <a href="../CCEP/Registration.aspx"> <i class="fa fa-registered text-yellow"></i><span>Registration</span> </a> </li>
+
+    <li> <a href="../CCEP/ForgotPassword.aspx"> <i class="glyphicon glyphicon-lock text-red"></i><span>Forgot Password</span> </a> </li>
+
+    <li><a href="CBCS/CBCS_Passing_Standards.aspx" id="LeftSideMenu_GeneralMenu_link_Passing_std" target="_blank"><i class="glyphicon glyphicon-print text-green"></i><span><strong>Passing Standards</strong></span></a></li>
+
+    <li><a href="CCEP_Student/Department_Contact_Details.aspx" id="LeftSideMenu_GeneralMenu_link_department_contact_details" target="_blank"><i class="fa fa-phone text-aqua"></i><span><strong>Department OEE Syllabus<br />Contact Details</strong></span> </a></li>
+</ul>
+
+
+
+                    </ul>
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+            <div class="content-wrapper">
+                <section class="content">
+                    <div class="row" style="margin-top:25px;">
+                        
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1544465076229477');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1544465076229477&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <div id="MainContent_upnl_Login">
+	
+            <div class="col-md-12" style="font-family: 'Times New Roman'">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="box box-primary">
+                            <div class="box-header with-border">
+                                <h4 class="box-title" style="font-size: 12pt"><b>Login</b></h4>
+                            </div>
+                            <div class="box-body">
+                                <div class="form-group">
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label"><span style="color: red">* </span>User ID</label>
+                                    <span id="MainContent_RequiredFieldValidator8" style="display:none;"><span style="color:red"> Username Required..!!</span></span>
+                                    <input name="ctl00$MainContent$txtUsername" type="text" id="MainContent_txtUsername" class="form-control underlined" placeholder="Email ID" autocomplete="off" />
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label"><span style="color: red">* </span>Password</label>
+                                    <span id="MainContent_RequiredFieldValidator3" style="display:none;"><span style="color:red"> Password Required..!!</span></span>
+                                    <input name="ctl00$MainContent$txtPassword" type="password" maxlength="22" id="MainContent_txtPassword" title="Please enter Password" class="form-control underlined" placeholder="Password" autocomplete="off" />
+                                    <input id="MainContent_chk_ShowPwd" type="checkbox" name="ctl00$MainContent$chk_ShowPwd" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$MainContent$chk_ShowPwd\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="MainContent_chk_ShowPwd">Show Password</label>
+                                </div>
+                                <table class="table-responsive">
+                                    <tr>
+                                        <td width="80px">
+                                            <label class="control-label"><span style="color: red">*</span>Captcha</label>
+                                        </td>
+                                        <td style="height: 35px; width: 30px;">
+                                            <img id="MainContent_imgCaptcha" src="../CCEP/GenerateCaptcha.aspx?captcha=293932" style="height:30px;width:130px;" />
+                                        </td>
+                                        <td valign="middle">
+                                            <input type="image" name="ctl00$MainContent$imgRefresh" id="MainContent_imgRefresh" src="Image/Refresh.png" />
+                                            <span style="color: navy">Captcha is case sensitive</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br />
+                                <div class="form-group">
+                                    <label class="control-label"><span style="color: red">*</span>Enter Above Captcha </label>
+                                    <span id="MainContent_rfv_txtCaptcha" style="display:none;"><span style="color:red">Enter above Captcha!</span></span>
+                                    <input name="ctl00$MainContent$txtCaptcha" type="text" maxlength="6" id="MainContent_txtCaptcha" title="Enter Captcha" class="form-control underlined" oncopy="return false" onpaste="return false" oncut="return false" autocomplete="off" />
+                                </div>
+                            </div>
+
+                            <div class="box-footer" style="text-align: center">
+                                <input type="submit" name="ctl00$MainContent$btnSubmit" value="Login" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$btnSubmit&quot;, &quot;&quot;, true, &quot;2&quot;, &quot;&quot;, false, false))" id="MainContent_btnSubmit" type="button" class="btn btn-primary" style="border-style:Double;" /><br />
+                                
+                            </div>
+
+                            <div class="box-footer">
+                                <p style="text-align: center">
+                                    Don't remember Password ?
+                        <a id="MainContent_lnkForgotPass" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$lnkForgotPass&quot;, &quot;&quot;, false, &quot;&quot;, &quot;ForgotPassword.aspx&quot;, false, true))"> Forgot Password </a>
+                                </p>
+                                <p style="text-align: center">
+                                    Don't have an account?
+                        <a id="MainContent_lnkRegister" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$lnkRegister&quot;, &quot;&quot;, false, &quot;&quot;, &quot;Registration.aspx&quot;, false, true))"> Register Here </a>
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="MainContent_div_RecentUpdate" class="col-md-3">
+                        <div class="box box-primary">
+                            <div class="box-header with-border">
+                                <h4 class="box-title" style="font-size: 12pt"><b>Recent Updates</b></h4>
+                            </div>
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();" scrolldelay="150" height="490px">
+                                        <ul style="list-style: decimal; padding-left: 22px">
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label37" style="background-color:Yellow;font-weight:bold;">Result of PG / Integrated / UG OEE 2025</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/CCEP_Student/Entrance_Result.aspx" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label38">Schedule of Online Entrance Examination (OEE) of Post Graduate Programmes (PG) for the Academic year 2025-26</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/PG_OEE2025_Schedule.pdf" target="_blank">Click here to View</a><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Lable_UG_TT">Schedule of Online Entrance Examination (OEE) of Under Graduate Programmes (UG) & Integrated Programmes (Five Year) for the Academic year 2025-26</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/UG_Integrated_OEE2025_Schedule.pdf" target="_blank">Click here to View</a><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label_PG">Last Date for application to various P.G. Programmes in University Department is extended upto 20/05/2025</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/OEE_Application_DateExtend.pdf" target="_blank">Click here to View</a><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label_UG">Last Date for application to various U.G. Programmes in University Department is extended upto 30/04/2025</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/OEE_Application_DateExtend.pdf" target="_blank">Click here to View</a><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label22">Last Date for application to various Programmes in University Department is extended upto 13/03/2025</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/OEE_Application_2025-26_DateExtension.pdf" target="_blank">Click here to View</a><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_lbl1">Notification for Admission to Post Graduate Programmes (PG)/Under Graduate Programmes (UG) / Integrated and Interdisciplinary Programmes at Savitribai Phule Pune University (Academic Year 2025-26) Online Entrance Examination (OEE)</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/Notification_Admission_2025-26.pdf" target="_blank">Click here to View</a><hr />
+                                            </li>
+
+                                            <li style="text-align: justify">Subscribe to Telegram Channel <a href="https://t.me/SPPUofficial" target="_blank">https://t.me/SPPUofficial</a> or Preview <a href="https://t.me/s/SPPUofficial" target="_blank">https://t.me/s/SPPUofficial</a> for latest updates on Circulars, Announcements, Admissions, Examinations, Placements, Research, Workshops, Seminars, Conferences, Events, and many more</li>
+
+                                        </ul>
+                                    </marquee>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="MainContent_div1" class="col-md-3">
+                        <div class="box box-primary">
+                            <div class="box-header with-border">
+                                <h4 class="box-title" style="font-size: 12pt"><b>Notifications for Diploma, P.G.Diploma, Certificate</b></h4>
+                            </div>
+
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();" scrolldelay="150" height="490px">
+                                        <ul style="list-style: decimal; padding-left: 22px">
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label126" style="background-color:Yellow;font-weight:bold;">Spot Admission Notification for Foundation Course in Temple Management (FCTM) 2025</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/SpotFoundationCourseinTempleManagement_1916.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />                                                
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label116" style="background-color:Yellow;font-weight:bold;">Admission Notification: P.G.Diploma in Indian Film Studies</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/AdmissionNotice_1412.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />                                                
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label89" style="background-color:Yellow;font-weight:bold;">Updated Notification and schedule for Admission of Foundation Course in Temple Management (FCTM) 2025</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/FoundationCourseinTempleManagement_1916.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />                                                
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label90" style="background-color:Yellow;font-weight:bold;">इतिहास विभागातील मोडी लिपी अभ्यासक्रमाच्या प्रवेश अर्जासाठी २६ जूनपर्यंत मुदतवाढ</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/Notification_1738.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />                                                
+                                            </li>
+                                            
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label81" style="background-color:Yellow;font-weight:bold;">Advanced Course  in Dr. Babasaheb Ambedkar's Thoughts on India's National Security (Department of Dr. Ambedkar Studies)</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/Advanced_Course_in_Dr_Babasaheb_Ambedkars_Thoughts_on_Indias_National_Security.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />                                                
+                                            </li>
+
+                                             <li style="text-align: justify;">
+                                                <span id="MainContent_Label82" style="background-color:Yellow;font-weight:bold;">Advanced Course in Disaster Management and National Security(Department of Defence and Strategic Studies)</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/Advanced_Course_in_Disaster_Management_And_National_Security.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                             <li style="text-align: justify;">
+                                                <span id="MainContent_Label83" style="background-color:Yellow;font-weight:bold;">Advanced Course in Chhatrapati Shivaji Maharaja's Vision & Nation Building  (Department of Defence and Strategic Studies)</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/Advanced_Course_in_Chattrapati_Shivaji_Maharajas_Vision_Nation_Building.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                             <li style="text-align: justify;">
+                                                <span id="MainContent_Label84" style="background-color:Yellow;font-weight:bold;">Advanced Course in Cyber & India's National Security (Department of Defence and Strategic Studies)</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/Advanced_Course_in_Cyber_Indias_National_Security.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label35" style="background-color:Yellow;font-weight:bold;">Notice Regarding Admissions To The Part Time Courses Of Department Of Foreign Languages, SPPU</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/notice_regarding_admissions_to_the_part_time_courses_of_department_of_foreign_languages_sppu.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label39" style="background-color:Yellow;font-weight:bold;">Notification for Admission to Advanced Course in Geospatial Technology</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/Notification_for_Admission_to_Advanced_Course_in_Geospatial_Technology_ExtendedDate.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label51">Notification of Foundation Course in Temple Management</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/Notification2025_Foundation_Course_in_Temple_Management.pdf" target="_blank">Click here to View</a><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label52">FL Part Time Courses मराठीत 2025-26</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/FL_Part_Time_Courses_2025-26_Marathi_Revised.pdf" target="_blank">Click here to View</a><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label53">FL Part Time Courses 2025-26_English</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/Documents_2025_26/FL_Part_Time_Courses_2025-26_English_Revised.pdf" target="_blank">Click here to View</a><hr />
+                                            </li>
+
+                                    </marquee>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div id="MainContent_div_MeritList" class="col-md-3">
+                        <div class="box box-primary">
+                            <div class="box-header with-border">
+                                <h4 class="box-title" style="font-size: 12pt"><b>Merit Lists</b></h4>
+                            </div>
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();" scrolldelay="150" height="490px">
+                                        <ul style="list-style: decimal; padding-left: 22px">
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label127">Department of Technology, SPPU OEE Fifth Waiting List for Academic Year 2025-26</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/WaitingList_DoT_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label125">M.Sc. Botany Spot Admission Notice for Academic Year 2025-26</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_379_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label124">M.Sc. (Computer Science) Admission - Spot Round</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_380_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label123">Vacant seats Notification at Department of Geography (SPPU) for Academic Year 2025-2026 to M.A. / M.Sc. Geography</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_893_R4.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label122">Vacant seats Notification at Department of Geography (SPPU) for M.Sc. Geoinformatics course in Academic Year 2025-2026</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_894_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label121">M. Sc. Chemistry Admission-2025 - 4th Spot round</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_0_R4.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label120">Notification for the Spot Admissions to M.Sc.- I, Geology (Self Support) on 22nd July 2025, at the Department of Geology, SPPU for the Academic Year 2025-2026</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/WaitingList_17_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label119">First Waiting List for Admission to M.Sc.- I, Geology (Self Support) at the Department of Geology, SPPU for the Academic Year 2025-2026</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/WaitingList_17.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label118">Department of Technology, SPPU OEE Fourth Waiting List for Academic Year 2025-26</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/WaitingList_DoT_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label117">3rd Admission (2025-26) round instructions-M. Sc.-Chemistry</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_0_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label115">Department of Technology, SPPU OEE Waiting List for Academic Year 2025-26</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/WaitingList_DoT_R1.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label114">Revised Spot Admission List of M. Sc. Environmental Science</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_577_R4.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                             <li style="text-align: justify;">
+                                                <span id="MainContent_Label113">Department of Technology, SPPU OEE Third Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_DoT_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label112">M.A./M.Sc. Statistics Waiting List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/WaitingList_711.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label111">2nd Admission (2025-26) round instructions-M. Sc.-Chemistry</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_0_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                             <li style="text-align: justify;">
+                                                <span id="MainContent_Label110">M.Sc. (Computer Science) Admission - Round -02</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_380_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label109">Executive M.B.A. Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_991_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label104">M.Sc. Virology Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1315_R1.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label108">Department of Technology, SPPU OEE Second Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_DoT_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label107">M.Sc. Environmental Science Third Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_577_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label106">M.Sc. Geology (Self-Supporting) Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_17.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label105">M.A./M.Sc. Statistics Third Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_711_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+                                            
+                                            
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label103">M.Sc. Environmental Science Second Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_577_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                             <li style="text-align: justify;">
+                                                <span id="MainContent_Label102">M.Sc. Botany Admission Third Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_379_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label100">M.Lib & I.Sc. (2 Years) Third Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1223_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                               <li style="text-align: justify;">
+                                                <span id="MainContent_Label101">Merit List of Students for Admission to M. Sc. Geoinformatics (Vacant seats - Third round) at Department of Geography (SPPU) for Academic Year 2025-2026</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritlistGeoinformatics3rd.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label42">Revised-M. Sc. Chemistry Admission round instructions and Merit lists (2025-26)</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_0_R1.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label99">Merit List (Third round) of Students for Admission to M.A. / M.Sc. Geography at Department of Geography (SPPU) for Academic Year 2025-2026</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_893_R3.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label98">M.A./M.Sc. Statistics Second Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_711_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label97">Second Waiting List for Admission to M.Sc. Geology (Granted) at the Department of Geology, SPPU for the Academic Year 2025-2026</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_579_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label96">M.Sc. Botany Admission Second Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_379_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                             <li style="text-align: justify;">
+                                                <span id="MainContent_Label95">M.Lib & I.Sc. (2 Years) Second Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1223_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label94">M. Sc. Geoinformatics (Vacant seats - Second round)</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_894_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label92">Advanced Course in Digital Media Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_503.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label91">Advanced Course in Journalism Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_215.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label93">Second Merit list of Students for Admission to M.A. History 2025-26 इतिहास विभाग प्रवेशाची दुसरी यादी</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_313_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label88">Department of Technology, SPPU OEE Merit List for Academic Year 2025-26.</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_DoT.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label87">M.A. / M.Sc. Geography (Vacant seats - Second round)</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_893_R2.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label86">Executive M.B.A. Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_991.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label85">First Waiting List for Admission to M.Sc. Geology (Granted) at the Department of Geology, SPPU for the Academic Year 2025-2026</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/WaitingList_579.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label80">M.Sc. Zoology Merit and Waiting List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_398.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label79">M.Sc. Media and Communication Studies Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_373.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label78">Master of Arts (Journalism and Mass Communication) Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1544.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label77">M.Sc. Computer Science Merit List and Admission Round Information</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_380.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label76">M.Sc. Botany Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_379.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label75">M.Sc. Geoinformatics Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_894.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label74">M.Sc. Environmental Science Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_577.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label73">M.Sc. Geology Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_579.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label72">M.A. / M.Sc. in Geography Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_893.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label71">M.Lib & I.Sc. (2 Years) Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1223.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            
+
+                                             <li style="text-align: justify;">
+                                                <span id="MainContent_Label43">M.A. in Social and Public Policy Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1558.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label41">M.A./M.Sc. Statistics Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_711.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label40">M.A. in German Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_875.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label66">Foundation Course -Fast track - in French Level 1 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_291.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label67">Foundation Course in Commercial French Level 4 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1215.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label68">Foundation Course in French Level 1 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_123.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label69">Foundation Course in French Level 2 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_200.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label70">Foundation Course in French Level 3 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1214.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label60">Foundation Course – Fast Track - in Spanish – Level 1 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1217.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label61">Foundation Course in Spanish – Level 1  Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_813.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label64">Foundation Course in Spanish – Level 2 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1218.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label65">Foundation Course in Spanish – Level 3 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1219.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label62">Foundation Course in Russian – Level 2 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_238.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label63">Foundation Course in Russian – Level 1 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_145.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label54">Foundation Course -Fast track - in Japanese Level 1 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1585.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label55">Foundation Fast Track Course in Japanese Level 2 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1970.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label56">Foundation Course in Japanese – Level 1 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_130.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label57">Foundation Course in Japanese – Level 2 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_214.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label58">Foundation Course in Japanese – Level 3 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_6.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label59">Foundation Course in Japanese – Level 4 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1220.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label44">Foundation Course – Fast Track - in German Level 1  Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_292.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label45">Foundation Course – Fast track - in German Level 2  Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1213.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label46">Foundation Course in German Level 1 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_124.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label48">Foundation Course in German Level 2 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_201.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label49">Foundation Course in German Level 3 Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_5.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label47">Foundation Course in German Level 4 : Commercial German Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1222.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label50">Foundation Course in German Level 4 : Translation Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_515.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                            <li style="text-align: justify;">
+                                                <span id="MainContent_Label36">B.Sc. Blended Merit List</span>
+                                                <a style="font-size: 12pt" href="https://campus.unipune.ac.in/CCEP/MeritList_2025_2026/MeritList_1423.pdf" target="_blank">Click here to View</a><img src="Image/blinking.jpg" /><hr />
+                                            </li>
+
+                                        </ul>
+                                    </marquee>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+                    <div id="MainContent_div_UG" class="col-md-12">
+                        <div class="box box-primary">
+                            <div class="box-header with-border">
+                                <h4 class="box-title" style="font-size: 11pt"><b>Schedule of Admission to Under Graduate Programmes (UG) / Integrated and Interdisciplinary Programmes at Savitribai Phule Pune University (Academic Year 2025-26) Online Entrance Examination (OEE)</b></h4>
+                            </div>
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <ul style="list-style: decimal; padding-left: 22px">
+                                        <li>Start of Application                         : <span style="color: red"><strong>12th February, 2025</strong></span></li>
+                                        <li>Last Date for online application to various U.G. Programmes : <b><span style="color: red; background-color: yellow">30th April, 2025 (11.59 pm)</span></b></li>
+                                        
+                                        <li>Schedule of Under Graduate Programs Online Entrance Examination (OEE): <span class="auto-style1"><strong>15th May, 2025</strong></span></li>
+                                        </strong>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="MainContent_div_PG" class="col-md-12">
+                        <div class="box box-primary">
+                            <div class="box-header with-border">
+                                <h4 class="box-title" style="font-size: 11pt"><b>Schedule of Admission to Post Graduate Programmes (PG) at Savitribai Phule Pune University (Academic Year 2025-26) Online Entrance Examination (OEE)</b></h4>
+                            </div>
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <ul style="list-style: decimal; padding-left: 22px">
+                                        <li>Start of Application                         : <span style="color: red"><strong>12th February, 2025</strong></span></li>
+                                        <li>Last Date for online application to various P.G. Programmes : <b><span style="color: red; background-color: yellow">20th May, 2025 (11.59 pm)</span></b></li>
+                                        <li>Schedule of Post Graduate Programs Online Entrance Examination (OEE): <span class="auto-style1"><strong>03rd June, 2025 TO 05th June, 2025</strong></span></li>
+                                        
+                                        </strong>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        
+
+                        
+                    </div>
+
+                    <div class="row">
+                        <div id="MainContent_div_ContactUOP" class="col-md-6">
+                            <div class="box box-primary">
+                                <div class="box-body">
+                                    <div class="form-group">
+                                        <div class="col-md-7">
+                                            <h4 class="box-title" style="font-size: 11pt"><b>For queries contact us </b></h4>
+                                            <br />
+                                            
+                                            <p><b><span style="color: blue"><i class="fa fa-fw fa-phone"></i>020-25621227 (PG Section)</span></b></p>
+                                            <br />
+                                            <p><b><span style="color: blue"><i class="far fa-clock"></i>The University office has holidays on the 1st and the 3rd Saturday of every month. The office call hours are 11:00 to 04:00</span></b></p>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <img src="Image/PGSectionSupport_2025.png" height="200" width="200" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="MainContent_div_ContactSEF" class="col-md-6">
+                            <div class="box box-primary">
+                                <div class="box-body">
+                                    <div class="form-group">
+                                        <div class="col-md-7">
+                                            <h4 class="box-title" style="font-size: 11pt"><b>For Technical queries mail us from your registered e-Mail </b></h4>
+                                            <br />
+                                            <p><b><span style="color: blue"><i class="fa fa-fw  fa-envelope-o"></i>CSPSupport@pun.unipune.ac.in </span></b></p>
+                                            <br />
+                                            <p><b><span style="color: blue"><i class="fa fa-fw fa-phone"></i>020-71533899 (SPPU Edutech Foundation)</span></b></p>
+                                            <br />
+                                            <p><b><span style="color: blue"><i class="far fa-clock"></i>The SEF office has holidays on the 1st and the 3rd Saturday of every month. The office call hours are 11:00 to 04:00</span></b></p>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <img src="Image/CSPSupport_2025.png" height="200" width="200" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+</div>
+
+                    </div>                 
+                </section>
+
+            </div>
+        
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("MainContent_RequiredFieldValidator8"), document.getElementById("MainContent_RequiredFieldValidator3"), document.getElementById("MainContent_rfv_txtCaptcha"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var MainContent_RequiredFieldValidator8 = document.all ? document.all["MainContent_RequiredFieldValidator8"] : document.getElementById("MainContent_RequiredFieldValidator8");
+MainContent_RequiredFieldValidator8.controltovalidate = "MainContent_txtUsername";
+MainContent_RequiredFieldValidator8.focusOnError = "t";
+MainContent_RequiredFieldValidator8.display = "Dynamic";
+MainContent_RequiredFieldValidator8.validationGroup = "2";
+MainContent_RequiredFieldValidator8.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator8.initialvalue = "";
+var MainContent_RequiredFieldValidator3 = document.all ? document.all["MainContent_RequiredFieldValidator3"] : document.getElementById("MainContent_RequiredFieldValidator3");
+MainContent_RequiredFieldValidator3.controltovalidate = "MainContent_txtPassword";
+MainContent_RequiredFieldValidator3.focusOnError = "t";
+MainContent_RequiredFieldValidator3.display = "Dynamic";
+MainContent_RequiredFieldValidator3.validationGroup = "2";
+MainContent_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_RequiredFieldValidator3.initialvalue = "";
+var MainContent_rfv_txtCaptcha = document.all ? document.all["MainContent_rfv_txtCaptcha"] : document.getElementById("MainContent_rfv_txtCaptcha");
+MainContent_rfv_txtCaptcha.controltovalidate = "MainContent_txtCaptcha";
+MainContent_rfv_txtCaptcha.focusOnError = "t";
+MainContent_rfv_txtCaptcha.display = "Dynamic";
+MainContent_rfv_txtCaptcha.validationGroup = "2";
+MainContent_rfv_txtCaptcha.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+MainContent_rfv_txtCaptcha.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        WebForm_AutoFocus('MainContent_txtUsername');
+document.getElementById('MainContent_RequiredFieldValidator8').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator8'));
+}
+
+document.getElementById('MainContent_RequiredFieldValidator3').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_RequiredFieldValidator3'));
+}
+
+document.getElementById('MainContent_rfv_txtCaptcha').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('MainContent_rfv_txtCaptcha'));
+}
+//]]>
+</script>
+</form>
+
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Designed by</b> :<a href="https://sppuedutech.com/"><img src="assets/bower_components/Ionicons/png/512/sef_logo.png" alt="" height="30" width="80" /><strong>SPPU Edutech Foundation </strong></a>
+            </div>
+            <strong>Copyright ©
+                <script type="text/javascript"> var d = new Date(); document.write(d.getFullYear()); </script>
+                <a href="http://www.unipune.ac.in/">Savitribai Phule Pune University</a>.</strong> All rights reserved.
+        </footer>
+
+    </div>
+    <!-- jQuery 3 -->
+    <script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="assets/bower_components/fastclick/lib/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="assets/js/adminlte.min.js"></script>
+    <script lang="Javascript" type="text/javascript">
+        function onlyNos(e, t) {
+            try {
+                if (window.event) {
+                    var charCode = window.event.keyCode;
+                }
+                else if (e) {
+                    var charCode = e.which;
+                }
+                else { return true; }
+                if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                    return false;
+                }
+                return true;
+            }
+            catch (err) {
+                alert(err.Description);
+            }
+        }
+    </script>
+    <script lang="Javascript" type="text/javascript">
+
+        function onlyAlphabets(e, t) {
+            try {
+                if (window.event) {
+                    var charCode = window.event.keyCode;
+                }
+                else if (e) {
+                    var charCode = e.which;
+                }
+                else { return true; }
+                if ((charCode > 64 && charCode < 91) || (charCode > 96 && charCode < 123) || charCode == 32 || charCode == 8)
+                    return true;
+                else
+                    return false;
+            }
+            catch (err) {
+                alert(err.Description);
+            }
+        }
+
+    </script>
+</body>
+</html>
+�v,$      h���h���H��$h���   X    O^partitionKey=%28https%2Cunipune.ac.in%29,:https://campus.unipune.ac.in/CCEP/Login.aspx necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 14 Aug 2025 13:05:09 GMT
+Content-Length: 82300
+ original-response-headers Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+Set-Cookie: ASP.NET_SessionId=zpicrk0jycrh2hsu4owccetb; path=/; HttpOnly; SameSite=Lax
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 14 Aug 2025 13:05:09 GMT
+Content-Length: 82300
+ ctid 1 uncompressed-len 0 net-response-time-onstart 26 net-response-time-onstop 46  A|
