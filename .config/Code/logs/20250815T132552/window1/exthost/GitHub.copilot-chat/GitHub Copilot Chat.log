@@ -53,3 +53,4 @@
 2025-08-15 23:40:25.679 [info] copilot token chat_enabled: true, sku: free_limited_copilot
 2025-08-15 23:40:25.695 [info] BYOK: Copilot Chat known models list fetched successfully.
 2025-08-15 23:40:27.794 [info] Fetched model metadata in 2127ms 88f468be-662d-4df9-9ca5-d0b98cd2c0af
+2025-08-15 23:55:30.474 [info] Fetched model metadata in 2427ms 8d69882e-6968-4e0a-a119-51975eb84e15
