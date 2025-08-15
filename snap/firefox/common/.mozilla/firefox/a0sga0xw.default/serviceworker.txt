@@ -14,13 +14,13 @@ true
 #
 
 https://www.instagram.com/
-https://www.instagram.com/www-service-worker.js?s=push&__d=www&enableAddToHomeScreen=false&zenon_device_id=17e5bf2a-b539-4599-bc1f-c12f7f94ed22
+https://www.instagram.com/www-service-worker.js?s=push&__d=www&enableAddToHomeScreen=false&zenon_device_id=b6a35b13-6a06-4ed1-9b93-22650788b6d2
 false
-{2012b2d2-7e5b-4050-9a55-27dbfd85532a}
+{7ded3e99-460e-4ab2-a690-981bf9f46c79}
 1
-1755177252275594
-1755177252281546
-1755177252146405
+1755187786197843
+1755187786209175
+1755187785976856
 0
 true
 0

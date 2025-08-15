@@ -1,0 +1,64 @@
+2025-08-15 13:25:54.367 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-15 13:25:54.398 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.gather' wants API proposal 'notebookCellExecutionState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-15 13:25:54.398 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'mcpConfigurationProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-08-15 13:25:56.080 [info] Started local extension host with pid 6223.
+2025-08-15 13:26:11.817 [info] Extension host (LocalProcess pid: 6223) is unresponsive.
+2025-08-15 13:26:13.928 [error] [Extension Host] (node:6223) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `exe --trace-warnings ...` to show where the warning was created)
+2025-08-15 13:26:14.028 [info] Extension host (LocalProcess pid: 6223) is responsive.
+2025-08-15 13:26:14.037 [info] Settings Sync: Account status changed from uninitialized to available
+2025-08-15 13:26:22.905 [info] [perf] Render performance baseline is 106ms
+2025-08-15 13:26:23.281 [info] Auto updating outdated extensions. github.copilot-chat
+2025-08-15 13:26:30.561 [error] Cannot read the extension from /home/aniket/.vscode/extensions/github.copilot-chat-0.30.1: ScanningExtension: Cannot read the extension from /home/aniket/.vscode/extensions/github.copilot-chat-0.30.1
+    at $h.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:73959)
+    at async xh.h (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:79202)
+2025-08-15 13:27:32.464 [error] [Extension Host] [AsyncCompletionManager] [35d69a93-3850-44ef-ada7-844ff61a0df5] Request errored with AbortError: The operation was aborted
+    at AbortSignal.stream.<computed>.AbortError.cause (node:internal/streams/add-abort-signal:47:22)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:447:10)
+    at abortSignal (node:internal/abort_controller:433:3)
+    at AbortController.abort (node:internal/abort_controller:466:5)
+    at /home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/networking.ts:237:19
+    ... 15 lines matching cause stack trace ...
+    at /home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:260:30 {
+  code: 'ABORT_ERR',
+  [cause]: DOMException [AbortError]: This operation was aborted
+      at new DOMException (node:internal/per_context/domexception:53:5)
+      at AbortController.abort (node:internal/abort_controller:465:18)
+      at /home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/networking.ts:237:19
+      at xse.invoke (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+      at t.fire (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+      at UU.cancel (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+      at kse.cancel (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+      at Wc.cancelRequest (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+      at Object.next (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/asyncCompletions.ts:219:22)
+      at rj.next (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/util/subject.ts:23:22)
+      at rj.next (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/util/subject.ts:52:15)
+      at Wc.updateCompletion (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/asyncCompletions.ts:87:25)
+      at finishedCb (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:933:53)
+      at t.processSSEInner (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/openai/stream.ts:446:35)
+      at processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at t.item [as processSSE] (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/openai/stream.ts:311:13)
+      at item (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/common/iterableHelpers.ts:5:22)
+      at asyncIterableFilter (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/common/iterableHelpers.ts:14:22)
+      at /home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:260:30
+}
+2025-08-15 13:50:37.600 [error] [Extension Host] [AsyncCompletionManager] [9aa5a046-4700-4e59-8ded-ae2282d4e2f7] Request errored with AbortError: The operation was aborted.
+    at AbortSignal.abortHandler (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:106:17)
+    at AbortSignal.[nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at AbortSignal.dispatchEvent (node:internal/event_target:762:26)
+    at runAbort (node:internal/abort_controller:447:10)
+    at abortSignal (node:internal/abort_controller:433:3)
+    at AbortController.abort (node:internal/abort_controller:466:5)
+    at /home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/networking.ts:237:19
+    at xse.invoke (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/vscode-jsonrpc/lib/common/events.js:55:39)
+    at t.fire (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/vscode-jsonrpc/lib/common/events.js:117:36)
+    at UU.cancel (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:41:31)
+    at kse.cancel (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/vscode-jsonrpc/lib/common/cancellation.js:82:25)
+    at Wc.cancelRequest (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/asyncCompletions.ts:257:41)
+    at Wc.getFirstMatchingRequest (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/asyncCompletions.ts:234:22)
+    at /home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:956:22 {
+  type: 'aborted',
+  _name: 'AbortError'
+}

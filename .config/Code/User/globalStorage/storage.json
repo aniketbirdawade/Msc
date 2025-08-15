@@ -8,9 +8,6 @@
         "emptyWindows": [
             {
                 "backupFolder": "1755176110026"
-            },
-            {
-                "backupFolder": "1755176138027"
             }
         ]
     },
@@ -18,8 +15,7 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1755176110026": "__default__profile__",
-            "1755176138027": "__default__profile__"
+            "1755176110026": "__default__profile__"
         }
     },
     "windowsState": {
