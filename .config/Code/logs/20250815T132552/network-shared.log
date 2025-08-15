@@ -1,0 +1,4 @@
+2025-08-15 13:55:51.578 [error] #96: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2025-08-15 13:55:51.579 [error] #97: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_TIMED_OUT
+2025-08-15 14:46:29.812 [error] #325: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-08-15 15:06:49.868 [error] #508: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms

@@ -1,0 +1,1 @@
+{"timestamp":55588905,"category":"bounce.tracking.protection","name":"purge_action","extra":{"site_host":"vscode.dev","require_stateful_bounces":"true","success":"true","is_dry_run":"true","bounce_time":"1755178197","glean_timestamp":"1755248162453"}}
