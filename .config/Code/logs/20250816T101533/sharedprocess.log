@@ -35,3 +35,45 @@
 2025-08-16 10:44:24.627 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
 2025-08-16 10:46:45.914 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
 2025-08-16 11:06:17.461 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 11:07:29.185 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 11:08:48.452 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 11:09:06.153 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 11:09:51.911 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 11:10:29.769 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 11:10:40.673 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 11:10:59.931 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 11:27:20.344 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 13:22:27.234 [info] Getting Manifest... github.copilot-chat
+2025-08-16 13:22:27.327 [info] Installing extension: github.copilot-chat {"productVersion":{"version":"1.103.1","date":"2025-08-12T16:26:18.102Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aniket/.vscode/extensions/extensions.json","path":"/home/aniket/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-08-16 13:22:27.413 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 13:22:27.415 [error] Error while installing the extension github.copilot-chat Cannot read the extension from /home/aniket/.vscode/extensions/github.copilot-chat-0.30.1 vscode-userdata:/home/aniket/.vscode/extensions/extensions.json
+2025-08-16 13:22:42.335 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 13:27:43.276 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 13:32:43.960 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 13:37:44.439 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 13:42:45.011 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 13:47:45.603 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 13:52:46.137 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 13:57:46.560 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:02:46.967 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:07:47.479 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:12:48.027 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:17:48.451 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:22:48.928 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:27:49.525 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:32:49.980 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:37:50.454 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:42:51.067 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:47:51.606 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:52:52.012 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 14:57:52.521 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 15:02:52.932 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 15:07:53.355 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 15:12:53.848 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 15:17:54.251 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 15:22:54.667 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 15:28:39.043 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 15:33:39.437 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 15:38:39.967 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 15:43:40.391 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.
+2025-08-16 15:47:47.197 [error] [/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1]: Extension is not compatible with Code 1.102.3. Extension requires: ^1.103.0-20250728.

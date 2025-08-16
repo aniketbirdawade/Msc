@@ -99,3 +99,23 @@ clear
 /home/aniket/13_aug.sql 
 clear
 sudo -i -u postgres 
+git add .
+git commit -m "YES"
+git push origin main 
+git add .
+git commit -m "YES"
+git push origin main 
+clear
+git add .
+git commit -m "YES"
+git push origin main 
+clear
+ls -al ~/.ssh
+clear
+ssh-keygen -t ed25519 -C "birdawdeaniket79@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+cle
+clear
+ssh -T git@github.com

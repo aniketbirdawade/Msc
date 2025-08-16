@@ -1,10 +1,14 @@
 [default-routes]
+alsa_card.usb-Generic_AB13X_USB_Audio_20210726905926-00:output:analog-output:channelMap=FL;FR;
+alsa_card.usb-Generic_AB13X_USB_Audio_20210726905926-00:output:analog-output:channelVolumes=1.0;1.0;
+alsa_card.usb-Generic_AB13X_USB_Audio_20210726905926-00:output:analog-output:latencyOffsetNsec=0
+alsa_card.usb-Generic_AB13X_USB_Audio_20210726905926-00:profile:output:analog-stereo+input:mono-fallback=analog-output;
 bluez_card.41_42_37_D6_E6_60:input:headphone-hf-input:channelMap=MONO;
 bluez_card.41_42_37_D6_E6_60:input:headphone-hf-input:channelVolumes=0.21600000560284;
 bluez_card.41_42_37_D6_E6_60:output:headphone-hf-output:channelMap=MONO;
 bluez_card.41_42_37_D6_E6_60:output:headphone-hf-output:channelVolumes=0.5120000243187;
 bluez_card.41_42_37_D6_E6_60:output:headphone-output:channelMap=FL;FR;
-bluez_card.41_42_37_D6_E6_60:output:headphone-output:channelVolumes=0.00032829458359629;0.00032829458359629;
+bluez_card.41_42_37_D6_E6_60:output:headphone-output:channelVolumes=0.0010010990081355;0.0010010990081355;
 bluez_card.41_42_37_D6_E6_60:output:headphone-output:latencyOffsetNsec=0
 bluez_card.41_42_37_D6_E6_60:profile:a2dp-sink=headphone-output;
 bluez_card.41_42_37_D6_E6_60:profile:headset-head-unit-cvsd=headphone-hf-input;headphone-hf-output;

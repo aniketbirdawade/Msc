@@ -2945,3 +2945,6 @@
   erroredSysCall: undefined
 }
 2025-08-16 10:55:45.527 [error] [chat entitlement] request: error Offline: Offline
+2025-08-16 13:22:25.410 [info] Auto updating outdated extensions. github.copilot-chat
+2025-08-16 13:22:27.420 [error] Cannot read the extension from /home/aniket/.vscode/extensions/github.copilot-chat-0.30.1: ScanningExtension: Cannot read the extension from /home/aniket/.vscode/extensions/github.copilot-chat-0.30.1
+    at $h.scanLocalExtension (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:73959)

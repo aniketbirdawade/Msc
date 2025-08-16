@@ -10,3 +10,7 @@
     at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
     at SimpleURLLoaderWrapper.emit (node:events:518:28)
 2025-08-16 10:16:04.182 [info] update#setState idle
+2025-08-16 13:22:24.762 [info] update#setState checking for updates
+2025-08-16 13:22:24.915 [info] update#setState available for download
+2025-08-16 15:47:56.850 [info] Extension host with pid 3055 exited with code: 0, signal: unknown.
+2025-08-16 15:47:56.871 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 3094]: crashed with code 15 and reason 'killed'

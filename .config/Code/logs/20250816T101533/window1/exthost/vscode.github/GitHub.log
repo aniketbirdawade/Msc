@@ -1,3 +1,4 @@
 2025-08-16 10:15:43.291 [info] Log level: Info
 2025-08-16 10:15:55.862 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: getaddrinfo EAI_AGAIN api.github.com
 2025-08-16 10:54:20.744 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for aniketbirdawade/Msc: HttpError: getaddrinfo EAI_AGAIN api.github.com
+2025-08-16 11:06:51.483 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for aniketbirdawade/Msc/23998e76c1ce0292256b4402d387e0362a5ec7ba: TypeError: Cannot read properties of null (reading 'author')

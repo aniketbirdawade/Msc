@@ -28,4 +28,81 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/aniket/Downloads/Passport_Photograph.jpeg" added="2025-08-16T08:05:35.617472Z" modified="2025-08-16T08:05:35.650806Z" visited="2025-08-16T08:05:35.617474Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="snap.firefox" exec="&apos;gio open %u&apos;" modified="2025-08-16T08:05:35.617479Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-08-16T08:05:35.650793Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aniket/Downloads/Sign.jpg" added="2025-08-16T08:05:41.954622Z" modified="2025-08-16T08:05:41.999614Z" visited="2025-08-16T08:05:41.954625Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="snap.firefox" exec="&apos;gio open %u&apos;" modified="2025-08-16T08:05:41.954631Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-08-16T08:05:41.999601Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aniket/Downloads/Cast%20certificate.pdf" added="2025-08-16T08:15:31.272223Z" modified="2025-08-16T08:15:31.304751Z" visited="2025-08-16T08:15:31.272225Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="snap.firefox" exec="&apos;gio open %u&apos;" modified="2025-08-16T08:15:31.272230Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-08-16T08:15:31.304741Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aniket/Downloads/Domicile.pdf" added="2025-08-16T08:15:37.633049Z" modified="2025-08-16T08:15:37.675522Z" visited="2025-08-16T08:15:37.633051Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="snap.firefox" exec="&apos;gio open %u&apos;" modified="2025-08-16T08:15:37.633059Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-08-16T08:15:37.675507Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aniket/Downloads/Non%20creamy%20Layer.pdf" added="2025-08-16T08:15:44.169859Z" modified="2025-08-16T08:15:44.188547Z" visited="2025-08-16T08:15:44.169861Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="snap.firefox" exec="&apos;gio open %u&apos;" modified="2025-08-16T08:15:44.169863Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-08-16T08:15:44.188541Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aniket/Downloads/MPSC_%20Online%20Application%20System.pdf" added="2025-08-16T08:24:07.667915Z" modified="2025-08-16T08:24:52.016909Z" visited="2025-08-16T08:24:07.667917Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-08-16T08:24:52.016896Z" count="2"/>
+          <bookmark:application name="snap.firefox" exec="&apos;gio open %u&apos;" modified="2025-08-16T08:24:51.970135Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/aniket/Downloads/Chalan_Details_4955853.html" added="2025-08-16T08:26:25.935869Z" modified="2025-08-16T08:26:25.968490Z" visited="2025-08-16T08:26:25.935872Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="snap.firefox" exec="&apos;gio open %u&apos;" modified="2025-08-16T08:26:25.935879Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-08-16T08:26:25.968485Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

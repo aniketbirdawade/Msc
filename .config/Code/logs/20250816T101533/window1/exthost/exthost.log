@@ -177,3 +177,30 @@
     at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
     at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
     at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+2025-08-16 11:07:27.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 509
+2025-08-16 11:07:33.911 [warning] [Decorations] CAPPING events from decorations provider vscode.git 514
+2025-08-16 11:07:39.905 [warning] [Decorations] CAPPING events from decorations provider vscode.git 513
+2025-08-16 11:08:48.132 [warning] [Decorations] CAPPING events from decorations provider vscode.git 844
+2025-08-16 11:08:54.249 [warning] [Decorations] CAPPING events from decorations provider vscode.git 832
+2025-08-16 11:09:00.265 [warning] [Decorations] CAPPING events from decorations provider vscode.git 832
+2025-08-16 11:09:06.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 833
+2025-08-16 11:09:12.425 [warning] [Decorations] CAPPING events from decorations provider vscode.git 833
+2025-08-16 11:09:51.418 [warning] [Decorations] CAPPING events from decorations provider vscode.git 847
+2025-08-16 11:09:57.594 [warning] [Decorations] CAPPING events from decorations provider vscode.git 847
+2025-08-16 11:10:03.692 [warning] [Decorations] CAPPING events from decorations provider vscode.git 848
+2025-08-16 11:10:09.736 [warning] [Decorations] CAPPING events from decorations provider vscode.git 848
+2025-08-16 11:10:15.860 [warning] [Decorations] CAPPING events from decorations provider vscode.git 848
+2025-08-16 11:10:29.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 848
+2025-08-16 11:10:35.751 [warning] [Decorations] CAPPING events from decorations provider vscode.git 848
+2025-08-16 11:10:41.616 [warning] [Decorations] CAPPING events from decorations provider vscode.git 853
+2025-08-16 11:10:47.502 [warning] [Decorations] CAPPING events from decorations provider vscode.git 854
+2025-08-16 11:10:53.795 [warning] [Decorations] CAPPING events from decorations provider vscode.git 854
+2025-08-16 11:10:59.858 [warning] [Decorations] CAPPING events from decorations provider vscode.git 855
+2025-08-16 11:11:05.730 [warning] [Decorations] CAPPING events from decorations provider vscode.git 856
+2025-08-16 11:27:10.858 [warning] [Decorations] CAPPING events from decorations provider vscode.git 857
+2025-08-16 11:27:16.757 [warning] [Decorations] CAPPING events from decorations provider vscode.git 860
+2025-08-16 11:27:22.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 864
+2025-08-16 15:47:47.820 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4817
+2025-08-16 15:47:54.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4807
+2025-08-16 15:47:56.427 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-16 15:47:56.846 [info] Extension host with pid 3055 exiting with code 0

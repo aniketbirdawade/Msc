@@ -1,0 +1,2238 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta http-equiv="IE=8" content="ie=edge" />
+<title>SBIePay</title>
+<script type="text/javascript" src="/ruxitagentjs_ICA7NVfgqrux_10315250519065025.js" data-dtconfig="app=1043d718f1a14e05|ssc=1|cssm=s|owasp=1|featureHash=ICA7NVfgqrux|srsr=10000|rdnt=1|uxrgce=1|cuc=5eqew2wm|mel=100000|expw=1|dpvc=1|lastModification=1755176965731|tp=500,50,0|agentUri=/ruxitagentjs_ICA7NVfgqrux_10315250519065025.js|reportUrl=/rb_01e03b7a-7c38-40a9-a794-8fd9c90bf213|rid=RID_1517648244|rpid=1914185703|domain=www.sbiepay.sbi"></script><link rel="stylesheet" type="text/css" href="stylesheet/sbiepay_style.css" />
+<link rel="shortcut icon"  href="images/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="https://www.sbiepay.sbi/secure/merchant/stylesheet/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="https://www.sbiepay.sbi/secure/merchant/stylesheet/bootstrap-select.min.css" />
+<link rel="stylesheet" type="text/css" href="https://www.sbiepay.sbi/secure/merchant/stylesheet/inputmask.min.css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" />
+
+
+
+
+<style>
+.bgPayProcImg
+{
+background-position:right;   
+background-size: contain;
+background-repeat:no-repeat;   
+}
+.hideImage {
+    display: none;
+}
+.marquee {
+/*    width: 450px;
+    line-height: 50px;
+    background-color: red;
+    color: white; */
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 45s linear infinite;
+	margin-top: 5px;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+</style>
+
+
+</head>
+<body>
+ <!-- Loader Start -->
+      <!--By default loader is visible to hide loader call function hideloader(); or set class overlay to display:none; to display loader call showloader() -->
+       <!-- <div class="overlay">
+         <div class="overlay_container">
+            <div class="sk-circle">
+               <div class="sk-circle1 sk-child"></div>
+               <div class="sk-circle2 sk-child"></div>
+               <div class="sk-circle3 sk-child"></div>
+               <div class="sk-circle4 sk-child"></div>
+               <div class="sk-circle5 sk-child"></div>
+               <div class="sk-circle6 sk-child"></div>
+               <div class="sk-circle7 sk-child"></div>
+               <div class="sk-circle8 sk-child"></div>
+               <div class="sk-circle9 sk-child"></div>
+               <div class="sk-circle10 sk-child"></div>
+               <div class="sk-circle11 sk-child"></div>
+               <div class="sk-circle12 sk-child"></div>
+            </div>
+            <p class="loading_text txt">Please wait while transaction is processed</p>
+         </div>
+      </div> -->
+      <!-- Loader End -->
+	<form name="txnfrm" id="txnfrm" method="post" autocomplete="off" action="/secure/AggHostedGtwPostServlet">
+		<input type="hidden" name="formId" id="formId" value="-868224658" /> 
+		<input type="hidden" id="type" name="integrationModel" value="03"></input> 
+		<input type="hidden" name="billerEditableAllowed" id="billerEditableAllowed" value=" NA"></input> 
+		<input type="hidden" name="deliveryEditableAllowed" id="deliveryEditableAllowed" value=" NA"></input>
+		<input type="hidden" id="aggLevelTimeInterval" value="10"></input>
+		<input type="hidden" id="timeIntervalFlag" value="Y"></input>
+		<input type="hidden" id="dbTimeInterval" value="30"></input>
+		<input type="hidden" id="enableDisable" value="D"></input>
+		<input type="hidden" id="opmode" value="DOM"></input>
+
+		<input type="hidden" id="pgPaygtwid" value=""></input>
+	
+		
+		<div class="head_img head_imgNew">
+			<div class="container">
+				<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+<body>
+<div class="head_img customHeaderNew">
+		<div class="container">
+			<div class="headerNew">
+				<img src="images/sbi_logo.png" class="img-responsive pull-left">					
+					<div class="downtimeScroll">
+					
+						<div class="downtimeScroll_sub">
+							<p>Following channel(s) is/are unavailable during mentioned time:</p>
+							<ul id="list" class="downtimeScroll_list">
+                                
+                                <li><span>Bandhan Bank - Retail (NB)</span> From: <span>2025-08-11 10:46:13</span> To: <span>2025-08-31 10:51:13</span></li>
+                                
+                                <li><span>Punjab and Maharashtra Co-operative Bank Ltd (NB)</span> From: <span>2023-04-01 16:26:44</span> To: <span>2030-12-31 23:59:57</span></li>
+                                
+                                <li><span>Lakshmi Vilas Bank (NB)</span> From: <span>2023-10-18 16:33:50</span> To: <span>2026-12-31 23:59:59</span></li>
+                                
+                                <li><span>Bharat Co-operative Bank Mumbai Ltd†- Retail (NB)</span> From: <span>2025-08-14 12:36:01</span> To: <span>2026-07-31 12:41:01</span></li>
+                                
+                                <li><span>CSB Bank - Retail (NB)</span> From: <span>2025-08-04 15:18:39</span> To: <span>2025-08-31 23:54:56</span></li>
+                                
+                                <li><span>Janata Sahakari Bank Ltd. Pune (NB)</span> From: <span>2024-02-14 19:19:50</span> To: <span>2025-12-31 23:59:59</span></li>
+                                
+                            </ul>
+						</div>
+					 
+					</div> 
+					<img src="https://mpsconline.gov.in/logo.png" class="img-responsive pull-right">
+					
+			</div>
+			
+		</div>
+	</div>
+	<script>
+		setInterval(function() {
+			$('#list').stop().animate(
+					{
+						scrollTop : -40
+					},
+					300,
+					'swing',
+					function() {
+						$(this).scrollTop(0).find('li:last').after(
+								$('li:first', this));
+						//$(this).scrollTop(0).find('span:first').after($('span:last', this));
+					});
+		}, 2000);
+	</script>
+</body>
+</html>
+
+			</div>
+		</div>
+		<div class="container">
+		    <div class="section1">
+     		    
+     		    
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SBIePay</title>
+<style>
+	select.selectpicker {
+		display: block !important;
+	}
+	.error {
+		display: block;
+		color: red;
+	}
+	.smallred {
+		color: Red;
+		font-size: medium;
+	}
+	.bgPayProcImg {
+		background-position: right;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	input[type=text]::-ms-clear, input[type=password]::-ms-reveal {
+		display: none;
+	}
+	.content {
+		position: relative;
+	}
+	.overlay {
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 3;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	.overlay-content {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		right: 50%;
+		text-align: center;
+		color: #555;
+	}
+	body{
+		background-color: #FFF !important;
+	}
+</style>
+<link rel='icon' href=../../images/favicon.ico type='image/x-icon' />
+<link rel='shortcut icon' href=../../images/favicon.ico type='image/xicon' />
+</head>
+<body>
+	<div class="content">
+		<div class="overlay">
+			<div class="overlay-content">
+				
+			</div>
+		</div>
+	</div>
+		<form name="txnfrm" id="txnfrm" action="">
+
+			
+
+			<div class="container">
+				<div class="section1">
+					<div class="headerband">
+						<h1>Address Details</h1>
+					</div>
+					<br>
+	
+					<!-- Billing Address Section -->
+					<div id="billing">
+						<div style="display: block" id="billingDetailsDiv" class="subTabs-container">
+							<div class="billing_address_form">
+								<hr>
+								<p class="txt txthead2">Billing Address Details</p>
+								<div class="row">
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">First Name</label> <input type="text" id="billerfirstname" name="billerfirstname" class="form-control" value="NA  " onblur="vaildateBillerfirstname(this.id)">
+										</div>
+										<div class="alert alert-danger" id="billerfirstnameErrorMsg" style="display: none;"></div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">Middle Name</label> <input type="text" id="billermiddlename" name="billermiddlename" class="form-control" value="" >
+										</div>
+										<div class="alert alert-danger" id="billermiddlenameErrorMsg" style="display: none;"></div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">Last Name</label> <input type="text" id="billerlastname" name="billerlastname" class="form-control" value="" onblur="vaildateBillerlastname(this.id)">
+										</div>
+										<div class="alert alert-danger" id="billerlastnameErrorMsg" style="display: none;"></div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">Phone Number</label>
+											<div class="row">
+												<div class="col-sm-3 col-xs-2">
+													<input type="text" id="billerPhoneNo1" name="billerPhoneNo1" value="+91" class="form-control text-center center-text" style="padding: 0;" readonly>
+												</div>
+												<div class="col-sm-3 col-xs-2">
+													<input type="text" id="billerPhoneNo2" name="billerPhoneNo2" value="" class="form-control text-center center-text" style="padding: 0;" readonly>
+												</div>
+												<div class="col-sm-6 col-xs-8">
+													<input type="tel" id="billerPhoneNo3" name="billerPhoneNo3" class="form-control" value="" maxlength="8">
+												</div>
+											</div>
+										</div>
+										<div class="alert alert-danger" id="billerPhoneNo1ErrorMsg" style="display: none;"></div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">Mobile Number</label>
+											<div class="row">
+												<div class="col-sm-3 col-xs-2">
+													<input type="text" id="billerMobileCode" name="billerMobileCode" value="+91" class="form-control text-center center-text" style="padding: 0;" readonly>
+												</div>
+												<div class="col-sm-9 col-xs-10">
+													<input type="tel" name="" id="billerMobileNo" name="billerMobileNo" class="form-control" class="form-control" value=" NA " onblur="vaildateBillerMobileNo(this.id)" maxlength="10">
+												</div>
+											</div>
+										</div>
+										<div class="alert alert-danger" id="billerMobileNoErrorMsg" style="display: none;"></div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">Pincode</label> <input type="tel" id="billerPinCode" name="billerPinCode" class="form-control" value="" maxlength="6">
+										</div>
+										<div class="alert alert-danger" id="billerPinCodeErrorMsg" style="display: none;"></div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">Billing Address </label>
+											<textarea class="form-control" rows="4" id="billerAddress" name="billerAddress" value="" onblur="vaildateBillerAddress(this.id)"></textarea>
+										</div>
+										<div class="alert alert-danger" id="billerAddressErrorMsg" style="display: none;"></div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">City</label> <input type="text" id="billerCity" name="billerCity" class="form-control" value="">
+										</div>
+										<div class="alert alert-danger" id="billerCityErrorMsg" style="display: none;"></div>
+									</div>
+	
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">State</label> <input type="text" id="billerState" name="billerState" class="form-control" value="">
+										</div>
+										<div class="alert alert-danger" id="billerStateErrorMsg" style="display: none;"></div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">Country</label>
+											
+											<select class="form-control selectpicker show-tick" data-live-search="true" name="billerCountry" id="billerCountry" name="billerCountry">
+												<option value="" selected>Please Select</option>
+												<option value="" selected></option>
+											</select>
+											
+										</div>
+										<div class="alert alert-danger" id="billerCountryErrorMsg" style="display: none;"></div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group">
+											<label for="">Email Address</label> <input type="email" id="billerEmailId" name="billerEmailId" class="form-control" value=" NA " onblur="vaildateBillerEmailId(this.id)">
+										</div>
+										<div class="alert alert-danger" id="billerEmailIdErrorMsg" style="display: none;"></div>
+									</div>
+									<div class="col-md-6 col-md-offset-3">
+										<div class="form-group">
+											<label>&nbsp;</label>
+											<div class=" ">
+												<button type="button" class="btn pay_btn btn01" href="javascript:void(0);" onclick="return validateBillingDetails('03');">Proceed</button>
+											</div>
+											<div class="pull-right">
+												<a href="#"> Cancel</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="container">
+			<input type="hidden" name="isShipDeliveryDtlsSame" id="isShipDeliveryDtlsSame" value="N"></input> 
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" id="shipDetailsTab">
+				<tr bgcolor="#FFFFFF">
+					<td width="2%" class="pad-L20 pad-R20"><strong>Shipping address same as billing address</strong></td>
+					<td width="1%"><input name="shipAddress" type="radio" id="radiobtn1" value="Y" />Yes</td>
+					<td width="5%"><input name="shipAddress" type="radio" id="radiobtn2" value="N" checked="checked" />No</td>
+				</tr>
+				<tr style="height: 20px"></tr>
+			</table>
+
+			<!--Div to Shipping Details-->
+			<div id="shippingDetailsDiv" style="display: block" class="subTabs-container">
+				<hr>
+				<p class="txt txthead2 txthead">Shipping / Billing Address Details</p>
+				<div id="shipping">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="">First Name</label> 
+								<input type="text" name="deliveryFName" id="deliveryFName" class="form-control" value="" maxlength="50" onblur="vaildateDeliveryFName(this.id)" />
+							</div>
+							<div class="alert alert-danger" id="deliveryFNameErrorMsg" style="display: none;"></div>
+						</div>
+						 <div class="col-md-4">
+	                        <div class="form-group">
+	                            <label for="">Middle Name</label>
+	                            <input type="text" name="deliveryMName" id="deliveryMName" class="form-control">
+	                        </div>
+							<div class="alert alert-danger" id="deliveryMNameErrorMsg" style="display: none;"></div>
+	                    </div>
+	                    <div class="col-md-4">
+	                        <div class="form-group">
+	                            <label for="">Last Name</label>
+	                            <input type="text" name="deliveryLName" id="deliveryLName" class="form-control">
+	                        </div>
+							<div class="alert alert-danger" id="deliveryLNameErrorMsg" style="display: none;"></div>
+	                    </div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="">Telephone Number</label>
+								<div class="row">
+									<div class="col-sm-3 col-xs-2">
+										<input type="text" name="deliveryPhNo1" id="deliveryPhNo1" value="+91" class="form-control text-center center-text" style="padding: 0;" readonly>
+									</div>
+									<div class="col-sm-3 col-xs-2">
+										<input type="tel" name="deliveryPhNo2" id="deliveryPhNo2"  value="" class="form-control text-center center-text" style="padding: 0;"  /> 
+									</div>
+									<div class="col-sm-6 col-xs-8">
+										<input type="tel" name="deliveryPhNo3" id="deliveryPhNo3" class="form-control" class="form-control" value="" maxlength="8"  onblur="validateDeliveryPhNo3(this.id)"/>
+									</div>
+								</div>
+							</div>
+							<div class="alert alert-danger" id="deliveryPhNo1ErrorMsg" style="display: none;"></div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="">Mobile Number</label>
+								<div class="row">
+									<div class="col-sm-3 col-xs-2">
+										<input type="text" name="" value="+91" class="form-control text-center center-text" style="padding: 0;" readonly>
+									</div>
+									<div class="col-sm-9 col-xs-10">
+										<input type="tel" name="deliveryMobileNo" id="deliveryMobileNo" class="form-control" class="form-control" value="" maxlength="10" onblur="validateDeliveryMobileNo(this.id)"/>
+									</div>
+								</div>
+							</div>
+							<div class="alert alert-danger" id="deliveryMobileNoErrorMsg" style="display: none;"></div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="">Email Address</label> <input type="email" name="deliveryEmailId" id="deliveryEmailId" class="form-control" value="" maxlength="100" onblur="validateDeliveryEmailId(this.id)"/>
+							</div>
+							<div class="alert alert-danger" id="deliveryEmailIdErrorMsg" style="display: none;"></div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="">Pincode</label> <input type="tel" name="deliveryPinCode" id="deliveryPinCode" class="form-control" value="" maxlength="10"/>
+							</div>
+							<div class="alert alert-danger" id="deliveryPinCodeErrorMsg" style="display: none;"></div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="" class="txtheader1">Address</label>
+								<textarea class="form-control" rows="4" name="deliveryAddress" id="deliveryAddress" onblur="vaildateShippingData()"></textarea>
+							</div>
+							<div class="alert alert-danger" id="deliveryAddressErrorMsg" style="display: none;"></div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="">City</label> <input name="deliveryCity" type="text" class="input01 form-control" id="deliveryCity" value="" maxlength="50"/>
+							</div>
+							<div class="alert alert-danger" id="deliveryCityErrorMsg" style="display: none;"></div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="">State</label> <input name="deliveryState" type="text" class="input01 form-control" id="deliveryState" value="" maxlength="50"/>
+							</div>
+							<div class="alert alert-danger" id="deliveryStateErrorMsg" style="display: none;"></div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="form-group">
+								<label for="">Country</label>
+								
+								<select class="select01 form-control selectpicker" name="deliveryCountry" id="deliveryCountry">
+									<option value="" selected >Please Select</option>
+									<option value="" ></option>
+								</select>
+								
+							</div>
+							<div class="alert alert-danger" id="deliveryCountryErrorMsg" style="display: none;"></div>
+						</div>
+						<div class="col-md-6 single">
+							<div class="form-group">
+								<label>&nbsp;</label>
+								<div class=" ">
+									<!-- <button class="btn pay_btn" href="javascript:void(0);" onclick="return validateShipperDetails();">Proceed</button> -->
+									
+									<input type="button" href="javascript:void(0);" onclick="return validateShipperDetails();" class="btn pay_btn btn01" value="Proceed" />
+								</div>
+								
+								<div class="pull-right">
+									<a href="#"> Cancel</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			
+			<!-- parameters for Encryption -->
+			<input type="hidden" name="secureurl" id="secureurl" value="https://www.sbiepay.sbi/" />
+		</form>
+	
+</body>
+</html>
+
+     	    </div>
+			<div class="section2" style="display: none">
+			<div class="marquee"><p>As per <b>RBI Guidelines</b> all cards (physical and virtual) shall be enabled for use only at contact-based points of usage <b>[viz. ATM's and Point of Sale (POS) devices]</b> within India. For card not present <b>(Domestic and International)</b> transactions Card holder has to enable the card for such transaction by using Bank/Card application or contact their bank/branch to enable the Card for Card not Present Transaction.</p></div>
+							<div class="headerband">
+					<h1>Payment Details</h1>
+				</div>
+				<div class="row flexrow">
+					<!-- Side navigation -->
+					<div class="col-md-3 hidden-sm hidden-xs">
+						<ul class="side_nav">
+							
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<body>
+
+							<li id="cardList" class="cardList active"><a href="#" class="cardopen" onclick="resetFormFields()"> <i class="icon-cards"></i>
+							
+							Debit/Credit Card
+							
+							</a></li>
+							
+						
+			<!--<li id="cardList" class="cardList active"><a href="#" class="cardopen" onclick="resetFormFields()"> <i class="icon-cards"></i>-->
+			 <li id="scccardList" class="cardList"><a href="#" class="scccardopen" onclick="resetFormFields()"> <i class="icon-cards"></i>SBI Corporate Credit Cards</a></li>
+	         
+		    			<input type="hidden" name="SCCpaymodecode" id="SCCpaymodecode" value="SCCC" />
+	
+	<li id="activeNB" class="activeNB"><a href="#" class="collapseib" onclick="resetFormFields()"> <i class="icon-internetbanking"></i>Internet Banking
+	</a></li>
+	
+
+	    			<input type="hidden" name="NBpaymodecode" id="NBpaymodecode" value="NB" />
+
+</body>
+
+						</ul>
+					</div>
+					<!-- Middle section start -->
+					<div class="col-md-6 matchheightog middlesection">
+						<div class="panel-group" id="accordion" class="accordion">
+							<!-- Card -->
+							
+							<div class="panel panel-default" id="CCDCPanelId">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#cardopen" onclick="resetFormFields()"> <i class="icon-cards"></i>
+										
+																</i>Debit/Credit Card</li>
+																 
+										</a>
+									</h4> 
+								</div>
+								<div id="cardopen" class="panel-collapse collapse in">
+									<div class="panel-body card_pay">
+										
+<!DOCTYPE html>
+<body>
+
+		<div class="row">
+			<div class="col-md-12 txt">
+				<!--<h4 class="txt">Please enter your card details</h4>-->
+				<h4 class="txt" style="color: #FF0000;font-size: 14px;">Please ensure that your card is enabled for online (E-Commerce) transactions</h4>
+				<h4 class="txt" style="color: #FF0000;font-size: 14px;">
+					&#2325;&#2371;&#2346;&#2351;&#2366;&nbsp;
+					&#2360;&#2369;&#2344;&#2367;&#2330;&#2381;&#2331;&#2367;&#2340;&nbsp;
+					  &#2325;&#2352;&#2375;&nbsp;
+					  &#2325;&#2367;&nbsp;  
+					  &#2310;&#2346;&#2325;&#2366;&nbsp;
+					  &#2325;&#2366;&#2352;&#2381;&#2337;&nbsp;
+					(&#2312;-&#2325;&#2377;&#2350;&#2352;&#2381;&#2360;)&nbsp;
+					&#2354;&#2375;&#2344;&#2342;&#2375;&#2344;&nbsp;
+					&#2325;&#2375;&nbsp;
+					&#2354;&#2367;&#2319;&nbsp;
+					&#2360;&#2325;&#2381;&#2359;&#2350;&nbsp;
+					&#2361;&#2376;
+				</h4>
+			</div>
+			<div id="carddownbelow"></div>
+			<div class="col-md-12 padTop10">
+				<div class="form-group">
+				<input type="hidden" id="ccDetails" value="133,RUPAY|132,MASTER|134,VISA"/>
+				<input type="hidden" id="dcDetails" value="136,RUPAY|135,MASTER|137,VISA"/>
+				<input type="hidden" id="pcDetails" value=""/>
+				<input type="hidden" id="cardCheck" value=""/>
+				<input type="hidden" id="pgPaygtwid" value="94"></input>
+					<label for="">Card Number</label>
+					<div id="cardNum" class="input-group">
+						<span class = "staticParent">
+							<input type="text" autocomplete="off" class="form-control validate_number bgPayProcImg" name="fieldoneCredit" id="card_number" maxlength="23" onpaste="return false" oncopy="return false">
+						</span>
+						<span id="spanVisa" class="input-group-addon noborder">
+							<img src="images/visa_logo.png" alt="Visa" class="img-responsive card-img">
+						</span> 
+						<span id="spanmMstercard" class="input-group-addon noborder"> 
+							<img src="images/mastercard_logo.png" alt="Visa" class="img-responsive card-img">
+						</span>  
+						<!-- <span id="spanAmericanxprss" class="input-group-addon noborder"> 
+							<img src="images/americanxprss_logo.png" alt="Visa" class="img-responsive card-img">
+						</span>  -->  <!--commented amex logo - for now not in use-->
+						<span id="spanRupay" class="input-group-addon"> 
+							<img src="images/rupay_logo.png" alt="Visa" class="img-responsive card-img">
+						</span>
+					</div>
+				<div class="alert alert-danger" id="CardNoErrorMsg" style="display: none;" ></div>
+				<div class="alert alert-danger" id="ecomErrorMsg" style="display: none;" ></div>
+			</div>
+			</div>
+			<div id = "paymodePayProc">
+				<div class="col-md-6 ">
+					<div class="form-group">
+						<label for="">Card Type</label> 
+						<select class="form-control  show-tick" autocomplete="off" name="cardPaymode" id="cardPaymode" data-live-search="true" title="Select Card Type"  required>
+							<option value="" hidden>Card Type</option>
+							
+							<option value="CC">Credit Card</option>
+							
+							<option value="DC">Debit Card</option>
+							
+						</select>
+					</div>
+				</div>
+				<div id="cardSchema" class="col-md-6">
+					<div class="form-group">
+						<label for="">Card Scheme</label> 
+						<select class="form-control show-tick" autocomplete="off" id="cardPayproc" name="cardPayproc" 
+						data-live-search="true" title="Select Card Scheme"  required>
+						<option value=""  disabled selected>Card Scheme</option>
+						</select>
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-md-12"><div class="alert alert-danger" id="payModeError" style="display: none;" ></div></div>
+	<div class="col-md-12">
+				<div class="form-group" id="nameOnCardDiv">
+					<label for="">Name of the card holder</label> 
+					<input type="text" autocomplete="off" name="custCardName" id="custCardName" disabled="disabled" class="form-control disableattr" minlength="2" maxlength="45" placeholder="Name as on card" required onpaste="return false" oncopy="return false">
+					<div class="alert alert-danger" id="cardNameErrorMsg" style="display: none;" ></div>
+				</div>
+			</div>
+			<div id="divYear">
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="">Expiry Date/Valid Thru</label> 
+						<select class="form-control show-tick disableattr" autocomplete="off" id="expMonth" name="expMonthCard" data-live-search="true" disabled="disabled" title="Select Month" required>
+							<option value="">Month</option>
+							<option value="01">January (01)</option>
+							<option value="02">February (02)</option>
+							<option value="03">March (03)</option>
+							<option value="04">April (04)</option>
+							<option value="05">May (05)</option>
+							<option value="06">June (06)</option>
+							<option value="07">July (07)</option>
+							<option value="08">August (08)</option>
+							<option value="09">September (09)</option>
+							<option value="10">October (10)</option>
+							<option value="11">November (11)</option>
+							<option value="12">December (12)</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for=""> &nbsp;</label> 
+						<select class="form-control show-tick disableattr" autocomplete="off" name="expYearCard" id="expYear" disabled="disabled" data-live-search="true" title="Select Year" required>
+							<option value="">Year</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group" id="cvvNoInfo">
+					<label for="" id="cvvLabelDiv">CVV/CVC</label>
+					<label for="" id="dbcLabelDiv">4-DBC</label>
+					<div class="input-group">
+						<span class = "staticParent">
+						<input type="password" autocomplete="off" class="form-control disableattr validate_number" name="cvvCard" id="cvv" maxlength="3" disabled="disabled" onpaste="return false" oncopy="return false" required>
+						</span> 
+						<span class="input-group-addon info-addon"> 
+						<span class="glyphicon glyphicon-info-sign" id="cvvImageDiv" data-toggle="tooltip" title="CVV number is the 3-digit number found on the back of your card near the signature panel." data-placement="bottom"></span>
+						<span class="glyphicon glyphicon-info-sign" id="dbcImageDiv" data-toggle="tooltip" title="4-DBC is the 4-digit number present on the front side of the card right above the card number" data-placement="bottom" style="display:none"></span>
+						</span>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="alert alert-danger" id="expMonthYearErrorMsg" style="display: none;" /></div>
+				<div class="alert alert-danger" id="cvvCardErrorMsg" style="display: none;" /></div>
+			</div>		
+			<div class="col-md-12">
+				<div class="form-group" id="bankNameDisp">
+					<label for="">Bank Name</label> 
+					<input type="text" autocomplete="off" name="custCardBankName" id="custCardBank" disabled="disabled" class="form-control disableattr" maxlength="100" placeholder="Bank Name" required>
+				</div>
+			</div>
+		<!-- </div> -->
+	<!--********  GSTN Changes start **********  -->
+		<div  class="col-md-12">
+			<p class="usegstin gstin_txt">
+			<img src="images/tick.png">&nbsp;&nbsp;&nbsp;Use your GSTIN for
+			claiming input tax&nbsp;<label style="color: #FF0000">(Optional)</<label>
+		</p>
+		<div class="gstin-content" style="display: none">
+			<p class="gstin_txt">
+				Use your GSTIN for claiming input tax&nbsp;<label style="color: #FF0000">(Optional)</<label>&nbsp;&nbsp;&nbsp;<img
+					src="images/cross-icon.jpg" class="cross_icon">
+			</p>
+			<div class="clearfix"></div>
+			
+			<div class="row">
+			<div class="col-md-12">
+					<div class="form-group">
+						<input type="text" name="gstnNoCCDC" id="gstnNoCCDC" class="form-control"
+							placeholder="GSTIN" autocomplete="off"   onkeyup="validateGSTNKeyUp('gstnNo','CCDC');"  maxlength="15"  oncopy="return false" onpaste="return false" oncut="return false">
+							
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="firstNameCCDC" id="firstNameCCDC" class="form-control"
+							placeholder="First Name"  maxlength="50"  autocomplete="off" onkeyup="validateGSTNKeyUp('firstNameCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+							
+					</div>
+					
+				</div>
+				
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="lastNameCCDC" id="lastNameCCDC" class="form-control"
+							placeholder="Last Name"  maxlength="50" autocomplete="off"  onkeyup="validateGSTNKeyUp('lastNameCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+						<!-- 	<div class="alert alert-danger" id="lastNameErrorMsg" style="display: none;"></div> -->
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="businessNameCCDC" id="businessNameCCDC" class="form-control"
+							placeholder="Business Name"  maxlength="90" autocomplete="off" onkeyup="validateGSTNKeyUp('businessNameCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+							<!-- <div class="alert alert-danger" id="businessNameErrorMsg" style="display: none;"></div> -->
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" autocomplete="off" name="flatNOCCDC" id="flatNOCCDC" class="form-control"
+							placeholder="Flat/ Block No."  maxlength="50" onkeyup="validateGSTNKeyUp('flatNOCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="streetNameCCDC" id="streetNameCCDC" class="form-control"
+							placeholder="Building/Street/Lane"  maxlength="50" autocomplete="off" onkeyup="validateGSTNKeyUp('streetNameCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="localityCCDC" id="localityCCDC" class="form-control"
+							placeholder="Area/Locality"  maxlength="50" autocomplete="off" onkeyup="validateGSTNKeyUp('localityCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="cityCCDC" id="cityCCDC" class="form-control" placeholder="City"
+							 maxlength="50" autocomplete="off"  onkeyup="validateGSTNKeyUp('cityCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="pinCodeCCDC" id="pinCodeCCDC" class="form-control" placeholder="PIN"
+							maxlength="6" autocomplete="off" onkeyup="validateGSTNKeyUp('pinCode','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="stateCCDC" id="stateCCDC" class="form-control"
+							placeholder="State"  maxlength="50" autocomplete="off" onkeyup="validateGSTNKeyUp('stateCCDC','CCDC');" disabled>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="emailIdCCDC" id="emailIdCCDC" class="form-control onKeyUpValidateEmail"
+							placeholder="Email ID" maxlength="30" autocomplete="off"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="mobNoCCDC" id="mobNoCCDC" class="form-control"
+							placeholder="Mobile no."  maxlength="10" autocomplete="off" onkeyup="validateGSTNKeyUp('emailIdCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<!-- <div class="col-md-8">
+					<div class="form-group">
+						<input type="text" name="gstnNoCCDC" id="gstnNoCCDC" class="form-control"
+							placeholder="GSTIN" autocomplete="off" maxlength="15"  oncopy="return false" onpaste="return false" oncut="return false">
+							
+					</div>
+				</div> -->
+				<div class="col-md-4">
+					<div class="form-group">
+						<button type="button" id="ccdcGSTUpdate"  class="btn btn_info btn_update btn_up" onclick="validateGSTNParameter('CCDC');">Update</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="alert alert-danger" id="gstnErrorMsgCCDC" style="display: none;"></div>
+		</div>
+		<div class="gstin-content2" style="display: none">
+			<p class="gstin_txt">Use your GSTIN for claiming input tax&nbsp;<label style="color: #FF0000">(Optional)</<label>&nbsp;&nbsp;&nbsp;</p>
+                   <div id="collapse2">	
+                     <p class="expand collapsed" data-toggle="collapse" data-target="#ccdcCollapse" aria-expanded="false"></p>
+                   </div>
+			<table class="table gstintbl" style="margin-bottom: 0">
+				<tr>
+					<th style="width: 159px;">GSTIN</th>
+					<td id="gstinNoCCDC"></td>
+				</tr>
+				<tr>
+					<th style="width: 159px;">Name</th>
+					<td id= "gstnFNameCCDC"></td>
+				</tr>
+			</table>
+		
+			<table class="table gstintbl collapse" id="ccdcCollapse">
+				<tr>
+					<th style="width: 159px;">Business Name</th>
+					<td id="gstnBuisnNameCCDC"></td>
+				</tr>
+				<tr>
+					<th style="width: 159px;">Address</th>
+					<td id="gstnAddrCCDC"></td>
+				</tr>
+				<tr>
+					<th style="width: 159px;">Email ID</th>
+					<td id="gstnEmailCCDC"></td>
+				</tr>
+				<tr>
+					<th style="width: 159px;">Mobile No</th>
+					<td id="gstnMobCCDC"></td>
+				</tr>
+			</table>
+			<!-- <p  id="collpse" class="expand" data-toggle="collapse" data-target="#demo,#demo1"></p> -->
+			<div class="clearfix"></div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="form-group">
+						<button type="button" class="btn_info btn_modify btn_mdfy">Modify</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<button type="button" class="btn_info btn_modify cross_icon btn_remove" onclick="setGSTNBeanAjax('remove')">Remove</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--********  GSTN Changes end**********  -->
+			<div class="col-xs-12">
+				<button type="button" name="credit" id="cardSubButton" onclick="return payNowSubmit('cardPayment',this)" class="btn pay_btn btn01">Pay Now</button>
+				<input type="hidden" name="cardPaymentPayproc" id="cardPaymentPayproc"> 
+			</div>
+			<div class="col-xs-12 text-right">
+				<a onclick="submitCancelRequest(this);" href="#"> Cancel</a>
+			</div>
+		
+	</div>
+	<!-- </form> -->
+</body>
+
+									</div>
+								</div>
+							</div>
+							
+							<!--SCCC start -->
+							
+							<div id="sccCards" class="panel panel-default" >
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#scccardopen" onclick="resetFormFields()"> <i class="icon-cards"></i>SBI Corporate Credit Cards
+										
+										</a>
+									</h4> 
+								</div>
+								<div id="scccardopen" class="panel-collapse collapse">
+   								    <div class="panel-body card_pay">
+								    	
+<!DOCTYPE html>
+<body>
+
+		<div class="row">
+			<div class="col-md-12 txt">
+				<!--<h4 class="txt">Please enter your card details</h4>-->
+				<h4 class="txt" style="color: #FF0000;font-size: 14px;">Please ensure that your card is enabled for online (E-Commerce) transactions</h4>
+				<h4 class="txt" style="color: #FF0000;font-size: 14px;">
+					&#2325;&#2371;&#2346;&#2351;&#2366;&nbsp;
+					&#2360;&#2369;&#2344;&#2367;&#2330;&#2381;&#2331;&#2367;&#2340;&nbsp;
+					  &#2325;&#2352;&#2375;&nbsp;
+					  &#2325;&#2367;&nbsp;  
+					  &#2310;&#2346;&#2325;&#2366;&nbsp;
+					  &#2325;&#2366;&#2352;&#2381;&#2337;&nbsp;
+					(&#2312;-&#2325;&#2377;&#2350;&#2352;&#2381;&#2360;)&nbsp;
+					&#2354;&#2375;&#2344;&#2342;&#2375;&#2344;&nbsp;
+					&#2325;&#2375;&nbsp;
+					&#2354;&#2367;&#2319;&nbsp;
+					&#2360;&#2325;&#2381;&#2359;&#2350;&nbsp;
+					&#2361;&#2376;
+				</h4>
+			</div>
+			<div id="carddownbelow"></div>
+			<div class="col-md-12 padTop10">
+				<div class="form-group">
+				<input type="hidden" id="sccDetails" value="147,MASTER|148,VISA"/>
+				<input type="hidden" id="sccCardCheck" value=""/>
+				<input type="hidden" id="pgPaygtwid" value="94"></input>
+					<label for="">Card Number</label>
+					<div id="sccCardNum" class="form-group">
+						<span class = "staticParent">
+							<input type="text" class="form-control validate_number bgPayProcImg" name="sccfieldoneCredit" id="scc_card_number" maxlength="23" onpaste="return false" oncopy="return false">
+						</span>
+						<span id="sccSpanVisa" class="input-group-addon noborder">
+							<img src="images/visa_logo.png" alt="Visa" class="img-responsive card-img">
+						</span> 
+						<span id="sccSpanmMstercard" class="input-group-addon noborder"> 
+							<img src="images/mastercard_logo.png" alt="Visa" class="img-responsive card-img">
+						</span>  
+						<!-- <span id="sccSpanAmericanxprss" class="input-group-addon noborder"> 
+							<img src="images/americanxprss_logo.png" alt="Visa" class="img-responsive card-img">
+						</span>  --> <!--commented amex logo - for now not in use-->
+						<span id="sccSpanRupay" class="input-group-addon"> 
+							<img src="images/rupay_logo.png" alt="Visa" class="img-responsive card-img">
+						</span>
+					</div>
+				<div class="alert alert-danger" id="sccCardNoErrorMsg" style="display: none;" ></div>
+				<div class="alert alert-danger" id="ecomErrorMsg" style="display: none;" ></div>
+			</div>
+			</div>
+			<div id = "sccPaymodePayProc">
+				<div class="col-md-6 ">
+					<div class="form-group">
+						<label for="">Card Type</label> 
+						<select class="form-control  show-tick" name="sccCardPaymode" id="sccCardPaymode" data-live-search="true" title="Select Card Type"  required>
+							<option value="" hidden>Card Type</option>
+							
+							<option value="SCCC">SBI Corporate Credit Card</option>
+							
+						</select>
+					</div>
+				</div>
+				<div id="cardSchema" class="col-md-6">
+					<div class="form-group">
+						<label for="">Card Scheme</label> 
+						<select class="form-control show-tick" id="sccCardPayproc" name="sccCardPayproc" 
+						data-live-search="true" title="Select Card Scheme"  required>
+						<option value=""  disabled selected>Card Scheme</option>
+						</select>
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-md-12"><div class="alert alert-danger" id="sccpayModeError" style="display: none;" ></div></div>
+	<div class="col-md-12">
+				<div class="form-group" id="sccnameOnCardDiv">
+					<label for="">Name of the card holder</label> 
+					<input type="text" name="sccCustCardName" id="sccCustCardName" disabled="disabled" class="form-control disableattr" minlength="2" maxlength="45" placeholder="Name as on card" required onpaste="return false" oncopy="return false">
+					<div class="alert alert-danger" id="sccCardNameErrorMsg" style="display: none;" ></div>
+				</div>
+			</div>
+			<div id="sccdivYear">
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="">Expiry Date/Valid Thru</label> 
+						<select class="form-control show-tick disableattr" id="sccExpMonth" name="expMonthSCCCard" data-live-search="true" disabled="disabled" title="Select Month" required>
+							<option value="">Month</option>
+							<option value="01">January (01)</option>
+							<option value="02">February (02)</option>
+							<option value="03">March (03)</option>
+							<option value="04">April (04)</option>
+							<option value="05">May (05)</option>
+							<option value="06">June (06)</option>
+							<option value="07">July (07)</option>
+							<option value="08">August (08)</option>
+							<option value="09">September (09)</option>
+							<option value="10">October (10)</option>
+							<option value="11">November (11)</option>
+							<option value="12">December (12)</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for=""> &nbsp;</label> 
+						<select class="form-control show-tick disableattr" name="expYearSCCCard" id="sccExpYear" disabled="disabled" data-live-search="true" title="Select Year" required>
+							<option value="">Year</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group" id="scccvvNoInfo">
+					<label for="" id="scccvvLabelDiv">CVV/CVC</label>
+					<label for="" id="sccdbcLabelDiv">4-DBC</label>
+					<div class="input-group">
+						<span class = "staticParent">
+						<input type="password" autocomplete="off" class="form-control disableattr validate_number" name="scc_cvvCard" id="scc_cvv" maxlength="3" disabled="disabled" onpaste="return false" oncopy="return false" required>
+						</span> 
+						<span class="input-group-addon info-addon"> 
+						<span class="glyphicon glyphicon-info-sign" id="scccvvImageDiv" data-toggle="tooltip" title="CVV number is the 3-digit number found on the back of your card near the signature panel." data-placement="bottom"></span>
+						<span class="glyphicon glyphicon-info-sign" id="sccdbcImageDiv" data-toggle="tooltip" title="4-DBC is the 4-digit number present on the front side of the card right above the card number" data-placement="bottom" style="display:none"></span>
+						</span>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="alert alert-danger" id="sccexpMonthYearErrorMsg" style="display: none;" /></div>
+				<div class="alert alert-danger" id="scccvvCardErrorMsg" style="display: none;" /></div>
+			</div>		
+			<div class="col-md-12">
+				<div class="form-group" id="sccBankNameDisp">
+					<label for="">Bank Name</label> 
+					<input type="text" name="sccCustCardBankName" id="sccCustCardBank" disabled="disabled" class="form-control disableattr" maxlength="100" placeholder="Bank Name" required>
+				</div>
+			</div>
+		<!-- </div> -->
+	<!--********  GSTN Changes start **********  -->
+		<div  class="col-md-12">
+			<p class="usegstin gstin_txt">
+			<img src="images/tick.png">&nbsp;&nbsp;&nbsp;Use your GSTIN for
+			claiming input tax&nbsp;<label style="color: #FF0000">(Optional)</<label>
+		</p>
+		<div class="gstin-content" style="display: none">
+			<p class="gstin_txt">
+				Use your GSTIN for claiming input tax&nbsp;<label style="color: #FF0000">(Optional)</<label>&nbsp;&nbsp;&nbsp;<img
+					src="images/cross-icon.jpg" class="cross_icon">
+			</p>
+			<div class="clearfix"></div>
+			
+			<div class="row">
+			<div class="col-md-12">
+					<div class="form-group">
+						<input type="text" name="gstnNoCCDC" id="gstnNoCCDC" class="form-control"
+							placeholder="GSTIN" autocomplete="off"   onkeyup="validateGSTNKeyUp('gstnNo','CCDC');"  maxlength="15"  oncopy="return false" onpaste="return false" oncut="return false">
+							
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="firstNameCCDC" id="firstNameCCDC" class="form-control"
+							placeholder="First Name"  maxlength="50"  autocomplete="off" onkeyup="validateGSTNKeyUp('firstNameCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+							
+					</div>
+					
+				</div>
+				
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="lastNameCCDC" id="lastNameCCDC" class="form-control"
+							placeholder="Last Name"  maxlength="50" autocomplete="off"  onkeyup="validateGSTNKeyUp('lastNameCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+						<!-- 	<div class="alert alert-danger" id="lastNameErrorMsg" style="display: none;"></div> -->
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="businessNameCCDC" id="businessNameCCDC" class="form-control"
+							placeholder="Business Name"  maxlength="90" autocomplete="off" onkeyup="validateGSTNKeyUp('businessNameCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+							<!-- <div class="alert alert-danger" id="businessNameErrorMsg" style="display: none;"></div> -->
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="flatNOCCDC" id="flatNOCCDC" class="form-control"
+							placeholder="Flat/ Block No."  maxlength="50" onkeyup="validateGSTNKeyUp('flatNOCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="streetNameCCDC" id="streetNameCCDC" class="form-control"
+							placeholder="Building/Street/Lane"  maxlength="50" autocomplete="off" onkeyup="validateGSTNKeyUp('streetNameCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="localityCCDC" id="localityCCDC" class="form-control"
+							placeholder="Area/Locality"  maxlength="50" autocomplete="off" onkeyup="validateGSTNKeyUp('localityCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="cityCCDC" id="cityCCDC" class="form-control" placeholder="City"
+							 maxlength="50" autocomplete="off"  onkeyup="validateGSTNKeyUp('cityCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="pinCodeCCDC" id="pinCodeCCDC" class="form-control" placeholder="PIN"
+							maxlength="6" autocomplete="off" onkeyup="validateGSTNKeyUp('pinCode','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="stateCCDC" id="stateCCDC" class="form-control"
+							placeholder="State"  maxlength="50" autocomplete="off" onkeyup="validateGSTNKeyUp('stateCCDC','CCDC');" disabled>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="emailIdCCDC" id="emailIdCCDC" class="form-control onKeyUpValidateEmail"
+							placeholder="Email ID" maxlength="30" autocomplete="off"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="mobNoCCDC" id="mobNoCCDC" class="form-control"
+							placeholder="Mobile no."  maxlength="10" autocomplete="off" onkeyup="validateGSTNKeyUp('emailIdCCDC','CCDC');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<!-- <div class="col-md-8">
+					<div class="form-group">
+						<input type="text" name="gstnNoCCDC" id="gstnNoCCDC" class="form-control"
+							placeholder="GSTIN" autocomplete="off" maxlength="15"  oncopy="return false" onpaste="return false" oncut="return false">
+							
+					</div>
+				</div> -->
+				<div class="col-md-4">
+					<div class="form-group">
+						<button type="button" id="ccdcGSTUpdate"  class="btn btn_info btn_update btn_up" onclick="validateGSTNParameter('CCDC');">Update</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="alert alert-danger" id="gstnErrorMsgCCDC" style="display: none;"></div>
+		</div>
+		<div class="gstin-content2" style="display: none">
+			<p class="gstin_txt">Use your GSTIN for claiming input tax&nbsp;<label style="color: #FF0000">(Optional)</<label>&nbsp;&nbsp;&nbsp;</p>
+                   <div id="collapse2">	
+                     <p class="expand collapsed" data-toggle="collapse" data-target="#ccdcCollapse" aria-expanded="false"></p>
+                   </div>
+			<table class="table gstintbl" style="margin-bottom: 0">
+				<tr>
+					<th style="width: 159px;">GSTIN</th>
+					<td id="gstinNoCCDC"></td>
+				</tr>
+				<tr>
+					<th style="width: 159px;">Name</th>
+					<td id= "gstnFNameCCDC"></td>
+				</tr>
+			</table>
+		
+			<table class="table gstintbl collapse" id="ccdcCollapse">
+				<tr>
+					<th style="width: 159px;">Business Name</th>
+					<td id="gstnBuisnNameCCDC"></td>
+				</tr>
+				<tr>
+					<th style="width: 159px;">Address</th>
+					<td id="gstnAddrCCDC"></td>
+				</tr>
+				<tr>
+					<th style="width: 159px;">Email ID</th>
+					<td id="gstnEmailCCDC"></td>
+				</tr>
+				<tr>
+					<th style="width: 159px;">Mobile No</th>
+					<td id="gstnMobCCDC"></td>
+				</tr>
+			</table>
+			<!-- <p  id="collpse" class="expand" data-toggle="collapse" data-target="#demo,#demo1"></p> -->
+			<div class="clearfix"></div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="form-group">
+						<button type="button" class="btn_info btn_modify btn_mdfy">Modify</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<button type="button" class="btn_info btn_modify cross_icon btn_remove" onclick="setGSTNBeanAjax('remove')">Remove</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--********  GSTN Changes end**********  -->
+			<div class="col-xs-12">
+				<button type="button" name="credit" id="sccCardSubButton" onclick="return payNowSubmit('sccCardPayment',this)" class="btn pay_btn btn01">Pay Now</button>
+				<input type="hidden" name="cardPaymentPayproc" id="cardPaymentPayproc"> 
+			</div>
+			<div class="col-xs-12 text-right">
+				<a onclick="submitCancelRequest(this);" href="#"> Cancel</a>
+			</div>
+		
+	</div>
+	<!-- </form> -->
+</body>
+
+									</div>
+								</div>
+					                 </div>
+						
+							<!-- <i class="icon-internetbanking"></i>Internet Banking -->
+						
+							<div class="panel panel-default" id="NBPanelId">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapseib" onclick="resetFormFields()"> <i class="icon-internetbanking"></i>Internet Banking
+										</a>
+									</h4>
+								</div>
+								<div id="collapseib" class="panel-collapse collapse ">
+									<div class="panel-body">
+										
+<!DOCTYPE html>
+<body>
+
+		<div id="popularBankMain" class="wallet_radio">
+			<div class="row">
+				<div class="col-xs-12">
+					<h4 class="txt semibold">Popular Banks</h4>
+				</div>
+				
+				<div class="col-md-4 col-xs-6">
+					<label class="radio-inline wallet_border"> 
+					<input name="NBSbi"
+						id="NBSbi0" class="NBradio" type="radio" onchange="calcFees('NB',null, this,this.id);" onblur="validateOnBlur('netbank',this)" value="4,State Bank of India"
+							 
+								id="NBSbi0" />
+					<img src="https://www.sbiepay.sbi/secure/merchant/images/PopularBanks/SBIEPAY_SBIN.png" alt="" class="img-responsive">
+					</label>
+				</div>
+				
+			
+				
+		
+		</div>
+		<div class="alert alert-danger" id="NetBankingErrorMsg" style="display: none;"></div>
+				<input type="hidden" id="nbCheck" value=""></input>
+		</div>
+		<div class="row d_padTop10p">
+			<div class="col-xs-12">
+				<div class="form-group">
+				<input type="hidden" class="" name="gtwLockingFlag" id="gtwLockingFlag" value=""/>
+				
+					<label class="txt semibold">All Banks</label> 
+					<select class="form-control  show-tick" name="otherbanks" id="otherbanks" onblur="validateOnBlur('netbank',this)" onchange="calcFees('NB',null, this,this.id);" data-live-search="true" title=" ">
+						<option value="">Please Select</option>
+						
+						<option value="129" 
+						>AU Small Finance Bank - Corporate</option>
+						
+						<option value="128" 
+						>AU Small Finance Bank - Retail</option>
+						
+						<option value="121" 
+						>Axis Bank-Retail</option>
+						
+						<option value="149" 
+						 style="color: #cccccc" >Bandhan Bank - Retail</option>
+						
+						<option value="108" 
+						>Bank of Baroda - Retail and Corporate</option>
+						
+						<option value="60" 
+						>Bank of India - Retail and Corporate</option>
+						
+						<option value="24" 
+						>Bank of Maharashtra - Retail and Corporate</option>
+						
+						<option value="113" 
+						 style="color: #cccccc" >Bharat Co-operative Bank Mumbai Ltd†- Retail</option>
+						
+						<option value="19" 
+						 style="color: #cccccc" >CSB Bank - Retail</option>
+						
+						<option value="35" 
+						>Canara Bank - Retail and Corporate</option>
+						
+						<option value="130" 
+						>Capital Small Finance Bank Ltd - Retail and Corporate</option>
+						
+						<option value="90" 
+						>Central Bank of India - Retail and Corporate</option>
+						
+						<option value="23" 
+						>City Union Bank - Retail and Coprorate</option>
+						
+						<option value="120" 
+						>Cosmos Bank - Retail and Corporate</option>
+						
+						<option value="51" 
+						>DCB Bank - Retail</option>
+						
+						<option value="63" 
+						>Dhanlaxmi Bank-Corporate</option>
+						
+						<option value="55" 
+						>Dhanlaxmi Bank-Retail</option>
+						
+						<option value="131" 
+						>ESAF Small Finance Bank - Retail</option>
+						
+						<option value="18" 
+						>Federal Bank</option>
+						
+						<option value="105" 
+						>HDFC Bank - Corporate</option>
+						
+						<option value="72" 
+						>HDFC Bank - Retail</option>
+						
+						<option value="115" 
+						>ICICI Bank - Corporate</option>
+						
+						<option value="104" 
+						>ICICI Bank - Retail</option>
+						
+						<option value="62" 
+						>IDBI Bank-Corporate</option>
+						
+						<option value="22" 
+						>IDBI Bank-Retail</option>
+						
+						<option value="21" 
+						>Indian Bank - Retail</option>
+						
+						<option value="125" 
+						>Indian Overseas Bank - Retail And Corporate</option>
+						
+						<option value="46" 
+						>IndusInd Bank - Retail</option>
+						
+						<option value="47" 
+						>Jammu and Kashmir Bank - Retail</option>
+						
+						<option value="66" 
+						 style="color: #cccccc" >Janata Sahakari Bank Ltd. Pune</option>
+						
+						<option value="31" 
+						>Karnataka Bank Ltd - Retail and Corporate</option>
+						
+						<option value="15" 
+						>Karur Vysya Bank - Retail</option>
+						
+						<option value="146" 
+						>Kotak Mahindra Bank - Corporate</option>
+						
+						<option value="54" 
+						>Kotak Mahindra Bank - Retail</option>
+						
+						<option value="53" 
+						 style="color: #cccccc" >Lakshmi Vilas Bank</option>
+						
+						<option value="82" 
+						>Mehsana Urban Co. Op. Bank Ltd - Corporate</option>
+						
+						<option value="83" 
+						>Mehsana Urban Co. Op. Bank Ltd - Retail</option>
+						
+						<option value="107" 
+						>Punjab National Bank - Retail and Corporate</option>
+						
+						<option value="68" 
+						 style="color: #cccccc" >Punjab and Maharashtra Co-operative Bank Ltd</option>
+						
+						<option value="58" 
+						>Punjab and Sind Bank - Retail and Corporate</option>
+						
+						<option value="126" 
+						>RBL - Corporate</option>
+						
+						<option value="127" 
+						>RBL - Retail</option>
+						
+						<option value="70" 
+						>SVC Co-operative Bank Ltd - Retail</option>
+						
+						<option value="26" 
+						>South Indian Bank - Retail</option>
+						
+						<option value="4" 
+						>State Bank of India</option>
+						
+						<option value="48" 
+						>Tamilnad Mercantile Bank Ltd - Retail</option>
+						
+						<option value="59" 
+						>UCO Bank - Retail and Corporate</option>
+						
+						<option value="85" 
+						>Union Bank of India - Retail</option>
+						
+						<option value="69" 
+						>YES Bank - Retail</option>
+						
+					</select>
+					
+				
+				</div>
+<div class="alert alert-danger" id="NetBankingErrorMsg1" style="display: none;"></div>
+
+			</div>
+		</div>
+		<div class="row d_padTop10p">
+			<div class="col-xs-12 netBankingHideShow">
+			<label style="color: red;"> 
+			Bank / PG is facing downtime currently and expected to be available by 
+			<span id="endTimeMsg"></span>. 
+			Please select alternate Payment option to complete your transaction.
+			</label>
+			</div>
+		</div>
+		<div id="nbRadioDiv"></div>
+		
+		<!--********  GSTN Changes start **********  -->
+		<div  class="col-md-12">
+			<p class="usegstin gstin_txt">
+			<img src="images/tick.png">&nbsp;&nbsp;&nbsp;Use your GSTIN for
+			claiming input tax&nbsp;<label style="color: #FF0000">(Optional)</<label>
+		</p>
+		<div class="gstin-content" style="display: none">
+			<p class="gstin_txt">
+				Use your GSTIN for claiming input tax&nbsp;<label style="color: #FF0000">(Optional)</<label>&nbsp;&nbsp;&nbsp;<img
+					src="images/cross-icon.jpg" class="cross_icon">
+			</p>
+			<div class="clearfix"></div>
+			<div class="row">
+			
+			<div class="col-md-12">
+					<div class="form-group">
+						<input type="text" name="gstnNoNB" id="gstnNoNB" class="form-control onKeyUpValidateGST"
+							placeholder="GSTIN" autocomplete="off" onkeyup="validateGSTNKeyUp('gstnNo','NB');"  maxlength="15"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+			
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="firstNameNB" id="firstNameNB" class="form-control"
+							placeholder="First Name"  maxlength="50" autocomplete="off" onkeyup="validateGSTNKeyUp('firstNameNB','NB');"  oncopy="return false" onpaste="return false" oncut="return false">
+							
+					</div>
+					
+				</div>
+				
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="lastNameNB" id="lastNameNB" class="form-control"
+							placeholder="Last Name" maxlength="50" autocomplete="off" onkeyup="validateGSTNKeyUp('lastNameNB','NB');"  oncopy="return false" onpaste="return false" oncut="return false">
+						<!-- 	<div class="alert alert-danger" id="lastNameErrorMsg" style="display: none;"></div> -->
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="businessNameNB" id="businessNameNB" class="form-control"
+							placeholder="Business Name" maxlength="90" autocomplete="off" onkeyup="validateGSTNKeyUp('businessNameNB','NB');"  oncopy="return false" onpaste="return false" oncut="return false">
+							<!-- <div class="alert alert-danger" id="businessNameErrorMsg" style="display: none;"></div> -->
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="flatNONB" id="flatNONB" class="form-control"
+							placeholder="Flat/ Block No."  maxlength="50" autocomplete="off" onkeyup="validateGSTNKeyUp('flatNONB','NB');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="streetNameNB" id="streetNameNB" class="form-control"
+							placeholder="Building/Street/Lane" maxlength="50"  autocomplete="off" onkeyup="validateGSTNKeyUp('streetNameNB','NB');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="localityNB" id="localityNB" class="form-control"
+							placeholder="Area/Locality" maxlength="50"  autocomplete="off" onkeyup="validateGSTNKeyUp('localityNB','NB');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="cityNB" id="cityNB" class="form-control" placeholder="City"
+							maxlength="50" onkeyup="validateGSTNKeyUp('cityNB','NB');"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="pinCodeNB" id="pinCodeNB" class="form-control" placeholder="PIN"
+							maxlength="6" autocomplete="off" onkeyup="validateGSTNKeyUp('pinCode','NB')"  oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="stateNB" id="stateNB" class="form-control"
+							placeholder="State" autocomplete="off" onkeyup="validateGSTNKeyUp('stateNB','NB');" disabled>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="emailIdNB" id="emailIdNB" class="form-control onKeyUpValidateEmail"
+							placeholder="Email ID" maxlength="30" autocomplete="off"   oncopy="return false" onpaste="return false" oncut="return false">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<input type="text" name="mobNoNB" id="mobNoNB" class="form-control"
+							placeholder="Mobile no."  maxlength="10" autocomplete="off" onkeyup="validateGSTNKeyUp('mobNoNB','NB');"  oncopy="return false" onpaste="return false" oncut="return false"> 
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="form-group">
+						<button type="button" id="nbGSTNBtn" class="btn btn_info btn_update btn_up" onclick="validateGSTNParameter('NB');">Update</button>
+					</div>
+					
+				</div>
+			</div>
+			<div class="alert alert-danger" id="gstnErrorMsgNB" style="display: none;"></div>
+		</div>
+		<div class="gstin-content2" style="display: none">
+			<p class="gstin_txt">Use your GSTIN for claiming input tax&nbsp;<label style="color: #FF0000">(Optional)</<label>&nbsp;&nbsp;&nbsp;</p>
+                   <div id="collapse2">	
+                     <p class="expand collapsed" data-toggle="collapse" data-target="#nbCollpase" aria-expanded="false"></p>
+                   </div>
+			<table class="table gstintbl" style="margin-bottom: 0">
+				<tr>
+					<th style="width: 150px;">GSTIN</th>
+					<td id="gstinNoNB"></td>
+				</tr>
+				<tr>
+					<th style="width: 150px;">Name</th>
+					<td id="gstnFNameNB"></td>
+				</tr>
+			</table>
+		
+			<table class="table gstintbl collapse" id="nbCollpase">
+				<tr>
+					<th style="width: 150px;">Business Name</th>
+					<td id="gstnBuisnNameNB"></td>
+				</tr>
+				<tr>
+					<th style="width: 150px;">Address</th>
+					<td id="gstnAddrNB"></td>
+				</tr>
+				<tr>
+					<th style="width: 150px;">Email ID</th>
+					<td id="gstnEmailNB"></td>
+				</tr>
+				<tr>
+					<th style="width: 150px;">Mobile No</th>
+					<td id="gstnMobNB"></td>
+				</tr>
+			</table>
+			<!-- <p  id="collpse" class="expand" data-toggle="collapse" data-target="#demo,#demo1"></p> -->
+			<div class="clearfix"></div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="form-group">
+						<button type="button" class="btn_info btn_modify btn_mdfy">Modify</button>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<button type="button" class="btn_modify cross_icon btn_remove" onclick="setGSTNBeanAjax('remove')">Remove</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--********  GSTN Changes end**********  -->
+		
+		
+		
+		<div class="row d_padTop10p">
+			<div class="col-xs-12">
+				<button type="button" name="netbank" id="subButton" class="btn pay_btn" onclick="payNowSubmit('netbank',this);">Pay Now</button>
+			</div>
+			<div class="col-xs-12 text-right">
+				<a href="#" onclick="submitCancelRequest(this);"> Cancel</a>
+			</div>
+		</div>
+</body>
+
+									</div>
+								</div>
+							</div>
+						
+							<!--UPI -->
+					
+						<!-- PayPal -->
+						
+							<!-- Wallets -->
+					
+							<!-- NEFT -->
+					
+							<!-- Cash -->
+						
+							<!-- POS -->
+						
+						<!-- Mobile Payments -->
+					
+						</div>
+					</div>
+					<!-- order summary section  -->
+					<div class="col-md-3">
+						<div class="card-summary">
+							<!DOCTYPE html>
+<body>
+	<div class="first-card">
+		<div class="main txt">Order Summary</div>
+		<div class="txt subtxt" style="color:#ff0000;margin-top:5px;">Kindly note Order No.</div>
+		<div class="sub txt headtxt">Order No.:</div>
+		<div class="txt subtxt" style="color:green">11720250000277752</div>
+		<br>
+		<div class="sub txt headtxt">Merchant Name:</div>
+		<div class="txt subtxt one">Maharashtra Public Service Commission</div>
+	</div>
+	<div class="sub-pay" id="feeCalc">
+	
+		<div>
+			<span class="txt sub">Amount:</span> 
+			<span class="txt pull-right">
+				<span class="amt">294.00</span>&nbsp;
+			</span>
+		</div>
+		<div>
+			<span class="txt sub">Processing fee:</span>
+			<span class="txt pull-right">
+				<span class="fee feeAbs"></span>&nbsp;
+			</span>
+		</div>
+		<div>
+			<span class="txt sub">GST:</span> 
+			<span class="txt pull-right">
+				<span class="gstamt serviceAbs"></span>&nbsp;
+			</span>
+		</div>
+		<div class="pad0i">
+			<span class="txt sp_margin disp_inline sub">Total:</span>
+			 <span class="txt pull-right final_rate">
+				 <span class="total_amt totalAbs"></span>&nbsp;
+			 </span>
+		</div>
+	</div>
+	<div>
+	  APM ID: PG_TRANS_396	
+	</div>
+
+</body>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<input type="hidden" name="billerfirstname" id="billerfirstname" value="NA" />
+			<input type="hidden" name="billerEmailId" id="billerEmailId" value="NA" />
+			<input type="hidden" name="gstnNoCASH" id="gstnNoCASH" value="NA"/>
+			
+						<input type="hidden" name="neftRtgsMobileNumber" id="neftRtgsMobileNumber" value="NA" style="display: none"/>
+			<input type="hidden" name="neftRtgsEmailId" id="neftRtgsEmailId" value="NA" style="display: none"/>
+			
+			
+			<input type="hidden" name="cashCustomerName" id="cashCustomerName" value="NA"  style="display: none"/>
+			<input type="hidden" name="cashMobileNumber" id="cashMobileNumber" value="NA"  style="display: none"/>
+			<input type="hidden" name="cashEmailId" id="cashEmailId" value="NA"  style="display: none"/>
+			
+		
+			<input type="hidden" name="allFieldsValue" id="allFieldsValue"/>
+			
+
+
+		</div>
+		<div class="container">
+			<div style="text-align: center; margin-bottom: 10px;">You can check the transaction status using the following link - <a href="../secure/transactionTrack" target="_blank">Click Here</a>
+			</div>
+			<!DOCTYPE html>
+<body>
+	<div class="row">
+		<div class="col-md-3 hidden-sm hidden-xs">&nbsp;</div>
+		<div class="col-md-6">
+			<div class=" text-center footer">
+			        <img src="images/rupay_logo.png" alt="Footer Logo">&nbsp;&nbsp;&nbsp;&nbsp; 
+				<img src="images/footer_logo1.png" alt="Footer Logo">&nbsp;&nbsp;&nbsp;&nbsp; 
+				<img src="images/footer_logo2.png" alt="Footer Logo">&nbsp;&nbsp;&nbsp;&nbsp; 
+				<img src="images/footer_logo3.png" alt="Footer Logo">&nbsp;&nbsp;&nbsp;&nbsp; 
+				<img src="images/footer_logo4.png" alt="Footer Logo">&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+		</div>
+	</div>
+</body>
+
+		</div>
+	
+		<input type="hidden" name="paymode" id="paymode" value=NB />
+
+	
+			<input type="hidden" name="secureurl" id="secureurl" value="https://www.sbiepay.sbi/" />
+			
+		<!-- parameters for Encryption -->
+	</form>
+<script language="javascript">if (typeof(UserAgentInfo) != 'undefined' && !window.addEventListener) {UserAgentInfo.strBrowser=1;}</script>
+</body>
+
+<script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
+
+<!--<script type="text/javascript" src="https://www.sbiepay.sbi/secure/merchant/scripts/jquery-3.4.1.js"></script>-->
+<script type="text/javascript" src="https://www.sbiepay.sbi/secure/merchant/scripts/assets/js/checksum.min.js" ></script>
+<script type="text/javascript" src="https://www.sbiepay.sbi/secure/merchant/scripts/assets/js/crc32.js" ></script>
+
+<script type="text/javascript" src="https://www.sbiepay.sbi/secure/merchant/scripts/themes/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://www.sbiepay.sbi/secure/merchant/scripts/themes/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="https://www.sbiepay.sbi/secure/merchant/scripts/themes/jquery.inputmask.bundle.min.js"></script>
+<script type="text/javascript" src="https://www.sbiepay.sbi/secure/merchant/scripts/assets/js/security/jquery.jcryption-1.1.min.js"></script>
+<script type="text/javascript" src="scripts/sbiscript_min.js"></script>
+<script type="text/javascript" src="https://www.sbiepay.sbi/secure/scripts/utilityJcryption.js" defer></script>
+<script type="text/javascript" src="https://www.sbiepay.sbi/secure/merchant/scripts/aggTransactionPymentDtls.js" defer></script>
+
+<script type="text/javascript">
+var paymode =  $("#paymode").val();
+paymode = paymode.toUpperCase(); //Added  for Gatewaylocking SIT fixes
+var enableDisable =$("#enableDisable").val();
+var secureurl;
+secureurl = $('#secureurl').val();
+
+function paymodeKey() {		//if(enableDisable == "E"){
+	$.jCryption.getKeys(secureurl+"secure/EncryptionServlet?generateKeypair=true", function(receivedKeys) {keys = receivedKeys;
+	   	if(keys != undefined || keys != "") {
+	   		$(".overlay").css('display','none');
+	   	}
+	   	calcFees(paymode,this,this.id);  
+	});
+}
+
+$(document).ready(function(){
+
+
+var allFieldsValue = [];
+
+var brwsrLanguage=navigator.language;
+
+var colordepth=screen.colorDepth;
+
+var height=screen.height;
+
+var width=screen.width;
+
+let javaenabled=navigator.javaEnabled();
+
+var jsenabled=true;
+		
+allFieldsValue.push(brwsrLanguage);
+allFieldsValue.push(colordepth);
+allFieldsValue.push(height);
+allFieldsValue.push(width);
+allFieldsValue.push(javaenabled);
+allFieldsValue.push(jsenabled);
+
+$("#allFieldsValue").val(allFieldsValue);
+
+
+	
+   if(enableDisable == "E" && (paymode == "CC" || paymode == "DC" || paymode == "PC")){
+	
+              ///////////////////////Mala
+              $('#scccardList').hide();//added by Mala for SCC paymode
+              $('#activeNB').hide();
+			  $('#activeUPI').hide();
+			  $('#activeWallet').hide();
+			  $('#activeNEFT').hide();
+			  $('#activeCash').hide();
+			  $('#activePOS').hide();/////////////Mala end
+
+			  // Added for IFMS start//
+$('#CCDCPanelId').css("display","block");
+$('#NBPanelId').css("display","none");
+$('#UPIPanelId').css("display","none");
+$('#PaypalPanelId').css("display","none");
+$('#WalletPanelId').css("display","none");
+$('#NEFTPanelId').css("display","none");
+$('#CashPanelId').css("display","none");
+$('#PosPanelId').css("display","none");
+$('#IMPSPanelId').css("display","none");
+$('#sccCards').css("display","none");
+// Added for IFMS end//
+
+       document.getElementById("cardList").style.height = "64px";
+       if(document.getElementById("activeNB")!= null)
+       		document.getElementById("activeNB").style.height = "44px";
+       if(document.getElementById("activeUPI")!= null)
+       		document.getElementById("activeUPI").style.height = "44px";
+       if(document.getElementById("activePayPal")!= null)
+       		document.getElementById("activePayPal").style.height = "44px";
+       if(document.getElementById("activeWallet")!= null)
+       		document.getElementById("activeWallet").style.height = "44px";
+       if(document.getElementById("activeNEFT")!= null)
+      		document.getElementById("activeNEFT").style.height = "44px";
+       if(document.getElementById("activeCash")!= null)
+       		document.getElementById("activeCash").style.height = "44px";
+       if(document.getElementById("activePOS")!= null)
+       		document.getElementById("activePOS").style.height = "44px";
+       if(document.getElementById("activeIMPS")!= null)
+       		document.getElementById("activeIMPS").style.height = "44px";
+   }
+   
+    if(enableDisable == "E" && paymode == "NB"){
+        $("#cardopen").removeClass('in');
+        $("#cardList").removeClass('active');
+        $("#collapseib").show();
+        $(".activeNB").addClass('active');
+          ///////////////////////Mala
+              $('#cardList').hide();
+              $('#scccardList').hide();//added by Mala for SCC paymode
+			  $('#activeUPI').hide();
+			  $('#activeWallet').hide();
+			  $('#activeNEFT').hide();
+			  $('#activeCash').hide();
+			  $('#activePOS').hide();/////////////Mala end
+			  			  			  // Added for IFMS start//
+$('#CCDCPanelId').css("display","none");
+$('#NBPanelId').css("display","block");
+$('#UPIPanelId').css("display","none");
+$('#PaypalPanelId').css("display","none");
+$('#WalletPanelId').css("display","none");
+$('#NEFTPanelId').css("display","none");
+$('#CashPanelId').css("display","none");
+$('#PosPanelId').css("display","none");
+$('#IMPSPanelId').css("display","none");
+$('#sccCards').css("display","none");
+// Added for IFMS end//
+        
+       if(document.getElementById("cardList")!= null)
+       		document.getElementById("cardList").style.height = "54px";
+       if(document.getElementById("activeUPI")!= null)
+       		document.getElementById("activeUPI").style.height = "44px";
+       if(document.getElementById("activePayPal")!= null)
+       		document.getElementById("activePayPal").style.height = "44px";
+       if(document.getElementById("activeWallet")!= null)
+       		document.getElementById("activeWallet").style.height = "44px";
+       if(document.getElementById("activeNEFT")!= null)
+      		document.getElementById("activeNEFT").style.height = "44px";
+       if(document.getElementById("activeCash")!= null)
+       		document.getElementById("activeCash").style.height = "44px";
+       if(document.getElementById("activePOS")!= null)
+       		document.getElementById("activePOS").style.height = "44px";
+       if(document.getElementById("activeIMPS")!= null)
+       		document.getElementById("activeIMPS").style.height = "44px";
+    }
+
+    if(enableDisable == "E" && paymode == "UPI"){
+        $("#cardopen").removeClass('in');
+        $("#cardList").removeClass('active');
+        $("#collapseup").show();
+        $(".activeUPI").addClass('active');
+        paymodeKey();
+
+		///////////////////////Mala
+		      $('#cardList').hide();
+		      $('#scccardList').hide();//added by Mala for SCC paymode
+                       $('#activeNB').hide();
+			  $('#activeWallet').hide();
+			  $('#activeNEFT').hide();
+			  $('#activeCash').hide();
+			  $('#activePOS').hide();/////////////Mala end
+			   // Added for IFMS start//
+$('#CCDCPanelId').css("display","none");
+$('#NBPanelId').css("display","none");
+$('#UPIPanelId').css("display","block");
+$('#PaypalPanelId').css("display","none");
+$('#WalletPanelId').css("display","none");
+$('#NEFTPanelId').css("display","none");
+$('#CashPanelId').css("display","none");
+$('#PosPanelId').css("display","none");
+$('#IMPSPanelId').css("display","none");
+$('#sccCards').css("display","none");
+// Added for IFMS end//
+        
+       if(document.getElementById("cardList")!= null)
+       		document.getElementById("cardList").style.height = "54px";
+       if(document.getElementById("activeNB")!= null)
+       		document.getElementById("activeNB").style.height = "44px";
+       if(document.getElementById("activePayPal")!= null)
+       		document.getElementById("activePayPal").style.height = "44px";
+       if(document.getElementById("activeWallet")!= null)
+       		document.getElementById("activeWallet").style.height = "44px";
+       if(document.getElementById("activeNEFT")!= null)
+      		document.getElementById("activeNEFT").style.height = "44px";
+       if(document.getElementById("activeCash")!= null)
+       		document.getElementById("activeCash").style.height = "44px";
+       if(document.getElementById("activePOS")!= null)
+       		document.getElementById("activePOS").style.height = "44px";
+       if(document.getElementById("activeIMPS")!= null)
+       		document.getElementById("activeIMPS").style.height = "44px";
+    }
+    
+    if(enableDisable == "E" && paymode == "PayPal"){
+        $("#cardopen").removeClass('in');
+        $("#cardList").removeClass('active');
+        $("#collapsepp").show();
+        $(".activePayPal").addClass('active');
+        paymodeKey();
+         // Added for IFMS start//
+$('#CCDCPanelId').css("display","none");
+$('#NBPanelId').css("display","none");
+$('#UPIPanelId').css("display","none");
+$('#PaypalPanelId').css("display","block");
+$('#WalletPanelId').css("display","none");
+$('#NEFTPanelId').css("display","none");
+$('#CashPanelId').css("display","none");
+$('#PosPanelId').css("display","none");
+$('#IMPSPanelId').css("display","none");
+$('#sccCards').css("display","none");
+// Added for IFMS end//
+       if(document.getElementById("cardList")!= null)
+       		document.getElementById("cardList").style.height = "54px";
+       if(document.getElementById("activeNB")!= null)
+       		document.getElementById("activeNB").style.height = "44px";
+       if(document.getElementById("activeUPI")!= null)
+       		document.getElementById("activeUPI").style.height = "44px";
+       if(document.getElementById("activeWallet")!= null)
+       		document.getElementById("activeWallet").style.height = "44px";
+       if(document.getElementById("activeNEFT")!= null)
+      		document.getElementById("activeNEFT").style.height = "44px";
+       if(document.getElementById("activeCash")!= null)
+       		document.getElementById("activeCash").style.height = "44px";
+       if(document.getElementById("activePOS")!= null)
+       		document.getElementById("activePOS").style.height = "44px";
+       if(document.getElementById("activeIMPS")!= null)
+       		document.getElementById("activeIMPS").style.height = "44px";
+    }
+    
+    if(enableDisable == "E" && paymode == "WALLET"){
+        $("#cardopen").removeClass('in');
+        $("#cardList").removeClass('active');
+        $("#collapse7").show();
+        $(".activeWallet").addClass('active');
+		
+		///////////////////////Mala
+		      $('#cardList').hide();
+               $('#scccardList').hide();//added by Mala for SCC paymode
+              $('#activeNB').hide();
+              $('#activeUPI').hide();
+              $('#activeNEFT').hide();
+			  $('#activeCash').hide();
+			  $('#activePOS').hide();/////////////Mala end
+			  			   // Added for IFMS start//
+$('#CCDCPanelId').css("display","none");
+$('#NBPanelId').css("display","none");
+$('#UPIPanelId').css("display","none");
+$('#PaypalPanelId').css("display","none");
+$('#WalletPanelId').css("display","block");
+$('#NEFTPanelId').css("display","none");
+$('#CashPanelId').css("display","none");
+$('#PosPanelId').css("display","none");
+$('#IMPSPanelId').css("display","none");
+$('#sccCards').css("display","none");
+// Added for IFMS end//
+        
+       if(document.getElementById("cardList")!= null)
+       		document.getElementById("cardList").style.height = "54px";
+       if(document.getElementById("activeNB")!= null)
+       		document.getElementById("activeNB").style.height = "44px";
+       if(document.getElementById("activeUPI")!= null)
+       		document.getElementById("activeUPI").style.height = "44px";
+       if(document.getElementById("activePayPal")!= null)
+       		document.getElementById("activePayPal").style.height = "44px";
+       if(document.getElementById("activeNEFT")!= null)
+      		document.getElementById("activeNEFT").style.height = "44px";
+       if(document.getElementById("activeCash")!= null)
+       		document.getElementById("activeCash").style.height = "44px";
+       if(document.getElementById("activePOS")!= null)
+       		document.getElementById("activePOS").style.height = "44px";
+       if(document.getElementById("activeIMPS")!= null)
+       		document.getElementById("activeIMPS").style.height = "44px";
+    }
+    
+  
+    if(enableDisable == "E" && paymode == "NEFT/RTGS"){
+		///////////////////////Mala
+		      $('#cardList').hide();
+              $('#activeNB').hide();
+              $('#activeUPI').hide();
+              $('#activeWallet').hide();
+			  $('#activeCash').hide();
+			  $('#activePOS').hide();/////////////Mala end
+        $("#cardopen").removeClass('in');
+        $("#cardList").removeClass('active');
+        $("#collapse5").show();
+        $(".activeNEFT").addClass('active');
+        paymodeKey();
+					   // Added for IFMS start//
+$('#CCDCPanelId').css("display","none");
+$('#NBPanelId').css("display","none");
+$('#UPIPanelId').css("display","none");
+$('#PaypalPanelId').css("display","none");
+$('#WalletPanelId').css("display","none");
+$('#NEFTPanelId').css("display","block");
+$('#CashPanelId').css("display","none");
+$('#PosPanelId').css("display","none");
+$('#IMPSPanelId').css("display","none");
+$('#sccCards').css("display","none");
+// Added for IFMS end//
+        
+       if(document.getElementById("cardList")!= null)
+       		document.getElementById("cardList").style.height = "54px";
+       if(document.getElementById("activeNB")!= null)
+       		document.getElementById("activeNB").style.height = "44px";
+       if(document.getElementById("activeUPI")!= null)
+       		document.getElementById("activeUPI").style.height = "44px";
+       if(document.getElementById("activePayPal")!= null)
+       		document.getElementById("activePayPal").style.height = "44px";
+       if(document.getElementById("activeWallet")!= null)
+      		document.getElementById("activeWallet").style.height = "44px";
+       if(document.getElementById("activeCash")!= null)
+       		document.getElementById("activeCash").style.height = "44px";
+       if(document.getElementById("activePOS")!= null)
+       		document.getElementById("activePOS").style.height = "44px";
+       if(document.getElementById("activeIMPS")!= null)
+       		document.getElementById("activeIMPS").style.height = "44px";
+    }
+    
+    if(enableDisable == "E" && paymode == "CASH"){
+        $("#cardopen").removeClass('in');
+        $("#cardList").removeClass('active');
+        $("#collapse8").show();
+        $(".activeCash").addClass('active');
+        paymodeKey();
+        
+		///////////////////////Mala
+		      $('#cardList').hide();
+		      $('#scccardList').hide();//added by Mala for SCC paymode
+              $('#activeNB').hide();
+              $('#activeUPI').hide();
+              $('#activeWallet').hide();
+			  $('#activeNEFT').hide();
+			  $('#activePOS').hide();/////////////Mala end
+
+			   // Added for IFMS start//
+$('#CCDCPanelId').css("display","none");
+$('#NBPanelId').css("display","none");
+$('#UPIPanelId').css("display","none");
+$('#PaypalPanelId').css("display","none");
+$('#WalletPanelId').css("display","none");
+$('#NEFTPanelId').css("display","none");
+$('#CashPanelId').css("display","block");
+$('#PosPanelId').css("display","none");
+$('#IMPSPanelId').css("display","none");
+$('#sccCards').css("display","none");
+// Added for IFMS end//
+
+       if(document.getElementById("cardList")!= null)
+       		document.getElementById("cardList").style.height = "54px";
+       if(document.getElementById("activeNB")!= null)
+       		document.getElementById("activeNB").style.height = "44px";
+       if(document.getElementById("activeUPI")!= null)
+       		document.getElementById("activeUPI").style.height = "44px";
+       if(document.getElementById("activePayPal")!= null)
+       		document.getElementById("activePayPal").style.height = "44px";
+       if(document.getElementById("activeWallet")!= null)
+      		document.getElementById("activeWallet").style.height = "44px";
+       if(document.getElementById("activeNEFT")!= null)
+       		document.getElementById("activeNEFT").style.height = "44px";
+       if(document.getElementById("activePOS")!= null)
+       		document.getElementById("activePOS").style.height = "44px";
+       if(document.getElementById("activeIMPS")!= null)
+       		document.getElementById("activeIMPS").style.height = "44px";
+    }
+    
+    if(enableDisable == "E" && paymode == "POS"){
+        $("#cardopen").removeClass('in');
+        $("#cardList").removeClass('active');
+        $("#collapse4").show();
+        $(".activePOS").addClass('active');
+
+		///////////////////////Mala
+		      $('#cardList').hide();
+		      $('#scccardList').hide();//added by Mala for SCC paymode
+              $('#activeNB').hide();
+              $('#activeUPI').hide();
+              $('#activeWallet').hide();
+			  $('#activeNEFT').hide();
+			  $('#activeCash').hide();
+			    $("#scccardopen").show();
+	$("#scccardList").addClass('active');
+			  /////////////Mala end
+			   // Added for IFMS start//
+$('#CCDCPanelId').css("display","none");
+$('#NBPanelId').css("display","none");
+$('#UPIPanelId').css("display","none");
+$('#PaypalPanelId').css("display","none");
+$('#WalletPanelId').css("display","none");
+$('#NEFTPanelId').css("display","none");
+$('#CashPanelId').css("display","none");
+$('#PosPanelId').css("display","block");
+$('#IMPSPanelId').css("display","none");
+$('#sccCards').css("display","none");
+// Added for IFMS end//
+        
+       if(document.getElementById("cardList")!= null)
+       		document.getElementById("cardList").style.height = "54px";
+       if(document.getElementById("activeNB")!= null)
+       		document.getElementById("activeNB").style.height = "44px";
+       if(document.getElementById("activeUPI")!= null)
+       		document.getElementById("activeUPI").style.height = "44px";
+       if(document.getElementById("activePayPal")!= null)
+       		document.getElementById("activePayPal").style.height = "44px";
+       if(document.getElementById("activeWallet")!= null)
+      		document.getElementById("activeWallet").style.height = "44px";
+       if(document.getElementById("activeNEFT")!= null)
+       		document.getElementById("activeNEFT").style.height = "44px";
+       if(document.getElementById("activeCash")!= null)
+       		document.getElementById("activeCash").style.height = "44px";
+       if(document.getElementById("activeIMPS")!= null)
+       		document.getElementById("activeIMPS").style.height = "44px";
+    }
+    
+    if(enableDisable == "E" && paymode == "IMPS"){
+        $("#cardopen").removeClass('in');
+        $("#cardList").removeClass('active');
+        $("#collapse6").show();
+        $(".activeIMPS").addClass('active');
+        paymodeKey();
+          // Added for IFMS start//
+$('#CCDCPanelId').css("display","none");
+$('#NBPanelId').css("display","none");
+$('#UPIPanelId').css("display","none");
+$('#PaypalPanelId').css("display","none");
+$('#WalletPanelId').css("display","none");
+$('#NEFTPanelId').css("display","none");
+$('#CashPanelId').css("display","none");
+$('#PosPanelId').css("display","none");
+$('#sccCards').css("display","none");
+$('#IMPSPanelId').css("display","block");
+// Added for IFMS end//
+       if(document.getElementById("cardList")!= null)
+       		document.getElementById("cardList").style.height = "54px";
+       if(document.getElementById("activeNB")!= null)
+       		document.getElementById("activeNB").style.height = "44px";
+       if(document.getElementById("activeUPI")!= null)
+       		document.getElementById("activeUPI").style.height = "44px";
+       if(document.getElementById("activePayPal")!= null)
+       		document.getElementById("activePayPal").style.height = "44px";
+       if(document.getElementById("activeWallet")!= null)
+      		document.getElementById("activeWallet").style.height = "44px";
+       if(document.getElementById("activeNEFT")!= null)
+       		document.getElementById("activeNEFT").style.height = "44px";
+       if(document.getElementById("activeCash")!= null)
+       		document.getElementById("activeCash").style.height = "44px";
+       if(document.getElementById("activePOS")!= null)
+       		document.getElementById("activePOS").style.height = "44px";
+    }
+    if(enableDisable == "E" && paymode == "SCCC" ){
+	
+	 $("#cardopen").removeClass('in');
+        $("#cardList").removeClass('active');
+        $("#scccardopen").show();
+	$("#scccardList").addClass('active');
+              ///////////////////////Mala
+              $('#activeNB').hide();
+			  $('#activeUPI').hide();
+			  $('#activeWallet').hide();
+			  $('#activeNEFT').hide();
+			  $('#activeCash').hide();
+			  $('#activePOS').hide();/////////////Mala end
+
+			  // Added for IFMS start//
+$('#sccCards').css("display","block");			  
+$('#CCDCPanelId').css("display","none");
+$('#NBPanelId').css("display","none");
+$('#UPIPanelId').css("display","none");
+$('#PaypalPanelId').css("display","none");
+$('#WalletPanelId').css("display","none");
+$('#NEFTPanelId').css("display","none");
+$('#CashPanelId').css("display","none");
+$('#PosPanelId').css("display","none");
+$('#IMPSPanelId').css("display","none");
+
+// Added for IFMS end//
+
+       document.getElementById("cardList").style.height = "64px";
+       if(document.getElementById("activeNB")!= null)
+       		document.getElementById("activeNB").style.height = "44px";
+       if(document.getElementById("activeUPI")!= null)
+       		document.getElementById("activeUPI").style.height = "44px";
+       if(document.getElementById("activePayPal")!= null)
+       		document.getElementById("activePayPal").style.height = "44px";
+       if(document.getElementById("activeWallet")!= null)
+       		document.getElementById("activeWallet").style.height = "44px";
+       if(document.getElementById("activeNEFT")!= null)
+      		document.getElementById("activeNEFT").style.height = "44px";
+       if(document.getElementById("activeCash")!= null)
+       		document.getElementById("activeCash").style.height = "44px";
+       if(document.getElementById("activePOS")!= null)
+       		document.getElementById("activePOS").style.height = "44px";
+       if(document.getElementById("activeIMPS")!= null)
+       		document.getElementById("activeIMPS").style.height = "44px";
+   }
+}); 
+
+
+</script> 
+</html>
+∏/GûŒL      h†>Áh†>ÁHÖl•       m    O^partitionKey=%28https%2Csbiepay.sbi%29,~1755331647,:https://www.sbiepay.sbi/secure/AggregatorHostedListener necko:classified 1 strongly-framed 1 security-info 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 request-method POST response-head HTTP/1.1 200 OK
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache
+X-XSS-Protection: 1; mode=block
+Pragma: No-cache, No-cache, No-cache, No-cache
+Timing-Allow-Origin: *
+Referrer-Policy: strict-origin-when-cross-origin
+Date: Sat, 16 Aug 2025 08:19:55 GMT
+X-OneAgent-JS-Injection: true
+Strict-Transport-Security: max-age=31556926; includeSubDomains
+Access-Control-Allow-Methods: GET, POST
+Server-Timing: dtRpid;desc="1914185703", dtTao;desc="1", dtSInfo;desc="0"
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy: object-src 'self'; frame-ancestors 'self';, default-src 'self' ; script-src 'self' 'unsafe-inline' 'unsafe-eval' ; style-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src 'self' data:
+X-Frame-Options: SAMEORIGIN, SAMEORIGIN
+ original-response-headers Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache
+Set-Cookie: Path=/secure/merchant; Secure; HttpOnly
+Set-Cookie: dtCookie=v_4_srv_10_sn_28062D9FF6D9473FB564AE466B02F62E_perc_100000_ol_0_mul_1_app-3A1043d718f1a14e05_0; Path=/; Domain=.www.sbiepay.sbi; SameSite=Strict; secure
+Set-Cookie: MYSESSIONCOOKIE=rMFfWbYWjuOs17vr8d1Gk86LVHlR4DzVPFAWm28m.PayAggApplication; Secure; HttpOnly; path=/; secure; HttpOnly
+X-XSS-Protection: 1; mode=block
+Pragma: No-cache
+Pragma: No-cache
+Pragma: No-cache
+Pragma: No-cache
+Timing-Allow-Origin: *
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: object-src 'self'; frame-ancestors 'self';
+Date: Sat, 16 Aug 2025 08:19:55 GMT
+X-OneAgent-JS-Injection: true
+Connection: keep-alive
+Strict-Transport-Security: max-age=31556926; includeSubDomains
+Access-Control-Allow-Methods: GET, POST
+X-Frame-Options: SAMEORIGIN
+Server-Timing: dtRpid;desc="1914185703", dtTao;desc="1", dtSInfo;desc="0"
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=ISO-8859-1
+Set-Cookie: NSC_WJQ2-TCJfQbz-Bqqmjdbujpo=ffffffff09b41c1c45525d5f4f58455e445a4a423208;expires=Sat, 16-Aug-2025 08:33:29 GMT;Secure; HttpOnly; path=/;secure;httponly
+Set-Cookie: TS01687d4c=0137799b19790d31009f498004d36e13b0cf8a1cede327468c2849ae32ad4534ce5004638e7eb183b875cbe70627f0883f2d5e629afa47bec166aebaed498d558883286348170263059468d954c3e0f27e22901aa6f852e70d3c4819307bd1bfadf26aad5db34986cfcab8b4942db6f322f409acf4; Path=/; Domain=.www.sbiepay.sbi; Secure; HttpOnly;
+Set-Cookie: TSbef340fb027=08b90ded0cab20003dcb058420f29d0a8273da59dc78dfb368ff87374b16b61458bd7037bd176d4508171cf02c1130006a7fde13c0e136384c7c723a8b092b4ea5d29ab91ed03a232a9680a08526f7f4226b011ac8bd9edfe11433fb2fbbaf2e; Secure; Path=/
+Transfer-Encoding: chunked
+Content-Security-Policy: default-src 'self' ; script-src 'self' 'unsafe-inline' 'unsafe-eval' ; style-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src 'self' data:
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: NSC_WJQ1-Tcjfqbz.tcj=ffffffff09b7dc2345525d5f4f58455e445a4a42378b;expires=Sat, 16-Aug-2025 08:28:29 GMT;path=/;secure;httponly
+ ctid 1 uncompressed-len 0 net-response-time-onstart 444 net-response-time-onstop 502  m&
