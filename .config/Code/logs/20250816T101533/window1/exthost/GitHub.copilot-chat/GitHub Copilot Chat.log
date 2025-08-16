@@ -1,0 +1,35 @@
+2025-08-16 10:15:54.016 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-08-16 10:15:54.016 [info] Using the Electron fetcher.
+2025-08-16 10:15:54.016 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-08-16 10:15:54.016 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-08-16 10:15:54.016 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-08-16 10:15:54.029 [error] Error fetching available embedding types: Error: net::ERR_INTERNET_DISCONNECTED
+2025-08-16 10:15:54.490 [info] Logged in as aniketbirdawade
+2025-08-16 10:15:54.510 [error] Error fetching available embedding types: Error: net::ERR_INTERNET_DISCONNECTED
+2025-08-16 10:15:54.519 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10635)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28): Failed to get copilot token
+2025-08-16 10:15:54.522 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2025-08-16 10:15:54.522 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-08-16 10:15:54.522 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10635)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-08-16 10:15:54.523 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-08-16 10:15:54.523 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/utility_init:2:10635)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-08-16 10:15:54.523 [info] activationBlocker from 'languageModelAccess' took for 859ms
+2025-08-16 10:16:54.629 [info] Logged in as aniketbirdawade
+2025-08-16 10:16:54.666 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2025-08-16 10:17:54.697 [info] Logged in as aniketbirdawade
+2025-08-16 10:17:54.719 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2025-08-16 10:18:54.748 [info] Logged in as aniketbirdawade
+2025-08-16 10:18:54.773 [error] GitHub Copilot could not connect to server. Extension activation failed: "net::ERR_INTERNET_DISCONNECTED"
+2025-08-16 10:25:40.413 [info] Logged in as aniketbirdawade
+2025-08-16 10:25:42.168 [info] Got Copilot token for aniketbirdawade
+2025-08-16 10:25:42.380 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-08-16 10:25:42.380 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-08-16 10:25:42.427 [info] Registering default platform agent...
+2025-08-16 10:25:42.429 [info] activationBlocker from 'conversationFeature' took for 588775ms
+2025-08-16 10:25:42.492 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-08-16 10:25:43.320 [info] Fetched model metadata in 800ms 282e530d-37b7-4050-83fa-0756a62e08bd

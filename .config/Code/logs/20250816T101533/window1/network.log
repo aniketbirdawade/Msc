@@ -1,0 +1,14 @@
+2025-08-16 10:15:42.575 [error] #1: https://api.github.com/copilot_internal/user - error GET Offline
+2025-08-16 10:15:43.700 [error] #2: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/bianxianyang/htmlplay/latest - error GET Offline
+2025-08-16 10:15:43.704 [error] #3: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot/latest - error GET Offline
+2025-08-16 10:15:43.718 [error] #4: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot-chat/latest - error GET Offline
+2025-08-16 10:15:43.733 [error] #5: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ritwickdey/liveserver/latest - error GET Offline
+2025-08-16 10:15:44.185 [error] #6: https://www.vscode-unpkg.net/_gallery/bianxianyang/htmlplay/latest - error GET Offline
+2025-08-16 10:15:44.255 [error] #7: https://www.vscode-unpkg.net/_gallery/github/copilot/latest - error GET Offline
+2025-08-16 10:15:44.282 [error] #9: https://www.vscode-unpkg.net/_gallery/ritwickdey/liveserver/latest - error GET Offline
+2025-08-16 10:15:44.285 [error] #8: https://www.vscode-unpkg.net/_gallery/github/copilot-chat/latest - error GET Offline
+2025-08-16 10:15:44.422 [error] #10: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Offline
+2025-08-16 10:15:46.923 [error] #11: https://main.vscode-cdn.net/extensions/chat.json - error GET Offline
+2025-08-16 10:15:51.074 [error] #13: https://api.github.com/copilot_internal/v2/token - error GET Offline
+2025-08-16 10:15:51.083 [error] #12: https://api.github.com/copilot_internal/user - error GET Offline
+2025-08-16 10:15:54.061 [error] #14: https://api.github.com/copilot_internal/user - error GET Offline

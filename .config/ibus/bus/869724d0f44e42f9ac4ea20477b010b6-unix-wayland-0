@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/aniket/.cache/ibus/dbus-XF8DDyo9,guid=285a6432c966a3960d4f985d689e1d3d
-IBUS_DAEMON_PID=2418
+IBUS_ADDRESS=unix:path=/home/aniket/.cache/ibus/dbus-uIWX0Hyp,guid=64c71ddb68359b69be8f015a68a00ce3
+IBUS_DAEMON_PID=2285

@@ -51,3 +51,51 @@ psql -U aniket -d postgres
 /home/aniket/13_aug.sql 
 psql -U aniket -d postgres 
 sudo -i -u postgres 
+git init 
+git add .
+git push origin main
+git add .
+git commit -m "First commit"
+git branch -M main
+git push -u origin main
+ping -c 4 github.com
+ping -c 4 google.com
+git push -u origin main
+git remote remove origin
+git remote add origin https://github.com/aniketbirdawade/Msc.git
+git remote add origin git@github.com:aniketbirdawade/Msc.git
+git branch -M main
+git push -u origin main
+git remote remove origin
+git remote add origin git@github.com:aniketbirdawade/Msc.git
+ssh -T git@github.com
+clear
+git add .
+git commit -m "Success"
+git push origin main 
+git status
+git add .
+git commit -m "YES"
+clear
+git push origin main 
+cle
+clear
+ssh-keygen -t rsa -b 4096 -C "birdawdeaniket79@gmail.com
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+
+;
+
+
+clear
+psql -U aniket -d postgres 
+\i /home/aniket/13_aug.sql 
+/home/aniket/13_aug.sql 
+clear
+sudo -i -u postgres 
+history
+clear
+\i /home/aniket/13_aug.sql 
+/home/aniket/13_aug.sql 
+clear
+sudo -i -u postgres 

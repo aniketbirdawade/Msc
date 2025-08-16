@@ -1,0 +1,48 @@
+2025-08-16 10:02:53.037 [info] [AutoSync] Using settings sync service https://vscode-sync.trafficmanager.net/
+2025-08-16 10:02:53.037 [info] [AutoSync] Enabled.
+2025-08-16 10:02:53.037 [info] [AutoSync] Suspended until auth token is available.
+2025-08-16 10:03:04.547 [info] [AutoSync] Triggered by Interval
+2025-08-16 10:03:04.552 [info] Sync started.
+2025-08-16 10:03:04.579 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2025-08-16 10:03:04.583 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:03:04.584 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:08:04.579 [info] [AutoSync] Triggered by Interval
+2025-08-16 10:08:04.580 [info] Sync started.
+2025-08-16 10:08:04.593 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2025-08-16 10:08:04.594 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:08:04.595 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:13:04.603 [info] [AutoSync] Triggered by Interval
+2025-08-16 10:13:04.606 [info] Sync started.
+2025-08-16 10:13:04.623 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2025-08-16 10:13:04.625 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:13:04.628 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)

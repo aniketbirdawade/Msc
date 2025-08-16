@@ -54,3 +54,41 @@
 2025-08-15 23:40:25.695 [info] BYOK: Copilot Chat known models list fetched successfully.
 2025-08-15 23:40:27.794 [info] Fetched model metadata in 2127ms 88f468be-662d-4df9-9ca5-d0b98cd2c0af
 2025-08-15 23:55:30.474 [info] Fetched model metadata in 2427ms 8d69882e-6968-4e0a-a119-51975eb84e15
+2025-08-16 00:03:16.461 [info] Logged in as aniketbirdawade
+2025-08-16 00:03:17.636 [info] Got Copilot token for aniketbirdawade
+2025-08-16 00:03:17.701 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-08-16 00:03:17.701 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-08-16 00:03:17.701 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-08-16 00:03:17.736 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-08-16 00:03:17.771 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-08-16 00:03:17.771 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-08-16 00:03:17.774 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-08-16 00:03:17.775 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-08-16 00:07:17.042 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-08-16 00:07:17.042 [info] Using the Electron fetcher.
+2025-08-16 00:07:17.129 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-08-16 00:07:17.129 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-08-16 00:07:17.129 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-08-16 00:07:20.099 [info] Logged in as aniketbirdawade
+2025-08-16 00:07:21.690 [info] Got Copilot token for aniketbirdawade
+2025-08-16 00:07:30.666 [error] TypeError: Ebt.env.getDataChannel is not a function
+    at new X4 (/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1/dist/extension.js:1821:3872)
+    at r._createInstance (/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1/dist/extension.js:390:2145)
+    at r.createInstance (/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1/dist/extension.js:390:1585)
+    at create (/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1/dist/extension.js:399:753)
+    at r.invokeFunction (/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1/dist/extension.js:390:941)
+    at new xC (/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1/dist/extension.js:399:886)
+    at r._createInstance (/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1/dist/extension.js:390:2145)
+    at r.createInstance (/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1/dist/extension.js:390:1585)
+    at /home/aniket/.vscode/extensions/github.copilot-chat-0.30.1/dist/extension.js:399:1983
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at U9e (/home/aniket/.vscode/extensions/github.copilot-chat-0.30.1/dist/extension.js:399:1822)
+    at db.n (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13386)
+    at db.m (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:13349)
+    at db.l (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:12805): Error while loading contribution
+2025-08-16 00:07:30.666 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-08-16 00:07:30.705 [info] Registering default platform agent...
+2025-08-16 00:07:30.707 [info] activationBlocker from 'conversationFeature' took for 72ms
+2025-08-16 00:07:30.724 [info] activationBlocker from 'languageModelAccess' took for 67ms
+2025-08-16 00:07:30.755 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-08-16 00:07:31.677 [info] Fetched model metadata in 951ms cddb48c9-5c06-4f70-b60e-089a9279bae2

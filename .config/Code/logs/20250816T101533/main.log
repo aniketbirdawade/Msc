@@ -1,0 +1,12 @@
+2025-08-16 10:15:34.391 [info] update#setState idle
+2025-08-16 10:15:38.610 [error] #1: https://update.code.visualstudio.com/api/update/linux-x64/stable/488a1f239235055e34e673291fb8d8c810886f81 - error undefined net::ERR_INTERNET_DISCONNECTED
+2025-08-16 10:15:38.616 [error] update#isLatestVersion(): failed to check for updates
+2025-08-16 10:15:38.617 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-08-16 10:16:04.108 [info] update#setState checking for updates
+2025-08-16 10:16:04.177 [error] #2: https://update.code.visualstudio.com/api/update/linux-x64/stable/488a1f239235055e34e673291fb8d8c810886f81?bg=true - error undefined net::ERR_INTERNET_DISCONNECTED
+2025-08-16 10:16:04.180 [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:123516)
+    at SimpleURLLoaderWrapper.emit (node:events:518:28)
+2025-08-16 10:16:04.182 [info] update#setState idle
