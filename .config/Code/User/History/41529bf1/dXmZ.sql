@@ -118,10 +118,43 @@ and item.description = 'Fan Large';
 
 */
 
-select fname, lname, date_placed
+/*      13
+List customers who purchased Speakers
+
+select fname, lname, orderinfo.
 from customer, orderinfo, orderline, item
 where customer.customer_id = orderinfo.customer_id
 and orderinfo.orderinfo_id = orderline.orderinfo_id
 and orderline.item_id = item.item_id
-and item.description = 'Toothbrush';
+and item.description = 'Speakers';
 
+
+Display all orders with customer details and item price > 10.
+
+
+
+
+
+
+select distinct fname
+from customer, item, orderline, orderinfo
+where  customer.customer_id = orderinfo.customer_id
+and orderinfo.orderinfo_id = orderline.orderinfo_id
+and orderline.item_id = item.item_id
+and item.sell_price > 10;
+
+*/
+
+select distinct fname
+from customer, item, orderline, orderinfo
+where customer.customer_id in select customer_id from orderinfo
+where orderinfo_id in (select orderinfo_id
+from orderline
+        where item_id in (
+            select item_id
+            from item
+            where sell_price > 10
+        )
+    )
+)
+where item.sell_price > 10;

@@ -2446,3 +2446,674 @@
 2025-08-16 10:33:02.999 [info] [fetchCompletions] Request 46f10075-24b0-4f27-b801-51b2dc7145c5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 295.85713900008705ms
 2025-08-16 10:33:03.013 [info] [streamChoices] solution 0 returned. finish reason: [stop]
 2025-08-16 10:33:03.639 [info] [code-referencing] No match found
+2025-08-16 10:42:00.035 [info] [fetchCompletions] Request 794702cf-8b97-417c-906b-69f90dc27beb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 1910.6865489999764ms
+2025-08-16 10:42:00.102 [info] [fetchCompletions] Request 0f5a971a-321c-407e-b481-94b91052a945 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 488.2964449999854ms
+2025-08-16 10:42:00.503 [info] [fetchCompletions] Request 8918adac-f36a-4cff-acaf-236921f26c34 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 339.58935200003907ms
+2025-08-16 10:42:00.564 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:42:21.055 [info] [fetchCompletions] Request 998dc126-a43d-45cb-b17e-8e329400d5d8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 422.43490399979055ms
+2025-08-16 10:42:21.090 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:42:23.304 [info] [fetchCompletions] Request 3d4a17a0-3983-4e17-8382-27a2a08cd68e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 346.4823970000725ms
+2025-08-16 10:42:23.361 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:42:23.974 [info] [fetchCompletions] Request f2c11e94-f91c-46d9-b067-d2f7121a19ff at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 494.370375999948ms
+2025-08-16 10:42:24.022 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:42:35.215 [info] [fetchCompletions] Request 46abe656-5452-478e-90e5-33b57e92911d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 360.5007029999979ms
+2025-08-16 10:42:35.270 [info] [streamChoices] solution 2 returned. finish reason: [stop]
+2025-08-16 10:42:35.282 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2025-08-16 10:42:35.287 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:42:35.643 [info] [fetchCompletions] Request 7cfc70ec-3ccf-48c4-bfb6-55114d10aa68 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 296.38971899985336ms
+2025-08-16 10:42:35.688 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:43:40.902 [info] [fetchCompletions] Request d7c0be5f-05fd-438a-a574-74e32fffc495 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 324.26211599982344ms
+2025-08-16 10:43:41.063 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:43:41.444 [info] [fetchCompletions] Request d94143c5-bcde-4d1c-8396-3fa7c51deb55 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 288.9599220000673ms
+2025-08-16 10:43:41.544 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:44:27.009 [info] [fetchCompletions] Request 3bb26fac-574c-4822-9712-1b2029970998 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 351.74228899995796ms
+2025-08-16 10:44:27.084 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:44:27.541 [info] [fetchCompletions] Request fe2489ac-4a81-4564-bf81-2867e3e19bb3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 352.8666910000611ms
+2025-08-16 10:44:27.612 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:44:28.167 [info] [fetchCompletions] Request c74b30c9-135c-467c-b3ab-289e789ce277 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 462.0172020001337ms
+2025-08-16 10:44:28.287 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:44:28.665 [info] [fetchCompletions] Request 7f9b11f1-c83f-45f3-b4c6-cf998dee457a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 326.79232100001536ms
+2025-08-16 10:44:28.770 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:44:29.582 [info] [code-referencing] Calling Match
+2025-08-16 10:44:29.690 [info] [fetchCompletions] Request 542ebb1c-2b45-4cec-950e-f36394785576 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 385.03762899991125ms
+2025-08-16 10:44:29.792 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:44:30.519 [info] [code-referencing] No match found
+2025-08-16 10:44:33.682 [info] [code-referencing] Calling Match
+2025-08-16 10:44:34.004 [info] [code-referencing] No match found
+2025-08-16 10:44:36.837 [info] [code-referencing] Calling Match
+2025-08-16 10:44:37.098 [info] [code-referencing] No match found
+2025-08-16 10:44:39.123 [info] [fetchCompletions] Request 107b2c25-c343-493f-bd5c-a7482b34673c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 320.51203300012276ms
+2025-08-16 10:44:39.327 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:44:39.943 [info] [fetchCompletions] Request 7b7b85ef-1d26-47f1-8c54-a05b9be5a07c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 537.3323399999645ms
+2025-08-16 10:44:40.140 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:44:42.931 [info] [code-referencing] Calling Match
+2025-08-16 10:44:43.177 [info] [code-referencing] No match found
+2025-08-16 10:44:43.408 [info] [fetchCompletions] Request f04eee8b-d936-441b-8b5e-042eea96cd48 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 315.8484069998376ms
+2025-08-16 10:44:43.518 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:44:54.551 [info] [code-referencing] Calling Match
+2025-08-16 10:44:54.854 [info] [code-referencing] No match found
+2025-08-16 10:44:58.523 [info] [code-referencing] Calling Match
+2025-08-16 10:44:58.886 [info] [code-referencing] No match found
+2025-08-16 10:45:01.222 [info] [fetchCompletions] Request b778e012-d358-410a-b947-f7393e3d0a17 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 346.81125800008886ms
+2025-08-16 10:45:01.354 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:01.523 [info] [fetchCompletions] Request 4dcac88e-8819-4bba-b06d-c56d6bf9f146 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 313.8108119999524ms
+2025-08-16 10:45:01.611 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:01.949 [info] [fetchCompletions] Request d360ebe8-6ff2-4d59-a946-e5d0d8ec76e3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 324.82335500000045ms
+2025-08-16 10:45:02.015 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:45:02.700 [info] [code-referencing] Calling Match
+2025-08-16 10:45:03.009 [info] [code-referencing] No match found
+2025-08-16 10:45:10.949 [info] [fetchCompletions] Request 92332c21-04db-42bd-8a42-2b88f7a2f1d3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 411.9270489998162ms
+2025-08-16 10:45:11.203 [info] [fetchCompletions] Request b7e7e5b4-8ff8-4f53-9f5a-5af77a2f9516 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 346.1190400000196ms
+2025-08-16 10:45:11.306 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:11.739 [info] [fetchCompletions] Request 4364c172-3271-4f11-a1fe-57f97bcc4a30 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 350.10219700005837ms
+2025-08-16 10:45:11.821 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:45:16.393 [info] [fetchCompletions] Request a733d63f-b7be-424b-971a-9a816686aa82 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 388.3631049999967ms
+2025-08-16 10:45:16.713 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:17.440 [info] [fetchCompletions] Request 0ce72af7-eb7a-4530-982e-264723f86c94 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 318.92030799994245ms
+2025-08-16 10:45:17.531 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:17.910 [info] [fetchCompletions] Request 3ac4d996-7627-48d8-aa02-f46458dd638c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 285.70434499997646ms
+2025-08-16 10:45:18.016 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:45:19.047 [info] [code-referencing] Calling Match
+2025-08-16 10:45:19.308 [info] [code-referencing] No match found
+2025-08-16 10:45:22.315 [info] [code-referencing] Calling Match
+2025-08-16 10:45:22.579 [info] [code-referencing] No match found
+2025-08-16 10:45:22.789 [info] [fetchCompletions] Request 8af01040-33fe-4af0-8bf0-944b0fcd13a7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 310.95940699987113ms
+2025-08-16 10:45:22.899 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:45:26.019 [info] [fetchCompletions] Request 8370a05a-51a6-4c99-819b-33981905d98c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 321.1211459999904ms
+2025-08-16 10:45:26.560 [info] [fetchCompletions] Request 89a47eaf-44e7-4bc4-b22a-f5171456ae96 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 370.8816310002003ms
+2025-08-16 10:45:26.593 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:26.872 [info] [fetchCompletions] Request 3cfd4cfd-d08b-46f1-98b9-1f2092b30c62 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 354.1971040000208ms
+2025-08-16 10:45:26.917 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:27.198 [info] [fetchCompletions] Request e8175b67-d3c5-4f91-aa7e-50f519bad556 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 342.86584199988283ms
+2025-08-16 10:45:27.297 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:45:28.647 [info] [code-referencing] Calling Match
+2025-08-16 10:45:28.937 [info] [code-referencing] No match found
+2025-08-16 10:45:29.269 [info] [fetchCompletions] Request a3a8c382-b23e-4893-905f-16149b5253f3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 319.26948900008574ms
+2025-08-16 10:45:29.334 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:32.504 [info] [fetchCompletions] Request 7756b0ad-66ee-4ef3-95d5-90661867f5e2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 298.38590600015596ms
+2025-08-16 10:45:32.622 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:32.856 [info] [code-referencing] Calling Match
+2025-08-16 10:45:33.030 [info] [fetchCompletions] Request 4dc4c572-dc21-4897-aae0-a955162420bf at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 331.5554449998308ms
+2025-08-16 10:45:33.086 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:33.104 [info] [code-referencing] No match found
+2025-08-16 10:45:40.255 [info] [fetchCompletions] Request 29be8e5e-274e-4916-b5c5-4e7fddf8236c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 297.16439900011756ms
+2025-08-16 10:45:40.346 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:40.693 [info] [fetchCompletions] Request 47afd302-5426-4222-892e-314576605dce at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 290.39097899990156ms
+2025-08-16 10:45:40.763 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:44.523 [info] [fetchCompletions] Request 2f38cab9-01d0-40e5-a07a-57c55edc4ec0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 379.1886480001267ms
+2025-08-16 10:45:44.609 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:45:44.620 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2025-08-16 10:45:44.627 [info] [streamChoices] solution 2 returned. finish reason: [stop]
+2025-08-16 10:46:03.850 [info] [fetchCompletions] Request 4f4a3879-328a-49da-bdd8-6ffdbe5d6d02 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 329.3570769999642ms
+2025-08-16 10:46:03.935 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:04.303 [info] [fetchCompletions] Request b446bbf2-3bc1-4c74-95ef-915dfdb48f92 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 303.17302199988626ms
+2025-08-16 10:46:04.370 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:04.740 [info] [code-referencing] Calling Match
+2025-08-16 10:46:05.032 [info] [code-referencing] No match found
+2025-08-16 10:46:05.860 [info] [code-referencing] Calling Match
+2025-08-16 10:46:06.165 [info] [code-referencing] No match found
+2025-08-16 10:46:06.392 [info] [fetchCompletions] Request f32edb90-2765-499f-9239-318c56fc9956 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 410.5315349998418ms
+2025-08-16 10:46:06.401 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:08.659 [info] [fetchCompletions] Request 05f50a0c-0687-480c-815f-42d41d02f640 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 393.2618579999544ms
+2025-08-16 10:46:08.679 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:08.977 [info] [fetchCompletions] Request 6bd6f6c3-a9da-418a-ac04-fb5d97dd93f9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 329.81998399994336ms
+2025-08-16 10:46:09.057 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:10.583 [info] [code-referencing] Calling Match
+2025-08-16 10:46:10.980 [info] [code-referencing] No match found
+2025-08-16 10:46:11.205 [info] [code-referencing] Calling Match
+2025-08-16 10:46:11.488 [info] [code-referencing] No match found
+2025-08-16 10:46:11.655 [info] [fetchCompletions] Request 40a4032f-a739-4e99-8f70-a0b60e4fd8f0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 319.9652650000062ms
+2025-08-16 10:46:11.666 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:17.349 [info] [fetchCompletions] Request 0f99f0d4-e53c-4929-8dac-805699c2794b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 332.37999300006777ms
+2025-08-16 10:46:17.537 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:18.024 [info] [fetchCompletions] Request 28ca9ef1-0419-4ab0-ac8b-407e9b42ea6c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 408.71965099987574ms
+2025-08-16 10:46:18.120 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:46:19.442 [info] [fetchCompletions] Request 2692670d-a748-49bb-b04a-3e4f6fa7d525 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 327.69329900015146ms
+2025-08-16 10:46:19.531 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:20.207 [info] [fetchCompletions] Request 5a08a971-11c0-4cad-ae0a-96446c5d4647 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 300.3106479998678ms
+2025-08-16 10:46:20.244 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:45.789 [info] [fetchCompletions] Request 6b9f791f-c5dd-4b4c-a952-f2edda3c6f30 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 470.25468800007366ms
+2025-08-16 10:46:45.806 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:48.393 [info] [fetchCompletions] Request 76111df2-ea31-4090-af89-ab65cfd2473b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 319.2400289999787ms
+2025-08-16 10:46:48.464 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:48.871 [info] [fetchCompletions] Request 7a340715-068c-418f-8ce6-275751927d14 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 312.01882800017484ms
+2025-08-16 10:46:48.973 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:46:50.268 [info] [fetchCompletions] Request 4eadf98b-3f27-4c65-a033-79563b77a416 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 435.12393500003964ms
+2025-08-16 10:46:50.721 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:46:51.196 [info] [fetchCompletions] Request e69fe80f-6941-4194-8d11-00faeff50d2f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 350.36738300020806ms
+2025-08-16 10:46:51.298 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:47:23.150 [info] [code-referencing] Calling Match
+2025-08-16 10:47:23.430 [info] [code-referencing] No match found
+2025-08-16 10:47:23.638 [info] [fetchCompletions] Request 00f8293c-d799-4d91-9f52-b4d6737c441b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 353.52666400000453ms
+2025-08-16 10:47:23.752 [info] [streamChoices] solution 0 returned. finish reason: [null]
+2025-08-16 10:48:33.023 [info] [fetchCompletions] Request 802c3623-49bc-4da4-b16e-8969dd28639c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 370.8578399999533ms
+2025-08-16 10:48:33.036 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:48:33.928 [info] [fetchCompletions] Request 9efb5bb5-8498-4c41-a11e-279f60da46de at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 499.67159599997103ms
+2025-08-16 10:48:33.941 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:48:36.678 [info] [fetchCompletions] Request eb3d9f5e-ad4e-4e14-afff-7a19b3947477 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 330.4028849999886ms
+2025-08-16 10:48:36.687 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-08-16 10:52:33.693 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.693 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.693 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.693 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.693 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.694 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.694 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.694 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.694 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.694 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.694 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.694 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.694 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:52.758 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:52.758 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:53.254 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:53.996 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:54.055 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:58.711 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:59.503 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:00.740 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:00.740 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:03.775 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:24.092 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:24.170 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:24.170 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:24.170 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:24.493 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:59.363 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:59.363 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:59.363 [error] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}

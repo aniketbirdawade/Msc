@@ -2415,3 +2415,533 @@
   errno: -3001,
   erroredSysCall: 'getaddrinfo'
 }
+2025-08-16 10:51:26.483 [error] An unknown error occurred. Please consult the log for more details.
+2025-08-16 10:51:30.624 [error] An unknown error occurred. Please consult the log for more details.
+2025-08-16 10:51:53.116 [error] An unknown error occurred. Please consult the log for more details.
+2025-08-16 10:52:13.896 [error] An unknown error occurred. Please consult the log for more details.
+2025-08-16 10:52:33.614 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.633 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.638 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.649 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.653 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.668 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.676 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.693 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.697 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.700 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.702 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.705 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:33.710 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:52.769 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:52.774 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:53.262 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:54.003 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:54.059 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:58.714 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:52:59.510 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:00.740 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:00.743 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:03.781 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:24.099 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:24.166 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:24.200 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:24.211 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:24.498 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:156:16)
+    at BK.getToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/auth.ts:40:27)
+    at t.updateExPValuesAndAssignments (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/experiments/features.ts:267:19)
+    at createTelemetryWithExp (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1393:30)
+    at getGhostText (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/ghostText/ghostText.ts:1086:27)
+    at getInlineCompletionsResult (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:31:20)
+    at getInlineCompletions (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/inlineCompletion.ts:92:20)
+    at tV.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/ghostText/ghostText.ts:47:32)
+    at h_e.provideInlineCompletionItems (/home/aniket/.vscode/extensions/github.copilot-1.350.0/extension/src/inlineCompletion.ts:93:25)
+    at Xo.provideInlineCompletions (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:144942) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:59.357 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:59.366 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:53:59.370 [error] [Extension Host] [inlineCompletionItemProvider] provideInlineCompletionItems: FetchError: The pending stream has been canceled (caused by: getaddrinfo EAI_AGAIN api.github.com)
+    at fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at cachingFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at MT.fetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/helix.ts:79:22)
+    at apiFetch (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/network/github.ts:31:22)
+    at fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:228:16)
+    at authFromGitHubSession (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotToken.ts:149:22)
+    at BK.fetchCopilotToken (/home/aniket/.vscode/extensions/github.copilot-1.350.0/lib/src/auth/copilotTokenManager.ts:88:29) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}
+2025-08-16 10:55:45.527 [error] [chat entitlement] request: error Offline: Offline

@@ -197,3 +197,165 @@
 2025-08-16 10:36:35.529 [info] Prompts: No changes found during synchronizing prompts.
 2025-08-16 10:36:35.531 [info] Profiles: No changes found during synchronizing profiles.
 2025-08-16 10:36:35.534 [info] Sync done. Took 578ms
+2025-08-16 10:41:35.579 [info] [AutoSync] Triggered by Interval
+2025-08-16 10:41:35.580 [info] Sync started.
+2025-08-16 10:41:36.088 [info] Settings: No changes found during synchronizing settings.
+2025-08-16 10:41:36.096 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-08-16 10:41:36.107 [info] Snippets: No changes found during synchronizing snippets.
+2025-08-16 10:41:36.115 [info] Tasks: No changes found during synchronizing tasks.
+2025-08-16 10:41:36.124 [info] Mcp: No changes found during synchronizing mcp.
+2025-08-16 10:41:36.134 [info] GlobalState: No changes found during synchronizing ui state.
+2025-08-16 10:41:36.244 [info] Extensions: No changes found during synchronizing extensions.
+2025-08-16 10:41:36.287 [info] Prompts: No changes found during synchronizing prompts.
+2025-08-16 10:41:36.303 [info] Profiles: No changes found during synchronizing profiles.
+2025-08-16 10:41:36.327 [info] Sync done. Took 743ms
+2025-08-16 10:41:52.351 [info] [AutoSync] Triggered by Activity
+2025-08-16 10:41:52.353 [info] Sync started.
+2025-08-16 10:41:52.532 [info] Settings: No changes found during synchronizing settings.
+2025-08-16 10:41:52.544 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-08-16 10:41:52.555 [info] Snippets: No changes found during synchronizing snippets.
+2025-08-16 10:41:52.564 [info] Tasks: No changes found during synchronizing tasks.
+2025-08-16 10:41:52.576 [info] Mcp: No changes found during synchronizing mcp.
+2025-08-16 10:41:52.588 [info] GlobalState: No changes found during synchronizing ui state.
+2025-08-16 10:41:52.778 [info] Extensions: No changes found during synchronizing extensions.
+2025-08-16 10:41:52.786 [info] Prompts: No changes found during synchronizing prompts.
+2025-08-16 10:41:52.790 [info] Profiles: No changes found during synchronizing profiles.
+2025-08-16 10:41:52.795 [info] Sync done. Took 445ms
+2025-08-16 10:43:37.830 [info] [AutoSync] Triggered by Activity
+2025-08-16 10:43:37.831 [info] Sync started.
+2025-08-16 10:43:37.955 [info] Settings: No changes found during synchronizing settings.
+2025-08-16 10:43:37.970 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-08-16 10:43:37.984 [info] Snippets: No changes found during synchronizing snippets.
+2025-08-16 10:43:37.996 [info] Tasks: No changes found during synchronizing tasks.
+2025-08-16 10:43:38.010 [info] Mcp: No changes found during synchronizing mcp.
+2025-08-16 10:43:38.025 [info] GlobalState: No changes found during synchronizing ui state.
+2025-08-16 10:43:38.156 [info] Extensions: No changes found during synchronizing extensions.
+2025-08-16 10:43:38.171 [info] Prompts: No changes found during synchronizing prompts.
+2025-08-16 10:43:38.175 [info] Profiles: No changes found during synchronizing profiles.
+2025-08-16 10:43:38.180 [info] Sync done. Took 350ms
+2025-08-16 10:44:24.255 [info] [AutoSync] Triggered by Activity
+2025-08-16 10:44:24.256 [info] Sync started.
+2025-08-16 10:44:24.493 [info] Settings: No changes found during synchronizing settings.
+2025-08-16 10:44:24.502 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-08-16 10:44:24.512 [info] Snippets: No changes found during synchronizing snippets.
+2025-08-16 10:44:24.521 [info] Tasks: No changes found during synchronizing tasks.
+2025-08-16 10:44:24.530 [info] Mcp: No changes found during synchronizing mcp.
+2025-08-16 10:44:24.542 [info] GlobalState: No changes found during synchronizing ui state.
+2025-08-16 10:44:24.663 [info] Extensions: No changes found during synchronizing extensions.
+2025-08-16 10:44:24.671 [info] Prompts: No changes found during synchronizing prompts.
+2025-08-16 10:44:24.674 [info] Profiles: No changes found during synchronizing profiles.
+2025-08-16 10:44:24.676 [info] Sync done. Took 422ms
+2025-08-16 10:46:45.158 [info] [AutoSync] Triggered by Activity
+2025-08-16 10:46:45.159 [info] Sync started.
+2025-08-16 10:46:45.623 [info] Settings: No changes found during synchronizing settings.
+2025-08-16 10:46:45.639 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-08-16 10:46:45.653 [info] Snippets: No changes found during synchronizing snippets.
+2025-08-16 10:46:45.669 [info] Tasks: No changes found during synchronizing tasks.
+2025-08-16 10:46:45.685 [info] Mcp: No changes found during synchronizing mcp.
+2025-08-16 10:46:45.702 [info] GlobalState: No changes found during synchronizing ui state.
+2025-08-16 10:46:45.983 [info] Extensions: No changes found during synchronizing extensions.
+2025-08-16 10:46:46.001 [info] Prompts: No changes found during synchronizing prompts.
+2025-08-16 10:46:46.008 [info] Profiles: No changes found during synchronizing profiles.
+2025-08-16 10:46:46.012 [info] Sync done. Took 854ms
+2025-08-16 10:49:29.209 [info] [AutoSync] Triggered by Activity
+2025-08-16 10:49:29.213 [info] Sync started.
+2025-08-16 10:49:29.258 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2025-08-16 10:49:29.262 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:49:29.263 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:50:43.312 [info] [AutoSync] Triggered by Activity
+2025-08-16 10:50:43.314 [info] Sync started.
+2025-08-16 10:50:43.346 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2025-08-16 10:50:43.348 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:50:43.351 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:51:18.304 [info] [AutoSync] Triggered by Activity
+2025-08-16 10:51:18.306 [info] Sync started.
+2025-08-16 10:51:18.340 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2025-08-16 10:51:18.342 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:51:18.347 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:56:18.349 [info] [AutoSync] Triggered by Interval
+2025-08-16 10:56:18.354 [info] Sync started.
+2025-08-16 10:56:18.380 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2025-08-16 10:56:18.381 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:56:18.383 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:58:40.537 [info] [AutoSync] Triggered by Activity
+2025-08-16 10:58:40.539 [info] Sync started.
+2025-08-16 10:58:40.552 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2025-08-16 10:58:40.557 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 10:58:40.559 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 11:03:40.554 [info] [AutoSync] Triggered by Interval
+2025-08-16 11:03:40.554 [info] Sync started.
+2025-08-16 11:03:40.568 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2025-08-16 11:03:40.568 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 11:03:40.569 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at Zh.D (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:22108)
+    at async Zh.manifest (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:19955)
+    at async Ou.createSyncTask (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:102:133605)
+    at async Tf.I (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:9217)
+    at async Tf.H (file:///usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:109:8861)
+2025-08-16 11:06:15.626 [info] [AutoSync] Triggered by Activity
+2025-08-16 11:06:15.627 [info] Sync started.
+2025-08-16 11:06:17.192 [info] Settings: No changes found during synchronizing settings.
+2025-08-16 11:06:17.221 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-08-16 11:06:17.254 [info] Snippets: No changes found during synchronizing snippets.
+2025-08-16 11:06:17.294 [info] Tasks: No changes found during synchronizing tasks.
+2025-08-16 11:06:17.338 [info] Mcp: No changes found during synchronizing mcp.
+2025-08-16 11:06:17.361 [info] GlobalState: No changes found during synchronizing ui state.
+2025-08-16 11:06:17.508 [info] Extensions: No changes found during synchronizing extensions.
+2025-08-16 11:06:17.515 [info] Prompts: No changes found during synchronizing prompts.
+2025-08-16 11:06:17.519 [info] Profiles: No changes found during synchronizing profiles.
+2025-08-16 11:06:17.528 [info] Sync done. Took 1911ms

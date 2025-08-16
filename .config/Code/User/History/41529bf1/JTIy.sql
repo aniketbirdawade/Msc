@@ -128,20 +128,17 @@ and orderinfo.orderinfo_id = orderline.orderinfo_id
 and orderline.item_id = item.item_id
 and item.description = 'Speakers';
 
+
+Display all orders with customer details and item price > 10.
+
+
 */
 
-/*      14
 
-List customers who purchased more than 2 item
 
-select fname, lname, count(distinct orderline.item_id) as total_items
-from customer, orderinfo, orderline
-where customer.customer_id = orderinfo.customer_id
+select distinct fname
+from customer, item, orderline, orderinfo
+where  customer.customer_id = orderinfo.customer_id
 and orderinfo.orderinfo_id = orderline.orderinfo_id
-group by fname, lname
-having count(distinct orderline.item_id) > 2;
-
-*/
-
-select description
-from customer, orderinfo, orderline
+and orderline.item_id = item.item_id
+and item.sell_price > 10;

@@ -128,7 +128,23 @@ and orderinfo.orderinfo_id = orderline.orderinfo_id
 and orderline.item_id = item.item_id
 and item.description = 'Speakers';
 
+
+Display all orders with customer details and item price > 10.
+
+
 */
 
-select fname, lname, count(distinct orderline.item_id) as total_items
-from customer, orderinfo, orderline, item
+select distinct fname, lname
+from customer, item, orderline, orderinfo
+where  customer.customer_id = orderinfo.customer_id
+and orderinfo.orderinfo_id = orderline.orderinfo_id
+and orderline.item_id = item.item_id
+and item.sell_price > 10;
+
+
+select distinct fname
+from customer, item, orderline, orderinfo
+where  customer.customer_id = orderinfo.customer_id
+and orderinfo.orderinfo_id = orderline.orderinfo_id
+and orderline.item_id = item.item_id
+and item.sell_price > 10;

@@ -12,3 +12,4 @@
 2025-08-16 10:15:51.074 [error] #13: https://api.github.com/copilot_internal/v2/token - error GET Offline
 2025-08-16 10:15:51.083 [error] #12: https://api.github.com/copilot_internal/user - error GET Offline
 2025-08-16 10:15:54.061 [error] #14: https://api.github.com/copilot_internal/user - error GET Offline
+2025-08-16 10:55:45.524 [error] #23: https://api.github.com/copilot_internal/user - error GET Offline
